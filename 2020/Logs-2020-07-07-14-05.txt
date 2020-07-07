@@ -1,0 +1,196 @@
+----BEGIN CLASS----
+[14:05] <nabarun> #startclass
+[14:05] <nabarun> Roll Class
+[14:05] <nabarun> s/Class/Call
+[14:05] <schubisu> Robin Schubert
+[14:05] <raydeeam> Rayan Das
+[14:05] <snowmanstark> Philemon Johnson
+[14:05] <BhaveshSGupta> Bhavesh Gupta
+[14:05] <sayan> Sayan Chowdhury
+[14:05] <sahilister[m]> Sahil Dhiman
+[14:05] <daemon1024> Barun Acharya
+[14:05] <darshna__> Darshna Das
+[14:05] <Anjika> Anjika
+[14:06] <Nero007> Amar Shukla
+[14:06] <peanutduck> Benedict Ramasamy
+[14:06] <stalwartcoder> Abhishek Mishra
+[14:06] <naveen_Neo> naveen kumar
+[14:06] <nabarun> Hello everyone, welcome to today's session!
+[14:07] <nabarun> Before starting with today's session, how many of you have doubts regarding what was taught in the last session?
+[14:07] <sayan> Did you folks read what was given to read?
+[14:08] <sahilister[m]> yes
+[14:08] <Anjika> Yes!
+[14:08] <peanutduck> Yes
+[14:08] <daemon1024> yes
+[14:08] <snowmanstark> yes
+[14:08] <BhaveshSGupta> yes
+[14:08] <raydeeam> yes
+[14:08] <stalwartcoder> yes
+[14:08] <Nero007> yes
+[14:09] <sayan> What are the things you learned and what all questions do you folks have (raise your hand)?
+[14:09] <sahilister[m]> !
+[14:09] <Anjika> !
+[14:09] <peanutduck> !
+[14:09] <sayan> next
+[14:09] <stalwartcoder> !
+[14:10] <sahilister[m]> not a question just insights from the articles
+[14:10] <sahilister[m]> should i say?
+[14:10] <sayan> sahilister[m]: shoot
+[14:11] <sayan> next
+[14:11] <sahilister[m]> the blog by on kushal's website truly told about what's the true meaning of hacker and hacker culture
+[14:11] <Anjika> It's not the question
+[14:11] <sahilister[m]> essentially how hacker culture brought gnu and linux together
+[14:11] <Anjika> What I learned about the hackers and their ethics
+[14:12] <daemon1024> !
+[14:12] <sayan> next
+[14:12] <sayan> next
+[14:12] <sahilister[m]> and secondly the article on esr's website on how to ask intelligent questions told how to ask intelligent questions to get answers.
+[14:12] <snowmanstark> !
+[14:12] <peanutduck> I learned that emacs was a pioneer and also I have to put some time and effort before asking a question.
+[14:12] <stalwartcoder> i dont have question, its just an insight as well
+[14:12] <sayan> sahilister[m]: Anjika: yes, it's good to know about the history, rather than diving directly to the open source software
+[14:13] <sayan> I believe in it, so I work on open source software, contribute everyday
+[14:13] <stalwartcoder> the political movemrnt matters (my conclusion from the article)
+[14:13] <sayan> And I expect everyone to too
+[14:13] <stalwartcoder> movement*
+[14:13] <sayan> peanutduck: good point, yes, spending that extra time framing your question actually helps!
+[14:14] <sayan> peanutduck: you will end up knowing more that you went for
+[14:14] <sayan> sahilister[m]: Anjika: no questions from the second assignment
+[14:14] <stalwartcoder> as an individual hacker we should care about all those ethics
+[14:14] <sayan> next
+[14:14] <sayan> next
+[14:15] <sayan> stalwartcoder: yes, you might find it around you too
+[14:15] <daemon1024> The article mentioned that the term "Open Source" was coined quite later as companies were scared to use "free software". But I didnt get why they were scared in the first place?
+[14:16] <daemon1024> Also how the term "Open Source" changed that fact.
+[14:16] <sayan> daemon1024: good question, what is the difference between Open Source and Free Software?
+[14:17] <Anjika> Sayan: Read the second assignment too, and got to learn how to ask questions in a smart way
+[14:18] <sayan> daemon1024: let's answer this question later, there is a documentary around it, which I will give and assigment
+[14:18] <sayan> more around the Netscape scenario
+[14:18] <daemon1024> Open Source is something done collaboratively and Free Software is anything which available for free which maybe propieratory in nature.
+[14:19] <daemon1024> sayan: sure,
+[14:19] <sayan> We can answer this after we have seen that (if I  get a copy of it, I saw it during the Mozilla Summit, not sure if it's free)
+[14:19] <sayan> next
+[14:19] <tobbhie> Hi
+[14:19] <tobbhie> Has the session been started ?
+[14:19] <sayan> tobbhie: Hi, yes, the session has started
+[14:19] <pradhvan> tobbhie: yes
+[14:20] <BhaveshSGupta> tobbhie, yes
+[14:21] <tobbhie> I have missed 20 minutes session? Any logs ?
+[14:22] <sayan> Nero007: darshna__: what would you do if you have trouble understanding the approach given to your problem?
+[14:23] <Nero007> I would first try to really put my time in it and then Google for that
+[14:23] <darshna__> sayan: First I'll search about the problem thoroughly, and then even I am not able to get help from internet I'll post my questions in web formus or ircs
+[14:23] <Nero007> And maybe try stack exchange
+[14:23] <Nero007> or Ircs
+[14:24] <darshna__> also my question needs to be precise and to the point so that the person reading my problem shouldn't feel like his/her time is being wasted
+[14:24] <sayan> darshna__: Nero007 what if someone points you to an answer but still you don't understand what the person says?
+[14:24] <sayan> (not a direct answer rather a mere pointer)
+[14:25] <darshna__> sayan: I have to do more research regarding that.
+[14:25] <Nero007> I will post a follow up question after examining their method and trying that for some time
+[14:26] <sayan> Nero007: right, you post a followup question with enough details and spending time on the pointer
+[14:27] <sayan> Now I will take a step back and handover the stage to nabarun and schubisu who will be taking the rest of the session
+[14:27] <nabarun> thank you sayan
+[14:27] <nabarun> Today, we will be talking about Linux and introducing you to the shell commands.
+[14:28] <nabarun> How many of you do not know about Linux? You can say yes, if you know or have used Linux.
+[14:28] <stalwartcoder> yes
+[14:28] <schubisu> yes
+[14:28] <raydeeam> yes
+[14:28] <Nero007> yes
+[14:28] <sahilister[m]> yes
+[14:28] <daemon1024> yes
+[14:28] <BhaveshSGupta> yes
+[14:28] <peanutduck> yes
+[14:29] <nabarun> Thank you for your responses.
+[14:30] <nabarun> Linux is a family of open source operating systems.
+[14:30] <nabarun> It was introduced by Linus Torvalds around 28 years ago.
+[14:30] <darshna__> yes
+[14:30] <naveen_Neo> yes
+[14:31] <nabarun> Popular examples of Linux operating systems include Ubuntu, Fedora, Debian, Linux Mint and the list goes on.
+[14:32] <nabarun> Can you all read this article https://opensource.com/resources/linux ?
+[14:32] <stalwartcoder> yes
+[14:32] <nabarun> Please type here "done" when finished.
+[14:35] <tobbhie> hhhh
+[14:35] <schubisu> tobbhie: the session is still going on, nabarun has just asked everyone to read this https://opensource.com/resources/linux and type "done" once done
+[14:36] <tobbhie> thank you
+[14:38] <daemon1024> done
+[14:38] <Nero007> done
+[14:38] <darshna__> done
+[14:38] <sahilister[m]> done
+[14:39] <stalwartcoder> done
+[14:39] <Nero007> !
+[14:39] <nabarun> next
+[14:40] <raydeeam> done
+[14:40] <Nero007> What do the packagers do.I didnt quite understand that 1 line
+[14:40] <peanutduck> done
+[14:41] <Anjika> done
+[14:41] <nabarun> Nero007: They ensure a piece of software runs the same way across all the different linux distributions.
+[14:41] <nabarun> Let's continue.
+[14:42] <nabarun> Back in the days, the primary mode of interaction with Linux was through the Command Line Interface, also popularly known as CLI.
+[14:42] <BhaveshSGupta> done
+[14:42] <nabarun> Over the years Graphical User Interfaces came into existence.
+[14:43] <nabarun> Think of the command line as a Chef's Kitchen.
+[14:43] <nabarun> There are a lot of tools in the kitchen.
+[14:43] <nabarun> The chef uses those tools to create a delicious dish.
+[14:44] <nabarun> Shell commands are also like the tools in the kitchen.
+[14:44] <nabarun> They help the programmers in crafting beautiful software.
+[14:45] <nabarun> Of the people who have used Linux, have you used shell commands before?
+[14:45] <nabarun> Please type yes/no
+[14:45] <schubisu> yes
+[14:45] <raydeeam> yes
+[14:45] <Nero007> yes
+[14:45] <stalwartcoder> yes
+[14:45] <daemon1024> yes
+[14:45] <darshna__> yes
+[14:46] <sahilister[m]> yes
+[14:46] <peanutduck> yes
+[14:46] <BhaveshSGupta> yes
+[14:46] <nabarun> Now, I want all of you to have a look at https://lym.readthedocs.io/en/latest/startingcommands.html and start trying the commands.
+[14:47] <nabarun> For folks who are already familiar, they can also go through http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[14:47] <nabarun> Please try the commands and feel free to ask your doubts by mentioning ! in the chat.
+[14:58] <nabarun> You can ask questions as you read.
+[14:58] <Nero007> !
+[14:59] <nabarun> next
+[14:59] <Nero007> so if we redirect output to /dev/null will it show output 0
+[15:00] <nabarun> Nero007: You would get no output on your shell.
+[15:00] <nabarun> Because you have redirected all the output.
+[15:01] <schubisu> Nero007: null is not to be understood as zero. It's a destination for you output that is just thrown away. If you don't need output you can redirect it to /dev/null
+[15:01] <Nero007> But  would it show a return message if we echo it
+[15:01] <Nero007> telling us that the process was successful
+[15:02] <nabarun> Nero007: Yes. You would get a return code.
+[15:03] <sayan> Nero007: can you tell where in the lym docs it is referring to /dev/null?
+[15:05] <Nero007> It was referring to the redirection.And I had faced a doubt about this,and thus I asked
+[15:05] <raydeeam> sayan: its in here http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[15:06] <sayan> Nero007: if the question is out of bounds, please make sure to ask it after the class
+[15:06] <Nero007> Got it.
+[15:06] <sayan> There are other people who might not undestand what you are asking
+[15:09] <sayan> What about others?
+[15:09] <sayan> Who all have done reading?
+[15:09] <sayan> if not which command you are on?
+[15:10] <daemon1024>  done
+[15:10] <raydeeam> done
+[15:10] <peanutduck> done
+[15:10] <sahilister[m]> sayan: done with commands here - https://lym.readthedocs.io/en/latest/startingcommands.html
+[15:11] <sahilister[m]> on this right now http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[15:11] <BhaveshSGupta> done with lym
+[15:11] <Anjika> Now going to start this http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[15:12] <stalwartcoder> moving to http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[15:15] <nabarun> I hope you all have gone through the first resource.
+[15:15] <naveen_Neo> the guide is too long to finish in the class
+[15:16] <nabarun> You can continue the 2nd resource offline after the class.
+[15:16] <nabarun> We will continue with concepts from that book in later classes.
+[15:17] <nabarun> Please read Chapter 1 of http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf as a homework.
+[15:17] <Nero007> Ok
+[15:17] <nabarun> Along with that, the next homework is reading Chapter 3 of https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#theRootFilesystem
+[15:17] <nabarun> That is all for this class.
+[15:18] <nabarun> Roll Call
+[15:18] <stalwartcoder> Abhishek Mishra
+[15:18] <schubisu> Robin Schubert
+[15:18] <Nero007> Amar Shukla
+[15:18] <sahilister[m]> Sahil Dhiman
+[15:18] <daemon1024> Barun Acharya
+[15:18] <darshna__> Darshna Das
+[15:18] <BhaveshSGupta> Bhavesh Gupta
+[15:18] <raydeeam> Rayan Das
+[15:18] <naveen_Neo> Naveen Kumar
+[15:18] <peanutduck> Benedict Ramasamy
+[15:18] <Anjika> Anjika
+----END CLASS----
