@@ -1,0 +1,154 @@
+----BEGIN CLASS----
+[14:09] <sayan> #startclass
+[14:09] <sayan> Roll Call
+[14:09] <gutsytechster> Prashant Sharma
+[14:09] <schubisu> Robin Schubert
+[14:09] <raydeeam> Rayan Das
+[14:09] <Anjika> Anjika
+[14:09] <darshna__> Darshna Das
+[14:09] <nabarun> Nabarun Pal
+[14:09] <stalwartcoder> Abhishek Mishra
+[14:09] <daemon1024> Barun Acharya
+[14:09] <peanutduck> Benedict Ramasamy
+[14:09] <Nero007> Amar Shukla
+[14:10] <BhaveshSGupta> Bhavesh Gupta
+[14:11] <sayan> Today, primarly we will be taking questions
+[14:12] <sayan> Have folks got time to read both the reading items?
+[14:12] <stalwartcoder> The FHS is pending for me
+[14:12] <daemon1024> Yes
+[14:12] <peanutduck> Yes
+[14:13] <Anjika> Yes
+[14:13] <Nero007> FHS is pending
+[14:13] <stalwartcoder> I'll be finishing tonight or tomorrow.
+[14:14] <darshna__> chapter 1 is pending
+[14:14] <sayan> darshna__: as in the tldp?
+[14:15] <darshna__> bash and bash scripts
+[14:15] <sayan> darshna__: this book: http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf ?
+[14:16] <sayan> darshna__: that has the bash and bash scripts chapter
+[14:16] <darshna__> sayan: yes
+[14:16] <darshna__> :)
+[14:16] <sayan> darshna__: you have completed reading the FHS?
+[14:17] <sayan> Okay shoot questions if you have
+[14:17] <darshna__> completed, but requires one more time reading. Few new words and quite new concepts for me
+[14:17] <sayan> As I told before we will be going through the Bash script book here as well, but the first few chapters are theory
+[14:18] <daemon1024> !
+[14:18] <sayan> Which is important, but I will go through the major points
+[14:18] <sayan> next
+[14:18] <darshna__> !
+[14:18] <sayan> next
+[14:18] <daemon1024> There was a term mentioned rbash which restricts the bash, when are those restrictions useful?
+[14:20] <sayan> daemon1024: never faced a scenario where you would use it, but it does add the extra layer of the security on top of the normal bash which means if building a service, to expose say the terminal
+[14:21] <sayan> in that case it is surely something that can be used
+[14:21] <darshna__> what does mount point for removable media means?
+[14:22] <sayan> daemon1024: though there are much more ways to have a restrictive shell, but rbash do have it's con
+[14:23] <sayan> darshna__: what is removable media?
+[14:24] <sayan> no on else have questions?
+[14:24] <peanutduck> !
+[14:24] <daemon1024> sayan: It mentions ` The restricted shell hen invoked as rbash or with the --restricted or -r option `, there are more ways to have a restricted shell than these?
+[14:25] <sayan> daemon1024: no
+[14:25] <sayan> daemon1024: that's what I know
+[14:25] <sayan> next
+[14:26] <stalwartcoder> !
+[14:26] <sayan> next
+[14:27] <peanutduck> I'm still confuse with difference between interactive and login shell. What's the main difference?
+[14:27] <daemon1024> !
+[14:27] <stalwartcoder> There are different types of shells, still people use bash primarily. I still didn't get use case of using c shell ans turbo c shell
+[14:28] <stalwartcoder> Also same question of peanutduck
+[14:28] <stalwartcoder> reg. Login Vs interactive shell
+[14:29] <stalwartcoder> and*
+[14:29] <darshna__> removable media is data storage devices capabale of  computer system without powering off the system.
+[14:29] <sayan> I'm thinking of giving an example for interactive and login shell
+[14:30] <schubisu> darshna__: removable media could be drives like USB drives etc. To make a USB storage available, you will have to mount it to a specific path. Often, your OS does this for you, e.g. when you plug in a USB key it could be mounted to /media/USB or similar, but you can mount it to any path you like
+[14:31] <darshna__> what does this word mount means? i have read about it in google but could not get a clear idea of it
+[14:32] <schubisu> darshna__: I think this is historical, maybe you know that hard drives 50 years ago weight tons, they had to be mounted as in lifted (or similar, I think)
+[14:35] <sayan> I could not find any pictures to show this, but usually when you boot probably a non-gui bases linux machine you are hit with a area to type your username password
+[14:36] <stalwartcoder> Like ctrl+F1 to login?
+[14:36] <stalwartcoder> Then we enter username password
+[14:36] <sayan> stalwartcoder: exactly
+[14:36] <Nero007> darshna__:mount point is a directory to access your data stored in disks.
+[14:37] <darshna__> Nero007: okay
+[14:38] <sayan> your system has multiple ttys, I don't want you to use Ctrl + Alt + F<1,2,...> you can access them
+[14:38] <sayan> The shell you drop into after login is the login shell
+[14:39] <stalwartcoder> Okay. Got it.
+[14:40] <peanutduck> !
+[14:40] <sayan> I will try to get a asciinema for this one
+[14:40] <Anjika> !
+[14:41] <sayan> primarily you login shell invokes the shell that you use, like bash or zsh
+[14:41] <sayan> next
+[14:42] <sayan> next
+[14:42] <sayan> next
+[14:42] <peanutduck> Will login shell convert into an interactive shell after I've logged in?
+[14:42] <Anjika> In this sentence: Sending SIGHUP signals to all jobs on exit is configured with the huponexit option
+[14:42] <daemon1024> whats the purpose of /srv
+[14:43] <Anjika> About what jobs it is referring?
+[14:44] <sayan> peanutduck: hmm, that is essentially the login shell
+[14:45] <schubisu> daemon1024: what did you understood from the text that /srv is for?
+[14:45] <raydeeam> Anjika: https://www.gnu.org/software/libc/manual/html_node/Termination-Signals.html
+[14:46] <sayan> peanutduck: better I will try to get a recording to explain this there is very thin layer
+[14:47] <daemon1024> sayan: It contains site-specific data for a particular service. But I didnt get what kind of data of what service.
+[14:48] <peanutduck> ok sure sayan
+[14:48] <schubisu> daemon1024: if you e.g. host a website you often have so called static files to serve, like css or js files. It's read-only and not to be changed by anyone, but the client still needs to read the information in order for the service to function properly
+[14:49] <sayan> Anjika: which tutorial are you referring to here?
+[14:49] <schubisu> daemon1024: I think that /srv does not play a big role nowadays. Often those static files are served from different locations, as this is just a recommendation
+[14:50] <Anjika> sayan: http://tldp.org/LDP/Bash-Beginners-Guide/Bash-Beginners-Guide.pdf
+[14:50] <raydeeam> Anjika: A job is a command or a task that is up and running but hasn't yet finished.
+[14:50] <Anjika> Differences in interactive mode
+[14:50] <sayan> Anjika: any process that was triggered during the session
+[14:51] <Anjika> Okay, got it.
+[14:52] <sayan> daemon1024: service could be website, in that case you serve the static content from there
+[14:52] <sayan> basically things like the css, js, html etc
+[14:52] <daemon1024> sayan : So the linux based applications are recommended to put there static files in `/srv` ?
+[14:52] <sayan> daemon1024: this is primarily used in servers
+[14:53] <daemon1024> Ohk
+[14:53] <sayan> not when you are using it doing locally
+[14:53] <sayan> daemon1024: there is no word as "Ohk"
+[14:53] <sayan> next
+[14:54] <sayan> any more questions?
+[14:54] <stalwartcoder> !
+[14:54] <daemon1024> sayan: Got it. Thanks.
+[14:54] <sayan>  next
+[14:54] <sayan> next
+[14:55] <stalwartcoder> related to c shell and tc shell. What's the primary use case of both the shells?
+[14:56] <sayan> both are shell with bunch of features of their own
+[14:57] <sayan> there are a lot of shells out there, few are old, few are new.
+[14:58] <sayan> they basically have their own features and ways to process the same thing
+[14:58] <stalwartcoder> !
+[14:58] <sayan> for example, for a long time I did not understand why zsh gives me % at the end of few output
+[14:59] <peanutduck> !
+[14:59] <sayan> then I understood it's a way for zsh to tell this output does not end in new line, bash on other hand just starts from same line
+[14:59] <sayan> next
+[14:59] <stalwartcoder> Are there any specific use cases where c shell is preferred over bash?
+[14:59] <Nero007> Anjika:When the terminal closes it basically sends SIGHUP signals to all its processes(background,foreground)
+[15:00] <Nero007> There are cases when you dont want your background process to stop
+[15:00] <Nero007> Then you dont want the terminal to send SIGHUP
+[15:00] <Nero007> therefore it can be configured by huponexit
+[15:01] <Nero007> huponexit feature can be turned on or off
+[15:01] <Nero007> Sorry people for interrupting!!!
+[15:01] <Anjika> Nero007: Got it, Thanks!
+[15:02] <sayan> stalwartcoder: not sure, i've have used it at all
+[15:02] <stalwartcoder> Okay. Thanks sayan
+[15:03] <sayan> next
+[15:03] <peanutduck> fork and exec, is it like parent have to be created first then only the child process? If yes, whats the duty of the parent process?
+[15:07] <schubisu> peanutduck: you want to use fork if you have a program that should be capable of multiprocessing
+[15:08] <nabarun> peanutduck: The parent process creates the child process either using fork or exec. So, yes parent has to be created before children.
+[15:08] <schubisu> as far as I understand, the parent forks itself, creating a child process
+[15:08] <Nero007> peanutduck:parent process creates a child process
+[15:08] <nabarun> In case of fork, parent creates a child process. PID in this case is different for both.
+[15:09] <nabarun> In case of exec, parent process replaces itself with the child.
+[15:10] <peanutduck> Thank you schubisu, Nero007 and nabarun
+[15:14] <sayan> thanks nabarun schubisu
+[15:14] <sayan> I had to join a meeting
+[15:14] <sayan> I will end the class here
+[15:14] <sayan> Roll Call
+[15:14] <stalwartcoder> Abhishek Mishra
+[15:14] <nabarun> Nabarun Pal
+[15:14] <Anjika> Anjika
+[15:14] <darshna__> Darshna Das
+[15:14] <sahilister[m]> Sahil Dhiman
+[15:14] <Nero007> Amar Shukla
+[15:14] <schubisu> Robin Schubert
+[15:14] <BhaveshSGupta> Bhavesh Gupta
+[15:15] <peanutduck> Benedict Ramasamy
+[15:15] <daemon1024>  Barun Acharya
+[15:15] <raydeeam> Rayan Das
+----END CLASS----
