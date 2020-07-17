@@ -1,0 +1,186 @@
+----BEGIN CLASS----
+[14:05] <nabarun> #startclass
+[14:05] <nabarun> Roll Call
+[14:05] <darshna__> Darshna Das
+[14:05] <sahilister[m]> Sahil Dhiman
+[14:05] <daemon1024> Barun Acharya
+[14:05] <ssurbhi> Surbhi Sharma
+[14:05] <Anjika> Anjika
+[14:05] <snowmanstark> Philemon Johnson
+[14:05] <stalwartcoder> Abhishek Mishra
+[14:06] <raydeeam> Rayan Das
+[14:06] <peanutduck> Benedict Ramasamy
+[14:06] <nabarun> We are meeting after a week today.
+[14:06] <nabarun> Did everyone go through the homework?
+[14:06] <sahilister[m]> yes
+[14:07] <snowmanstark> yes
+[14:07] <stalwartcoder> Yes.
+[14:07] <Anjika> Yes
+[14:07] <daemon1024> yes
+[14:07] <darshna__> yes
+[14:07] <naveen_Neo> Naveen Kumar
+[14:08] <nabarun> Do you have any doubts? Please ask your questions by raising your hands.
+[14:10] <nabarun> I am assuming from the silence that everyone has understood everything.
+[14:10] <nabarun> Let's go ahead with today's class then.
+[14:10] <stalwartcoder> I don't I have a doubt yet.
+[14:10] <stalwartcoder> I don't have a doubt**
+[14:11] <nabarun> I will show you demo of some basic linux commands.
+[14:11] <nabarun> Can everyone open this link https://tmate.io/t/ro-UZvwTrMcRsT4TBA7XPnycg3YM to see my terminal?
+[14:12] <peanutduck> Yes nabarun
+[14:12] <snowmanstark> done
+[14:12] <sahilister[m]> yes
+[14:12] <darshna__> done
+[14:12] <Anjika> Yes
+[14:12] <daemon1024> yes
+[14:12] <stalwartcoder> Give me a min
+[14:12] <stalwartcoder> Joining
+[14:13] <stalwartcoder> Yes
+[14:13] <nabarun> Sorry for the hiccup. The session got closed.
+[14:13] <nabarun> Please join this: https://tmate.io/t/ro-HTt3SAsuFGJDhtdwgcSNCfJDN
+[14:14] <nabarun> I see most of you have already joined.
+[14:14] <nabarun> First command we will see today is `ls`
+[14:14] <nabarun> `ls` lists contents of a directory
+[14:15] <nabarun> If you see the screen, typing `ls` listed down all the contents of the current directory.
+[14:16] <nabarun> For those who have already gone through Chapter 3 of FHS, this would look very familiar.
+[14:16] <nabarun> `ls -l` list the contents with one entry per line.
+[14:17] <nabarun> The last column gives you the names of each file/folder in the current directory.
+[14:17] <nabarun> Ignore the other columns for now.
+[14:17] <nabarun> We will come to them in later sessions.
+[14:18] <nabarun> You can also list down contents of a specific directory by passing in the path to the `ls` command.
+[14:18] <nabarun> `ls -l /bin`
+[14:19] <nabarun> Any doubts till now with the `ls` command?
+[14:19] <stalwartcoder> No
+[14:19] <daemon1024> nope
+[14:19] <BhaveshSGupta> No
+[14:19] <sahilister[m]> no
+[14:19] <darshna__> no
+[14:20] <ssurbhi> no
+[14:20] <snowmanstark> !
+[14:20] <Anjika> No
+[14:20] <nabarun> next
+[14:20] <snowmanstark> what is with the bin -> /usr/bin
+[14:20] <snowmanstark> ?
+[14:21] <nabarun> snowmanstark: That tells us that the /bin directory is linked to /usr/bin.
+[14:21] <snowmanstark> then why didn't the same result show up when you did ls -l /bin
+[14:22] <snowmanstark> ?
+[14:23] <nabarun> snowmanstark: ls by default doesn't list down contents resolving the links.
+[14:23] <snowmanstark> okay, thanks!
+[14:24] <nabarun> If you see the session now, the `-L` flag resolves the links for you too.
+[14:24] <nabarun> Let's move to our next command.
+[14:24] <snowmanstark> :)
+[14:25] <nabarun> Suppose we are on the shell and doing something, how do we know which directory we are in?
+[14:25] <stalwartcoder> pwd
+[14:25] <snowmanstark> pwd
+[14:25] <nabarun> The `pwd` command prints you that.
+[14:25] <BhaveshSGupta> pwd
+[14:25] <nabarun> As you can see in the output, `pwd` tells us that we are in `/` or the root of the filesystem.
+[14:25] <BhaveshSGupta> it shows after user and machine name
+[14:26] <nabarun> BhaveshSGupta: that's because the shell prompt is configured to do so. Not all shell prompts may have it.
+[14:26] <BhaveshSGupta> nabarun, yes correct
+[14:27] <nabarun> Now, moving on how do we change the current working directory.
+[14:27] <nabarun> The `cd` command covers that functionality.
+[14:27] <nabarun> Let's see it in action.
+[14:28] <nabarun> As you can see, `cd` changed the current working directory to `/usr/bin` which we verified using `pwd`.
+[14:29] <nabarun> Now, some tricks when using cd.
+[14:29] <nabarun> `cd ~` will take us to the current user's home directory.
+[14:30] <nabarun> In case of `root` user, the home directory is `/root`
+[14:30] <nabarun> `cd -` will take us to the previous working directory.
+[14:31] <nabarun> Since, we came from `/usr/bin` to `/root`, running `cd -` took us back to `/usr/bin`
+[14:31] <nabarun> `cd ..` goes one directory up.
+[14:32] <nabarun> Running `cd ..` in `/usr/bin` takes us to `/usr`.
+[14:32] <nabarun> Does anyone have any doubt with `cd`?
+[14:32] <daemon1024> !
+[14:32] <nabarun> next
+[14:33] <daemon1024> running "cd" and "cd ~" does the same thing?
+[14:33] <nabarun> daemon1024: yes. They both have the same effect.
+[14:34] <nabarun> Let's now move on to see how we can create new files or directories.
+[14:35] <nabarun> The `mkdir` command helps us to create a directory.
+[14:35] <nabarun> `mkdir dgplug` will create the `dgplug` directory in the current working directory.
+[14:36] <nabarun> Now, let's see what happens when we try to create a nested directory like `training/2020`.
+[14:37] <nabarun> Oops! `mkdir` doesn't let us create nested directory by default if the parent directories don't exist.
+[14:37] <nabarun> But, `mkdir` has us covered with the `-p` flag.
+[14:38] <nabarun> `mkdir -p training/2020` will create the nested directory as well as any non-existing parent.
+[14:38] <nabarun> Does anyone have any questions till now?
+[14:39] <stalwartcoder> I don't.
+[14:39] <darshna__> no
+[14:39] <snowmanstark> no
+[14:39] <Anjika> No
+[14:39] <nabarun> Are you all following along in your terminals as well?
+[14:39] <ssurbhi> No
+[14:39] <sahilister[m]> yes
+[14:39] <nabarun> Doing that will give you a better idea.
+[14:39] <darshna__> yes
+[14:40] <daemon1024> yes
+[14:40] <snowmanstark> yes
+[14:40] <Anjika> yes
+[14:41] <stalwartcoder> Yes
+[14:41] <ssurbhi> yes
+[14:41] <nabarun> Alright. Let's move ahead.
+[14:42] <nabarun> There are several ways you can create a new file.
+[14:42] <nabarun> Directly from your text editor. Or, a file can be created as an output of another command.
+[14:44] <nabarun> I will create a file using the `vim` text editor for us to play around.
+[14:45] <nabarun> We will dive deeper into text editors and `vim` in later sessions.
+[14:46] <nabarun> Now, since we have a file to play around let's do some operations on that file.
+[14:46] <nabarun> `cp` let's you copy files and directories.
+[14:47] <nabarun> `cp training/2020/readme.txt readme.txt` will copy the `readme.txt` from `training/2020` to the `readme.txt` in the current working directory
+[14:48] <nabarun> `cp` follows this format `cp <source> <destination>`
+[14:49] <nabarun> If you want to recursively copy a directory from one place to another, you have to pass the `-R` flag.
+[14:49] <nabarun> `cp -R <source_directory> <destination_directory>`
+[14:50] <nabarun> In the shared terminal, I have copied `training/2020` to `training/2019` recursively.
+[14:50] <nabarun> Any doubts till here?
+[14:51] <peanutduck> !
+[14:51] <nabarun> next
+[14:52] <peanutduck> does all operation related to directory needs -R?
+[14:53] <nabarun> peanutduck: Yes. `cp` will error out otherwise with a message.
+[14:54] <peanutduck> Thanks nabarun
+[14:54] <nabarun> Let's move ahead with another command.
+[14:55] <nabarun> `mv` let's you move files or folders.
+[14:55] <nabarun> You can also rename files/folders using `mv`.
+[14:56] <nabarun> It follows the same argument syntax as `cp`.
+[14:56] <nabarun> `mv <source> <destination>`
+[14:57] <nabarun> `mv training/2019 training/2018` will move `2019` directory and all contents to `2018`
+[14:59] <nabarun> If you see the shared terminal, I have renamed `readme.txt` inside `training/2020` to `README.md` using the `mv` command.
+[14:59] <nabarun> Any doubts with the `mv` command?
+[14:59] <sahilister[m]> no
+[15:00] <BhaveshSGupta> No
+[15:00] <Anjika> no
+[15:00] <darshna__> no
+[15:00] <snowmanstark> nope
+[15:00] <nabarun> Let's us now go ahead and see how can we delete files/directories.
+[15:01] <nabarun> The `rm` command helps us delete files/directories.
+[15:01] <nabarun> `rm readme.txt` will delete `readme.txt` from the current working directory.
+[15:02] <nabarun> Now, if you want to delete directories, you have to pass the `-r` flag.
+[15:03] <nabarun> As you can see, `dgplug` being a directory, we had to pass the `-r` flag to delete it.
+[15:03] <nabarun> Any doubts with so far with today's class?
+[15:03] <stalwartcoder> No.
+[15:04] <snowmanstark> no
+[15:04] <Anjika> No
+[15:04] <sahilister[m]> no
+[15:04] <daemon1024> No.
+[15:04] <ssurbhi> No
+[15:04] <BhaveshSGupta> No
+[15:04] <darshna__> no
+[15:04] <nabarun> Okay. That sounds promising. :)
+[15:05] <nabarun> I want everyone to play around the commands discussed today and look at all the possibilities.
+[15:05] <stalwartcoder> Okay
+[15:05] <snowmanstark> !
+[15:05] <nabarun> Along with that, your homework is to read https://github.com/jlevy/the-art-of-command-line
+[15:05] <nabarun> next
+[15:06] <snowmanstark> I tried cp on a directory that doesn't exist, is there no similar option mkdir -p for cp?
+[15:09] <nabarun> snowmanstark: There is an option called `--parents` however the way it behaves is a bit different.
+[15:09] <nabarun> snowmanstark: The Linux commands are designed to do only one thing and that thing pretty well.
+[15:10] <nabarun> any more questions?
+[15:10] <snowmanstark> Okay, thanks!
+[15:10] <nabarun> Thank you all for joining today's session. :)
+[15:10] <nabarun> Roll Call
+[15:10] <stalwartcoder> Abhishek Mishra
+[15:10] <sahilister[m]> Sahil Dhiman
+[15:10] <snowmanstark> Philemon Johnson
+[15:10] <darshna__> Darshna Das
+[15:10] <Anjika> Anjika
+[15:10] <daemon1024> Barun Acharya
+[15:11] <ssurbhi> Surbhi Sharma
+[15:11] <BhaveshSGupta> Bhavesh Gupta
+[15:11] <naveen_Neo> Naveen Kumar
+[15:11] <peanutduck> Benedict Ramasamy
+----END CLASS----
