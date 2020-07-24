@@ -1,0 +1,130 @@
+[16:05] <sayan> #startclass
+[16:05] <sayan> Oh! batul is not there in the channel
+[16:05] <sayan> No worries!
+[16:06] <sayan> Those folks joining welcome to 2020 summer training class.
+[16:07] <sayan> Before we start off the class we start start with a roll call
+[16:07] <sayan> Where you will be typing out your name for the roll call
+[16:07] <sayan> Roll Call
+[16:07] <stalwartcoder> Abhishek Mishra
+[16:07] <sahilister> Sahil Dhiman
+[16:07] <Nero007> Amar Shukla
+[16:08] <daemon1024> Barun Acharya
+[16:09] <@schubisu> Robin Schubert
+[16:10] <priyankasaggu119> Priyanka Saggu
+[16:10] <sayan> Before we start off with the class, can we have a round of introductions? Tell us what you do, what are you looking forward to
+[16:10] <Anjika> Anjika
+[16:11] <peanutduck> Benedict Ramasamy
+[16:11] <sidntrivedi012> Siddhant N Trivedi
+[16:11] <sahilister> Hi i Sahil, i go by @sahilister almost everywhere. I am a CS undergrad and looking forward to lots of FOSS stuff.
+[16:12] <nightwarrior-xxx> Aman Verma
+[16:12] <stalwartcoder> Hello Everyone this is Abhishek Mishra.
+[16:12] <stalwartcoder> I am currently a python developer and interested in DevOps + system programming. I have pretty good experience in Js as well.
+[16:12] <stalwartcoder> I am looking forward to learn more about how to contribute to OSS after learning and as well as teaching/sharing knowledge on same with other people in community.
+[16:12] <nabarun> Nabarun Pal
+[16:15] <sayan> Nero007: daemon1024 priyankasaggu119 Anjika peanutduck sidntrivedi012 schubisu Can you please introduce yourself to the rest of the folks?
+[16:15] <sayan> also nabarun :)
+[16:15] <nabarun> I am an Infrastructure Engineer working towards building systems which make others life easier. I am here to learn from others experiences.
+[16:15] <sidntrivedi012> Hey all, I am Siddhant. I am a 3rd year Undergraduate, an Open-Source Contributor and mostly program in Javascript. Currently, learning about Compilers.
+[16:16] <peanutduck> Hi all, my name is Benedict Ramasamy. At the moment I'm not doing anything. I hope I can be a better person that I was yesterday.
+[16:16] <nabarun> At the moment, I am diving into the distributed systems ecosystem.
+[16:16] <Nero007> Hello this is Amar.I am a First year.I did Competitive programming till now and I want to contribute in OSS.I mostly program in C++ and python.
+[16:16] <sidntrivedi012> I am looking forward to learn from others' experiences as well.
+[16:17] <daemon1024> Hi everyone, I am Barun. I go by @daemon1024 most of the places. I am a first 1st year CSE undergrad, currently developing in javascript. Looking forward to make new connections and learn from your experiences :)
+[16:18] <priyankasaggu119> Hi everyone! I'm a DevOps Engineer, and also a GNOME contributor.  I joined the summer training 2 years back. Looking forward to learn more and share during this cohort. :)
+[16:19] <sayan> Thanks for the round of introductions everyone.
+[16:19] <Anjika> Hello everyone! I'm Anjika, Right now I'm working on .Net. I'm looking forward to learn Python and to enhance my technical knowledge.
+[16:19] <nightwarrior-xxx> Hello everyone, I am Aman. I am an undergraduate junior engineering student and an Open Source contributor. I currently work with React and Django. Looking forward to learn from other folks experience.
+[16:20] <@schubisu> Hi! I am a physicist and data scientist working in Huntington's Disease research. I'm using free and open source tools wherever possible and try to automate most of my work and my colleagues work
+[16:20] <sayan> Today the session won't be technical but rather I would be introducting you on how do we handle these sessions, the rules/guidelines you would need to follow
+[16:20] <sayan> But before that let me introduce myself.
+[16:22] <sayan> I'm Sayan Chowdhury. I work as a Linux Software Engineer at Kinvolk. I've been contributing to open source from a long time, and have contributed to Mozilla, VLC, Python, and primarily been a Fedora contributor. As part of my day job I tinker around with Linux Kernel these days and at night you would find me reading container related things
+[16:23] <sayan> The DGPLUG summer training is special for me as I started contributing to open source through this, when I did the training back in 2010
+[16:23] <sayan> Moving ahead
+[16:24] <sayan> To manage the sessions we have batul, sadly batul isn't around today
+[16:24] <sayan> But we will have batul around from the next sessions
+[16:25] <sayan> Few rules to adhere to are:
+[16:26] <sayan> In case during the sessions you have a question, please using the exclamation mark(!), which is equivalent to raising of your hand
+[16:26] <sayan> only when asked by batul to ask the question please drop in your question, you can have your questions prepared before hand and just press enter when batul asks you to ask question
+[16:27] <sayan> The sessions would be twice a week, and for 1 hour around the same time
+[16:27] <sayan> The time of the session would be announce during the class or on the mailing list
+[16:28] <sayan> Who all here are subscribed to the mailing list already?
+[16:28] <sidntrivedi012> Me
+[16:28] <stalwartcoder> Me
+[16:28] <Nero007> Me
+[16:28] <sahilister> me
+[16:29] <nabarun> Me
+[16:29] <priyankasaggu119> me
+[16:29] <daemon1024> Me
+[16:30] <Nero007> Sorry I think it was pending approval from moderator,so I am not subscribed
+[16:30] <aniruddhab> me
+[16:31] <sayan> Nero007: okay, will look into it
+[16:31] <sayan> no issues
+[16:31] <@schubisu> me
+[16:31] <sayan> So all the other folks who have not subscribed, please head over to http://lists.dgplug.org/listinfo.cgi/users-dgplug.org
+[16:31] <nightwarrior-xxx> me
+[16:31] <sayan> and sign up to the mailing list
+[16:33] <sayan> If you have any question you can ask on this channel itself.
+[16:34] <sayan> This year we will be following a course curriculum, where we will start of with the telling you about open source, to how the communities work (Mailing list guidelines, IRC guidelines)
+[16:35] <sayan> Jumping shell scripting and Linux commands, followed by a programming language
+[16:36] <sayan> and then we will be moving ahead to opsec, and tools to deployments tools
+[16:36] <sayan> This is a 10k view of the things, and we might pick up new topics or side topics during the course
+[16:37] <sayan> All the classes would happen over IRC itself.
+[16:38] <sayan> Now, based on experience of last few years, I've planned to bring back a system which we had in the past i.e. selections
+[16:38] <sayan> After every few topics, we will be having an assignment based on what you were taught and you would need to complete it
+[16:39] <sayan> Incase you miss, you would not be part of the classes following the selections
+[16:40] <sayan> Another criteria that would be considered is the attentiveness during the class
+[16:41] <sayan> basically, you would need to complete all the class assignemnts given
+[16:41] <sayan> any questions till here (remember to raise hands using ! )
+[16:41] <stalwartcoder> !
+[16:42] <sayan> stalwartcoder: ask
+[16:42] <stalwartcoder> What's the exact outcome of selection? I didn't understand why it's needed, could you elaborate little bit
+[16:43] <stalwartcoder> I understood the process though
+[16:45] <sayan> stalwartcoder: good question, given that we (the trainers) are putting in effort, it would be worthless if the students don't have the motivation to learn or basically putting effort from their own side too.
+[16:46] <sayan> the selection would ensure that the students are equally working hard.
+[16:46] <naveen_10> hi
+[16:47] <sayan> also stalwartcoder: the selection would help you with the goal to contribute to open source, we will try that the assigment is to some open source project, or some interesting problem to solve
+[16:47] <stalwartcoder> So you mean, the following sessions will be on the basis of selection. And if someone is not completing the assignments then that person can't attend future sessions. Am I right? sayan
+[16:47] <sayan> stalwartcoder: yes
+[16:47] <stalwartcoder> Thanks sayan :)
+[16:47] <naveen_10> I've just joined in the chat.. am I missing something
+[16:48] <stalwartcoder> sayan: please continue. You answered my question.
+[16:48] <sayan> so there are two type of assignments, one is class assignments, and other is evaluation assignments, the former would be give after every class, and the later would be given after couple of days
+[16:48] <sayan> maybe once in a month
+[16:48] <*> BhaveshSGupta is late Sorry, had to take grand ma to dentist still there
+[16:49] <naveen_10> Is there a audio/video class/session or just the chat?
+[16:50] <sayan> Any more questions or should we proceed?
+[16:50] <@schubisu> naveen_10: classes take place here in IRC, sayan is just explaining this year's rules. I think there will be a log afterwards, otherwise we can brief you after class ;)
+[16:51] <sayan> naveen_10: in short text
+[16:51] <sayan> schubisu: thanks!
+[16:51] <naveen_10> Got it! Thanks!
+[16:52] <sayan> The other rule is the classes has to be interactive, so you should sit quitely and be in listener mode if things are ask (primarily because of the mode of training)
+[16:54] <sayan> To end with, DGPLUG is a Linux Users' Group, primarily virtual and we have people from all around the world joining and coversing over IRC. It's like a small online family
+[16:55] <stalwartcoder> !
+[16:55] <sayan> So, stay online as much as possible, talk to other folks, if you have seen the website the motto is to learn and teach others:  https://www.dgplug.org/
+[16:56] <sayan> so take this oppurtunity to ask questions and learn or share what you have learned
+[16:57] <sayan> Also, always be respectful of others. Remember during the classes we start from the basic and go at the slowest pace, so incase you know things don't overwhelm others with your questions
+[16:57] <sayan> or action would be taken
+[16:57] <sayan> stalwartcoder: go ahead, ask
+[16:58] <stalwartcoder> sayan: what will be the schedule for sessions hereafter? Will it be the same as today?
+[16:58] <sayan> stalwartcoder: yes, we will be doing for an hour
+[16:58] <stalwartcoder> Ok.
+[16:58] <sayan> Before we end the session, any more questions?
+[16:59] <naveen_10> sayan: could you share the class schedule again? I might have missed it.
+[17:00] <sayan> naveen_10: the next class would be announced at the end of the class or on mailing list
+[17:00] <naveen_10> sayan: okay. Continue.
+[17:00] <sayan> The next class will be on Thursday at the at same time 19:30 IST
+[17:00] <sayan> Roll Call
+[17:01] <stalwartcoder> Abhishek Mishra
+[17:01] <sahilister> Sahil Dhiman
+[17:01] <Nero007> Amar Shukla
+[17:01] <priyankasaggu119> Priyanka Saggu
+[17:01] <sidntrivedi012> Siddhant N Trivedi
+[17:01] <Anjika> Anjika
+[17:01] <naveen_10> Naveen Kumar
+[17:01] <daemon1024> Barun Acharya
+[17:01] <peanutduck> Benedict Ramasamy
+[17:02] <sayan> #endclass
+[17:02] <stalwartcoder> sayan: and other folks who will be training us , thanks a lot for taking the time to teach us. Really appreciate it :D
+[17:02] <sayan> thanks everyone for joining
+[17:02] <nabarun> Nabarun Pal
+[17:03] <@schubisu> Robin Schubert

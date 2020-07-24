@@ -1,0 +1,165 @@
+[16:00] <sayan> #startclass
+[16:00] <sayan> Roll Call
+[16:00] <snowmanstark> raydeeam: good evening
+[16:00] <stalwartcoder> Abhishek Mishra
+[16:00] <raydeeam> where is our human batul hellozee ? XD
+[16:00] <sahilister[m]> Sahil Dhiman
+[16:00] <raydeeam> snowmanstark: hey o/
+[16:00] <Anjika> Anjika
+[16:00] <raydeeam> Rayan Das
+[16:00] <daemon1024> Barun Acharya
+[16:00] <BhaveshSGupta> Bhavesh Gupta
+[16:00] <snowmanstark> Philemon Johnson
+[16:00] <nabarun> Nabarun Pal
+[16:01] <peanutduck> Benedict Ramasamy
+[16:03] <sayan> Today we will be studying about two things Open Source Software & Communication
+[16:05] <sayan> These are two important aspects given we here are there to believe in the idea behind open source software
+[16:05] <sayan> And then open source software are usually created by like minded people in the community
+[16:06] <sayan> so it is good to know the etiquette that are followed
+[16:07] <sayan> Before going ahead I would like to know what is your idea about open source? How would you define open source?
+[16:07] <sayan> raise your hands to answer
+[16:07] <naveen_1007> !
+[16:07] <sahilister[m]> !
+[16:07] <snowmanstark> !
+[16:08] <sayan> naveen_1007: go ahead
+[16:08] <peanutduck> !
+[16:08] <naveen_1007> Thanks Sayan
+[16:09] <sayan> sahilister[m]: snowmanstark peanutduck: go ahead, we can answer all your answer together
+[16:09] <sayan> s/can answer/can hear/
+[16:09] <sahilister[m]> open source is where people come together to solve a problem together for themselves and others
+[16:09] <peanutduck> for me its sharing of code
+[16:10] <snowmanstark> It's like collectively building something as a community
+[16:10] <naveen_1007> For me Open source is a cumulative research and development team which produces industry grade software and tools which are helping every sector of technology.
+[16:11] <raydeeam> !
+[16:11] <sayan> raydeeam: go ahead
+[16:12] <raydeeam> the source code is freely available to its users. users and anyone else have the ability to take this source code, modify it, and distribute their own versions of the program.
+[16:12] <raydeeam> its doesn’t just matter to developers, it ultimately matters for users too.
+[16:13] <sayan> right, so if you see the crux of the answer for you all is the same
+[16:13] <BhaveshSGupta> !
+[16:13] <naveen_1007> I my self have been an avid consumer of opensource techs both at academics level and at professional level. I've always wanted to contribute to the community for so long but something or the other kept me away from it. Well, Better late than never! :P
+[16:14] <sayan> I would like everyone to give this a read: https://opensource.com/resources/what-open-source
+[16:14] <sayan> And share what does it change in the way you think or perceive open source?
+[16:15] <sayan> BhaveshSGupta: go ahead
+[16:15] <BhaveshSGupta> Open source for me is making software available for everyone. There are several people in the world who cannot have proprietary software. Open is also a better security for me because we can audit the code which is running.
+[16:20] <sayan> tell when you are done with reading
+[16:22] <sahilister[m]> done with the reading
+[16:23] <Nero007> done
+[16:23] <sayan> Share your thoughts or questions if any (raise hands if you have questions)
+[16:24] <snowmanstark> done
+[16:24] <raydeeam> done
+[16:24] <sahilister[m]> !
+[16:24] <sayan> sahilister[m]: yes
+[16:25] <sahilister[m]> so it always confuses me - "Open source software programmers can charge money for the open source software they create or to which they contribute. ". Are giving services on software only way for developers to earn money here? Are there alternate monitazation area?
+[16:25] <daemon1024> !
+[16:26] <sayan> sahilister[m]: there are various models, but provided paid services is one of the models that people go for
+[16:27] <sayan> Building open source software is sometimes is like a full time job. These people would need some kind of money to survive, so either they go for a hosted solution
+[16:27] <sayan> or paid services plan for support etc
+[16:28] <sayan> There are other programs as well were people get donation, but that might not be sufficient enough to survive
+[16:29] <stalwartcoder> done.
+[16:29] <sayan> There are few companies who sometimes hire these developers to spend part time working on these projects, like maybe 30% on the open source project and rest time they do office job
+[16:29] <sayan> so the office job is what they use to sustain
+[16:29] <sayan> daemon1024: ask
+[16:30] <peanutduck> !
+[16:30] <sayan> peanutduck: ask
+[16:30] <daemon1024> Just wanted share that , proprietary software have comparatively less impact on a large scale compared to open source software.
+[16:30] <peanutduck> Can we say this training is open source?
+[16:32] <sayan> peanutduck: yes, going by the definition of open source we can
+[16:32] <peanutduck> Thank you sayan
+[16:32] <sayan> all the resources are available, and everyone is open to make copies of the training :)
+[16:33] <sahilister[m]> !
+[16:33] <sayan> daemon1024: well, I partially agree to it, there are few softwares in the market (proprietary) which are really good
+[16:33] <stalwartcoder> sayan: the open source way! :)
+[16:33] <sayan> daemon1024: but sure open source software leads with the number
+[16:34] <sayan> sahilister[m]: go ahead
+[16:34] <daemon1024> <sayan "daemon1024: well, I partially ag"> Exceptions are always there 😅
+[16:34] <sayan> I would also like to know what thoughts changed for you after reading this article?
+[16:36] <sahilister[m]> best part about open source, we're not governed by a companies policy on usage of their software. it can be used as we like as long as we like. Issue with photoshop moving to subscription model comes to mind which made previous holders license invalid
+[16:37] <sahilister[m]> I still sometimes go back and download older versions from github just to check and get a feel of the era
+[16:38] <peanutduck> !
+[16:38] <sayan> peanutduck: go ahead
+[16:39] <peanutduck> My thought would be its more of collaboration as well instead of just sharing
+[16:39] <daemon1024> !
+[16:39] <snowmanstark> Everyone has the opportunity to take part in contributing to shape the software that changes the world
+[16:39] <stalwartcoder> +1 peanutduck
+[16:40] <daemon1024> +1
+[16:40] <sayan> peanutduck: surely, depend on the type of consumers, as naveen_1007 told naveen_1007 was a consumer of open source and wants to move to the collaboration factor
+[16:40] <sayan> but yes, we would like everyone here to move to the collaboration side of open source
+[16:41] <sayan> daemon1024: go ahead
+[16:41] <daemon1024> > Approaching all aspects of life "the open source way" and The world is full of "source code"
+[16:41] <daemon1024> This was something unique I realised after reading the article, before that I used to limit myself to softwares when asked about open source.
+[16:42] <sayan> daemon1024: yes, it can be anything, documentation, software, manufacturing unit designs etc etc
+[16:42] <stalwartcoder> I came to know about different licensing aspects of OSS
+[16:42] <stalwartcoder> After reading the blog
+[16:42] <sayan> Moving ahead, now that we read about the open source, we learned that open source software is not equal to free software
+[16:44] <sayan> For the assignment of the day, I want everyone to read this https://kushaldas.in/pages/hacker-ethic-and-free-software-movement.html
+[16:44] <sayan> we will take in question for this in the next session
+[16:44] <sayan> this blog talks about the hacker culture and history of the free software movement
+[16:45] <sayan> Now that we know that there is a collaboration factor involved in open sourc
+[16:45] <sayan> s/sourc/source
+[16:45] <sayan> There are a couple of guidelines that you need to follow
+[16:46] <sayan> Please have a read at this now: https://summertraining.readthedocs.io/en/latest/commguidelines.html
+[16:47] <sayan> This is somethimg to be followed in every communication platform you use for open source, and if possible extend it to your daily usage as well
+[16:48] <sayan> Then proceed to read this doc: http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf
+[16:48] <sayan> ask questions as you go
+[16:57] <daemon1024> Are "No over­quoting" and "Erase irrelevant text!" related ?
+[17:02] <sayan> daemon1024: use ! before asking question
+[17:03] <daemon1024> apologies
+[17:03] <daemon1024> !
+[17:17] <Anjika> Communication should be in an effective way. It should be in a polite way. We should avoid over quoting and lots of dots.
+[17:17] <sahilister[m]> !
+[17:17] <Anjika> We should erase unwanted texts, spelling should be correct.
+[17:18] <Anjika> We should avoid CAPS as it sounds rude
+[17:19] <sayan> Anjika: thanks
+[17:20] <Anjika> We should avoid html texts and attachments while sending e-mails to mailing lists, and also avoid invites
+[17:20] <Anjika> Welcome Sayan!
+[17:20] <sayan> sahilister[m]: ask
+[17:21] <*> sahilister[m] sent a long message:  < https://matrix.org/_matrix/media/r0/download/matrix.org/LnHuDGsALhOarNdYPbSpLfaR >
+[17:21] <daemon1024> I am using markdown syntax.
+[17:22] <sahilister[m]> thanks ;)
+[17:22] <sahilister[m]> !
+[17:22] <sayan> You can't block quote in IRC, not all client can understand that
+[17:23] <sayan> like the message you sent actually came as a link in my terminal
+[17:23] <sayan> s/terminal/irc client/
+[17:23] <sayan> I use a terminal based irc client
+[17:24] <sayan> So that brings to another point is remember to restrict to number of character you type in one line on IRC
+[17:24] <sayan> It's good to type a at max 120-150 character line
+[17:25] <sayan> Don't dump the channel with multiple lines, you might be kicked in this or other channels
+[17:25] <sayan> sahilister[m]: go ahead ask
+[17:25] <sayan> ask you next question
+[17:25] <sahilister[m]> so we should restrict our messages to
+[17:25] <sahilister[m]> 1. text only
+[17:25] <sahilister[m]> 2. emojis as symbol only
+[17:25] <sahilister[m]> right?
+[17:26] <sayan> yes, but these days irc clients do have emoji support
+[17:26] <sayan> so that does work
+[17:26] <sayan> Before we end the class, any more questions?
+[17:27] <stalwartcoder> !
+[17:27] <sahilister[m]> !
+[17:27] <sayan> stalwartcoder: ask
+[17:27] <stalwartcoder> Any recommendations on using an email client ?
+[17:28] <stalwartcoder> It's Difficult to use Gmail for bottom posting
+[17:28] <sayan> stalwartcoder: there are a lot of email clients, be it thunderbird, mutt etc
+[17:29] <sayan> You need to use and see what works for you
+[17:29] <sayan> there is no one recommendation for all
+[17:29] <stalwartcoder> Ok. Thank you sayan.
+[17:29] <sayan> I always bottom post and use gmail
+[17:29] <sayan> but I like mutt a lot
+[17:29] <sayan> sahilister[m]: yes
+[17:30] <sahilister[m]> i want to ask the schedule for next session?
+[17:31] <sayan> Next session would be on Tuesday 19:30IST
+[17:31] <sayan> For next sessio another read that you need to do is http://www.catb.org/~esr/faqs/smart-questions.html
+[17:31] <sayan> so that makes it two things you all need to read
+[17:31] <sayan> Roll Call
+[17:32] <Nero007> Amar Shukla
+[17:32] <sahilister[m]> Sahil Dhiman
+[17:32] <stalwartcoder> Abhishek Mishra
+[17:32] <raydeeam> Rayan Das
+[17:32] <Anjika> Anjika
+[17:32] <darshna__> Darshna Das
+[17:32] <BhaveshSGupta> Bhavesh Gupta
+[17:32] <peanutduck> Benedict Ramasamy
+[17:32] <nabarun> Nabarun Pal
+[17:32] <snowmanstark> Philemon Johnson
+[17:32] <sayan> Another thing I forgot to mention, create a blog for yourself
+[17:32] <sayan> ignore if you already have one, if not wordpress is a good platform to start
+[17:33] <sayan> #endclass

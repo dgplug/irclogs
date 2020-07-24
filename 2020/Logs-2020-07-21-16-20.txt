@@ -1,0 +1,183 @@
+[16:20] <nabarun> #startclass
+[16:20] <nabarun> Roll Call
+[16:20] <stalwartcoder> Abhishek Mishra
+[16:20] <snowmanstark> sayan: sure
+[16:20] <sahilister[m]> sayan: sure and thanks!
+[16:20] <nabarun> Nabarun Pal
+[16:20] <darshna__> Darshna Das
+[16:20] <snowmanstark> Philemon Johnson
+[16:20] <raydeeam> Rayan Das
+[16:20] <Anjika> Anjika
+[16:20] <sahilister[m]> Sahil Dhiman
+[16:20] <daemon1024> Barun Acharya
+[16:20] <BhaveshSGupta> Bhavesh Gupta
+[16:21] <*> BhaveshSGupta says is chekov missing?
+[16:21] <naveen_Neo> Naveen Kumar
+[16:21] <Nero007> Amar Shukla
+[16:21] <nabarun> BhaveshSGupta Good observation. I think chekov took a day off today. :)
+[16:22] <sayan> yes, I'm calling chekov
+[16:22] <nabarun> Did everyone go through the homework already?
+[16:22] <stalwartcoder> Yes
+[16:22] <daemon1024> yes
+[16:22] <Anjika> Yes
+[16:22] <sahilister[m]> Yes
+[16:22] <naveen_Neo> yes
+[16:22] <stalwartcoder> But not completed
+[16:22] <stalwartcoder> I am still on file and data processing part
+[16:22] <*> snowmanstark sounds like chekov is the new jarvis XD
+[16:23] <nabarun> What about others?
+[16:23] <snowmanstark> yes
+[16:23] <nabarun> It looks like only 5 people read it partly/fully.
+[16:24] <nabarun> Can you all say in a few words what you learnt from reading it (even partly)?
+[16:24] <nabarun> Feel free to take 2 minutes to gather your thoughts.
+[16:25] <snowmanstark> I realized how powerful linux is and the control you have over the system
+[16:26] <sahilister[m]> Learned about I/O redirections, routing tables in ip, strerr, somewhat inode and slick ways of using bash
+[16:26] <sahilister[m]> not all but top of my mind thoughts
+[16:26] <naveen_Neo> nabarun: I think its a quick guide to be aware of command line hacks which helps you in day to day work
+[16:27] <nabarun> stalwartcoder, daemon1024, Anjika what about you folks?
+[16:27] <Anjika> Use of different flags and many commands
+[16:27] <snowmanstark> I regularly use bash shortcuts, but learnt a few more
+[16:27] <sahilister[m]> and open many man pages ;)
+[16:27] <stalwartcoder> nabarun: give me 1 min
+[16:27] <Anjika> We can automate daily works through these commands
+[16:27] <daemon1024> nabarun: It is a lot to process at once, but it can act a nice reference when needed.
+[16:28] <stalwartcoder> I liked the everyday use section, got lot of tricks/ways to do things
+[16:28] <stalwartcoder> It's really interesting
+[16:28] <sayan> daemon1024: agreed, every time you read it again, you would know sometime new
+[16:28] <daemon1024> I upgraded few things in my daily workflow from the guide.
+[16:28] <nabarun> nice to hear from you all. Do you have any doubts you want to ask?
+[16:28] <sayan> s/sometime/something
+[16:28] <stalwartcoder> After reading that, I am planning to leave vim
+[16:29] <nabarun> Please raise your hand by using !.
+[16:29] <daemon1024> sayan: agreed. I plan to upgrade some parts of my general workflow every time i read it.
+[16:30] <sahilister[m]> * sahilister doesn't have doubt, remembers http://catb.org/~esr/faqs/smart-questions.html
+[16:30] <nabarun> sahilister[m]: nice. :)
+[16:30] <nabarun> It seems like no one has any doubts.
+[16:30] <nabarun> Let's move ahead.
+[16:31] <nabarun> Today we will go through a few more linux shell commands.
+[16:31] <nabarun> We will follow the same format as we did last day.
+[16:31] <nabarun> Please join here: https://tmate.io/t/ro-tatDdLNjPVBgYywfJXf4D7Kpy
+[16:32] <*> snowmanstark already bookmarked the github repo
+[16:32] <nabarun> The first command we will see is `cat`.
+[16:33] <nabarun> `cat` helps you print contents of a file to standard output/the output that you see in the shell.
+[16:34] <*> nabarun has been hit by Murphy's law
+[16:34] <nabarun> So, let's try to see what is there in the file `a.txt`
+[16:35] <nabarun> `cat a.txt` prints all the contents of that file as we can see.
+[16:35] <nabarun> Do mind that the content is all gibberish and is meaningless.
+[16:35] <*> BhaveshSGupta says sorry he was away because of office call
+[16:36] <nabarun> `cat` was designed primarily to concatenate multiple files.
+[16:37] <nabarun> We can concatenate two files in the following way: `cat a.txt b.txt`
+[16:37] <nabarun> We go both the files concatenated and printing to the stdout.
+[16:38] <nabarun> In future sessions, we will dig deeper on how we can redirect the output to a file.
+[16:38] <nabarun> Anyone has any doubts till now?
+[16:38] <sahilister[m]> no
+[16:38] <daemon1024> no
+[16:38] <Anjika> no
+[16:38] <darshna__> no
+[16:38] <stalwartcoder> No
+[16:39] <nabarun> Let's move to the next command.
+[16:39] <nabarun> `head` let's you output a starting part of files.
+[16:40] <nabarun> If we want to output first 3 lines, we can use the command: `head -n 3 <filename>`
+[16:40] <nabarun> You can also get the first `n` bytes of a file.
+[16:41] <nabarun> `head -c 16 <filename>` will return you the first 16 bytes.
+[16:42] <nabarun> You can also mention the argument as a negative number to omit that many lines from the end.
+[16:43] <nabarun> Does anyone have any doubts?
+[16:43] <nabarun> I hope everything is trying the commands on their devices too.
+[16:43] <daemon1024> no
+[16:43] <stalwartcoder> No
+[16:43] <sahilister[m]> no
+[16:43] <Anjika> no
+[16:43] <daemon1024> yes, trying them out :)
+[16:44] <nabarun> Now, a trivia, what should be the name of command which is opposite to `head`? :)
+[16:44] <sahilister[m]> tail
+[16:44] <raydeeam> tail
+[16:44] <nabarun> *fastest fingers first*
+[16:44] <stalwartcoder> tail
+[16:44] <Anjika> tail
+[16:44] <daemon1024> tail
+[16:44] <nabarun> nice. so, you all already know what would be the next command.
+[16:45] <snowmanstark> tail
+[16:45] <nabarun> `tail -n 3 <filename>` will output the last 3 lines of a file.
+[16:46] <nabarun> `tail -c 16 <filename>` will output the last 16 bytes of a file.
+[16:46] <nabarun> `tail -n +3` will omit the first 3 lines and output the remaining contents.
+[16:47] <nabarun> Notice the syntactic similarities between `head` and `tail`.
+[16:48] <nabarun> Side note: This extends to a lot of commands Unix/Linux commands and is the way the programs are structured is popularly known as Unix philosophy. (more on this later)
+[16:48] <nabarun> Any doubts till now?
+[16:49] <stalwartcoder> Nope
+[16:49] <sahilister[m]> no
+[16:49] <Anjika> no
+[16:49] <darshna__> no
+[16:49] <daemon1024> nope
+[16:50] <nabarun> Awesome! Let's get into some counting mode now.
+[16:50] <nabarun> `wc` is a program that lets you count the number of words/lines/bytes in a file.
+[16:51] <nabarun> `wc -w <filename>` counts the number of words in a file.
+[16:52] <nabarun> `wc -l <filename>` counts the number of lines in a file.
+[16:52] <nabarun> `wc -c <filename>` counts the number of bytes in a file.
+[16:53] <nabarun> That is mostly what we do with `wc`
+[16:54] <nabarun> Now, you all might have noticed that lines in the file `languages.txt` are not sorted in any order.
+[16:55] <nabarun> `sort` command helps us sort lines in a file.
+[16:55] <nabarun> `sort <filename>` will sort the lines and print the output.
+[16:56] <nabarun> If we want to sort in the reverse order, we have to pass the `-r` flag.
+[16:57] <nabarun> There are a lot of interesting things that can be done combining the commands we have seen till now.
+[16:57] <nabarun> I will leave this part as a take home exercise.
+[16:57] <nabarun> Any doubts or questions about anything till now?
+[16:58] <stalwartcoder> Nope
+[16:58] <darshna__> nope
+[16:58] <daemon1024> nope
+[16:58] <Anjika> no
+[16:59] <sahilister[m]> no
+[16:59] <nabarun> Awesome!
+[16:59] <snowmanstark> nope
+[16:59] <nabarun> An interesting question for you all - what similarities do you find in all the commands taught yet?
+[17:00] <nabarun> combining all the classes
+[17:00] <sahilister[m]> they all are file manipulation commands
+[17:00] <stalwartcoder> They all are related to file processing
+[17:01] <sahilister[m]> * sahilister thinks but everything in linux is a file 😓
+[17:01] <sahilister[m]> stalwartcode: +1
+[17:01] <daemon1024> Yes, file processing. and everything in unix is file.
+[17:01] <daemon1024> ok @sah
+[17:01] <sahilister[m]> * * stalwartcoder: +1
+[17:01] <daemon1024> sahilister: already pointed out 😅*
+[17:02] <nabarun> All of you are correct.
+[17:02] <nabarun> But, I wanted a different observation.
+[17:02] <nabarun> Did you notice that each of the command does a very basic task and does only that task?
+[17:03] <daemon1024> yess
+[17:03] <sahilister[m]> * the unix philosophy
+[17:03] <nabarun> sahilister[m]: right.
+[17:04] <naveen_Neo> nabarun: Also, they have a similar structure
+[17:04] <nabarun> naveen_Neo: yes. correct.
+[17:04] <sahilister[m]> nabarun: sorry, if i interrupted the flow
+[17:05] <nabarun> You will find all of the unix shell commands to have a strange bit of similarity but very distinct functions.
+[17:05] <nabarun> That stems from the Unix philosophy.
+[17:06] <nabarun> That is all for today's class. The floor is open to questions.
+[17:06] <nabarun> Please use !.
+[17:06] <sahilister[m]> !
+[17:06] <nabarun> Go ahead sahilister[m]
+[17:07] <sahilister[m]> [OPINION REQUEST]
+[17:07] <sahilister[m]> nabarun: what's your opinion on systemd and unix philosophy?
+[17:08] <nabarun> sahilister[m]: I know very less to form opinions on that topic. systemd is an amazing piece of software and very detailed too.
+[17:09] <nabarun> Let's take this comparison to after the class. :)
+[17:09] <sahilister[m]> thanks !
+[17:09] <nabarun> If no one has any doubts, we will end the session.
+[17:09] <sahilister[m]> * sahilister learned an important lesson from nabarun's reply
+[17:11] <nabarun> Today's homework would be to 1. finish "The Art of command line" and 2. start writing blogs on the commands that you are learning
+[17:11] <nabarun> Roll Call
+[17:11] <naveen_Neo> Naveen Kumar
+[17:11] <sahilister[m]> Sahil Dhiman
+[17:11] <Anjika> Anjika
+[17:11] <daemon1024> Barun Acharya
+[17:11] <kvy> Kumar Vipin Yadav
+[17:11] <snowmanstark> Philemon Johnson
+[17:11] <raydeeam> Rayan Das
+[17:12] <darshna__> Darshna Das
+[17:12] <stalwartcoder> Abhishek Mishra
+[17:12] <nabarun> Thank you everyone for attending today's session. :)
+[17:12] <stalwartcoder> Thanks nabarun :)
+[17:12] <nabarun> Do note that this channel is there to talk. :)
+[17:12] <Anjika> Thanks nabarun!
+[17:12] <nabarun> #endclass
+[17:12] <kvy> thanks nabarun
+[17:13] <sahilister[m]> thanks nabarun!
+[17:13] <naveen_Neo> Thanks nabarun!
+[17:13] <daemon1024> Thank You nabarun
+[17:13] <sayan> #endclass
