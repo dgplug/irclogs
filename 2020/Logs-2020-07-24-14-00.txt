@@ -1,0 +1,209 @@
+----BEGIN CLASS----
+[14:00] <sayan> #startclass
+[14:00] <sayan> Roll Call
+[14:00] <darshna__> Darshna Das
+[14:00] <sahilister[m]> Sahil Dhiman
+[14:00] <stalwartcoder> Abhishek Mishra
+[14:00] <Anjika> Anjika
+[14:00] <daemon1024> Barun Acharya
+[14:00] <raydeeam> Rayan Das
+[14:00] <BhaveshSGupta> Bhavesh Gupta
+[14:00] <peanutduck> Benedict Ramasamy
+[14:01] <naveen_Neo> Naveen Kumar
+[14:02] <sayan> How are you folks doing?
+[14:02] <stalwartcoder> I am doing good sayan.
+[14:02] <stalwartcoder> Feeling tired from last 2 days
+[14:02] <stalwartcoder> What about you?
+[14:02] <Anjika> sayan: Doing good
+[14:02] <sayan> I want to get a feedback of the sessions we had till now. Please go ahead and raise your hands
+[14:03] <sahilister[m]> Fine. Having online classes as usual.
+[14:03] <stalwartcoder> !
+[14:03] <Anjika> but today my day was quite hectic
+[14:03] <sahilister[m]> !
+[14:03] <sayan> Are we going slow, fast, or we are doing okay
+[14:03] <sayan> next
+[14:03] <Anjika> !
+[14:04] <stalwartcoder> We are doing okay. I feel I need little more time to completely the homework.
+[14:04] <stalwartcoder> The sessions are going amazing.
+[14:04] <daemon1024> !
+[14:04] <sayan> next
+[14:04] <sahilister[m]> Sessions are good as usual. Pace is fine. Got to learn about communication etiquette, philosophy and the power of cli.
+[14:04] <Anjika> For me the session is going good and matches my pace also
+[14:04] <sahilister[m]> and i love the homeworks.
+[14:05] <sayan> next
+[14:05] <Anjika> As I'm new to this so I take some time to grab everything
+[14:05] <sayan> next
+[14:05] <naveen_Neo> !
+[14:05] <stalwartcoder> s/completely/complete
+[14:05] <darshna__> !
+[14:05] <sayan> stalwartcoder: sahilister[m]: Anjika thanks, I would really like to take time, rather than going fast, quality over quantity
+[14:05] <Anjika> Due to homework, everything is getting more clear
+[14:06] <sayan> next
+[14:06] <daemon1024> Sessions are good. Assignments are great. Pace is fine. I am learning things in much deeper way than usual.
+[14:07] <peanutduck> !
+[14:07] <naveen_Neo> For me, learning about open source culture is a new thing, other than that till now I have not got much of a new information
+[14:08] <naveen_Neo> But i'm looking forward to get more
+[14:08] <sayan> I was feeling that we are going slow, but sounds like we are good.
+[14:08] <sayan> naveen_Neo: sure, yes, we are still in basics, we usually move much more, but better to go at the pace of the slowest
+[14:08] <sayan> naveen_Neo: in that case I can give you some extra reading material
+[14:09] <naveen_Neo> sayan:sure
+[14:09] <sayan> which eventually will be given to others as well
+[14:09] <sayan> but you get some more
+[14:09] <BhaveshSGupta> !
+[14:09] <sayan> next
+[14:09] <sayan> next
+[14:09] <darshna__> This time things are quite clear and it' s easy to understand. Things started from scratch and it's easy and fun to read.
+[14:10] <peanutduck> Sessions are making me to learn. The more I learn the more I noticed that I do not know a lot of things.
+[14:12] <sayan> Another thing I was thinking that nabarun can take the Tuesday classes, and I can parallel take another type of class, i.e. computer architecture based?
+[14:13] <sayan> in short two different topics a week, will you folks can handle it?
+[14:13] <daemon1024> sayan I can :)
+[14:13] <Anjika> Yes
+[14:13] <stalwartcoder> !
+[14:13] <sahilister[m]> Yes
+[14:13] <sayan> I would like you folks to thinks that join these two classes
+[14:14] <sayan> s/thinks/things
+[14:14] <stalwartcoder> !
+[14:14] <sayan> Computer science is about relating things, so if you are doing bash, then how it works on the other side.
+[14:14] <sayan> next
+[14:14] <sayan> next
+[14:15] <stalwartcoder> Parallel you mean one on another day, right?
+[14:15] <sayan> Yes, we are having two classes, two parrallel sessions
+[14:15] <stalwartcoder> Okay
+[14:15] <sayan> I want to know the feedback from all.
+[14:15] <BhaveshSGupta> I have been taking for around three or more years, I feel we are going at slower pace. But more people are understanding.
+[14:16] <sahilister[m]> Two sessions would be fine.
+[14:16] <naveen_Neo> sayan: I think it's a good Idea, We would cover more things in this fashion.
+[14:17] <peanutduck> Two sessions sounds awesome!!
+[14:17] <darshna__> yes I can
+[14:17] <sahilister[m]> * sahilister feels more exploration, more fun
+[14:17] <sayan> BhaveshSGupta: right, we are slow, or else by this time we were finishing Python maybe :)
+[14:18] <sayan> also who all don't have a linux machine?
+[14:18] <sayan> next
+[14:18] <stalwartcoder> I am using Mac machine
+[14:19] <BhaveshSGupta> I have ubuntu VM on azure, But no physical machine
+[14:19] <raydeeam> mac+fedora :P
+[14:19] <darshna__> I am using LinuxMint
+[14:19] <naveen_Neo> I'm using WSL
+[14:21] <sayan> Just to add the recommended system is Fedora, because I use that and using that for 10 years now
+[14:21] <sayan> easier to debug, though we have other folks who use other system to help to debug, like Arch, or Debian
+[14:22] <sahilister[m]> * sahilister is on Debian
+[14:22] <sayan> Okay to starting off: Go over and read this: https://github.com/cfenollosa/os-tutorial/tree/master/01-bootsector-barebones
+[14:23] <sayan> Mac users: https://github.com/cfenollosa/os-tutorial/tree/master/00-environment -- may need to use this
+[14:23] <Anjika> *Sorry I got disconnected
+[14:23] <sayan> others: https://www.qemu.org/download/
+[14:24] <sayan> also, things I will teach in next few days, is something I am reading myself and I always wanted to
+[14:24] <saptaks> I can help with debugging in Debian
+[14:24] <sayan> I feel that every engineer show have a knowledge of it
+[14:25] <sayan> saptaks: that's why I wrote Debian and not Ubuntu :)
+[14:26] <sayan> for every concept we will try to learn this year, we will try to cover the internals because that is required
+[14:28] <sayan> tell when you folks are done installing
+[14:29] <sahilister[m]> done
+[14:30] <naveen_Neo> done
+[14:30] <sayan> done installing or reading?
+[14:30] <sahilister[m]> installing
+[14:31] <Anjika> installing
+[14:31] <stalwartcoder> Done
+[14:31] <peanutduck> Done installing
+[14:32] <snowmanstark> done
+[14:32] <raydeeam> done
+[14:33] <daemon1024> done
+[14:33] <darshna__> done
+[14:34] <BhaveshSGupta> done installing
+[14:36] <naveen_Neo> I can't Install it, on my windows system
+[14:36] <BhaveshSGupta> naveen_Neo, you can install on windows also
+[14:37] <stalwartcoder> naveen_Neo: what error it's giving?
+[14:37] <sayan> probably read through it today, and try setting over the weekend?
+[14:37] <naveen_Neo> Microsoft Defender SmartScreen prevented an unrecognized app from starting. Running this app might put your PC at risk
+[14:38] <sayan> No clue :)
+[14:38] <stalwartcoder> Just say run anyway
+[14:38] <naveen_Neo> sayan: Yeah, will do that
+[14:39] <stalwartcoder> Well, I executed the bootloader ( excitement )
+[14:39] <sayan> This class will be more reading than I can type it's better that you read the docs, so I created a hackmd doc which can be referenced
+[14:39] <naveen_Neo> stalwartcoder: It's not giving that option, simply blocking it
+[14:39] <sayan> https://hackmd.io/@93U2v-7gSsiyMySlaP70dw/life-os
+[14:39] <sayan> Ask question, I can guarantee and answer but we will get to the answer together :)
+[14:40] <sayan> Any questions till here?
+[14:41] <stalwartcoder> naveen_Neo: oops. Then there will be another option. Sorry, couldn't help
+[14:42] <daemon1024> qemu is installed for me , but can't run it using ` qemu ` or ` qemu-system-x86_64 ` . simply says command not found.
+[14:42] <daemon1024> I am on Pop_OS! ( ubuntu based ) , can't seem to find qemu in ` /usr/bin ` too
+[14:43] <snowmanstark> demon1024: same for me
+[14:43] <sayan> same popos?
+[14:43] <nabarun> stalwartcoder: small note, never do "run anyway" without understanding what you are running.
+[14:43] <sayan> though raise you hands to ask questions :)
+[14:44] <sahilister[m]> `qemu` command doesn't respond on Debian too.
+[14:44] <sahilister[m]> s/Debian/my Debian
+[14:45] <stalwartcoder> nabarun: understood.
+[14:45] <stalwartcoder> I said so because we were executing the .bin file. But yeah that's a good point to keep in mind. Thanks :)
+[14:45] <sayan> maybe do this: sudo apt-get install qemu-kvm qemu virt-manager virt-viewer libvirt-bin
+[14:45] <sayan> this will also install the virt-manager
+[14:45] <nabarun> stalwartcoder: you never know what's in the bin file.
+[14:46] <naveen_Neo> !
+[14:47] <sayan> next
+[14:48] <naveen_Neo> ohh its not related to the current topic though.. I just wanted to know nabarun just did that.. talking in 3rd person :)
+[14:48] <daemon1024> sayan installing ` qemu-kvm ` did the job, it had qemu-system-x86_64 as a dependency
+[14:49] <sayan> daemon1024: great!
+[14:49] <sayan> I actually thought but then I just pasted the whole thing
+[14:49] <snowmanstark> naveen_Neo: use `/me` before the text you type in the IRC
+[14:49] <sayan> What about others?
+[14:49] <sayan> snowmanstark: thanks!
+[14:49] <sayan> Anjika: peanutduck darshna__: all good?
+[14:50] <BhaveshSGupta> !
+[14:50] <darshna__>  yeah, mine is installing
+[14:50] <Anjika> Just now it got installed
+[14:50] <BhaveshSGupta> I am on windows, qemu got installed
+[14:50] <darshna__> still now, shows 5mins left
+[14:50] <daemon1024> It booted for me 🙂
+[14:50] <sahilister[m]> !
+[14:50] <naveen_Neo> snowmanstark: cool. Thanks
+[14:52] <sayan> next
+[14:52] <sayan> next
+[14:53] <peanutduck> !
+[14:53] <sahilister[m]> Will we use qemu to run VMs through virt-manager?
+[14:53] <sayan> Follow this if you done with the boot sector: https://hackmd.io/@93U2v-7gSsiyMySlaP70dw/life-os
+[14:53] <sayan> sahilister[m]: no, terminal we will use
+[14:53] <sahilister[m]> sayan: thanks!
+[14:54] <sayan> next
+[14:55] <peanutduck> Fixed the issue, was getting the following error https://paste.debian.net/1157672/
+[14:55] <sayan> peanutduck: great!
+[14:56] <peanutduck> Running on Ubuntu 18.04.4 LTS, I just have to use qemu-system-x86_64 command instead
+[14:59] <sayan> what about others?
+[15:00] <sayan> :(
+[15:00] <sahilister[m]> Still in trying the boot sector.
+[15:00] <sayan> next
+[15:00] <sahilister[m]> *sahilister debugging mode on.
+[15:01] <stalwartcoder> *stalwartcoder is reading chapter 2 as well
+[15:01] <sayan> naveen_Neo: what about you?
+[15:02] <naveen_Neo> sayan: I'm done with the reading
+[15:02] <sahilister[m]> * sahilister's boot sector done.
+[15:02] <snowmanstark> trying the boot sector
+[15:03] <snowmanstark> but read Chapter 2 in the meantime
+[15:05] <sayan> naveen_Neo: all of them?
+[15:05] <naveen_Neo> sayan: yeah
+[15:05] <sayan> naveen_Neo: Chapter 2 as well?
+[15:05] <naveen_Neo> sayan: yeah
+[15:05] <sayan> from here: https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
+[15:05] <sayan> Okay
+[15:09] <sayan> There is no homework from my side, try to read this doc again. I will use the same docs to give the highlights and take questions next class
+[15:09] <sayan> Sounds good?
+[15:09] <raydeeam> yes
+[15:09] <sahilister[m]> yes
+[15:10] <Anjika> yes
+[15:10] <snowmanstark> yes
+[15:10] <BhaveshSGupta> yes
+[15:10] <stalwartcoder> Yes
+[15:10] <sayan> I expect a blog, so please write the blog post on the things that you read
+[15:10] <stalwartcoder> Okay
+[15:10] <raydeeam> okay
+[15:10] <sayan> That's the only home work from my side
+[15:11] <sayan> Roll Call
+[15:11] <snowmanstark> okay
+[15:11] <raydeeam> Rayan Das
+[15:11] <snowmanstark> Philemon Johnson
+[15:11] <BhaveshSGupta> Bhavesh Gupta
+[15:11] <sahilister[m]> Sahil Dhiman
+[15:11] <Anjika> Anjika
+[15:11] <stalwartcoder> Abhishek Mishra
+[15:11] <naveen_Neo> Naveen Kumar
+[15:11] <peanutduck> Benedict Ramasamy
+[15:11] <darshna__> Darshna Das
+----END CLASS----
