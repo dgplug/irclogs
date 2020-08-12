@@ -1,0 +1,245 @@
+----BEGIN CLASS----
+[14:00] <nabarun> #startclass
+[14:01] <nabarun> Good evening everyone!
+[14:01] <darshna__> nabarun: good evening
+[14:01] <daemon1024> Good evening :)
+[14:01] <nabarun> Today, we would be studying about bash redirection and get an intro of Vim.
+[14:01] <Anjika> Good evening!
+[14:01] <nabarun> Roll Call
+[14:01] <stalwartcoder> Abhishek Mishra
+[14:01] <sahilister[m]> Sahil Dhiman
+[14:01] <Anjika> Anjika
+[14:01] <daemon1024> Barun Acharya
+[14:01] <darshna__> Darshna Das
+[14:02] <raydeeam> Rayan
+[14:02] <peanutduck> Benedict Ramasamy
+[14:02] <snowmanstark> Philemon Johnson
+[14:03] <nabarun> Does anyone have any doubts with what was taught in the last class?
+[14:03] <stalwartcoder> I don't
+[14:03] <nabarun> Reminder: ! for questions or say no.
+[14:03] <sahilister[m]> No.
+[14:03] <Anjika> No
+[14:03] <stalwartcoder> No.
+[14:03] <daemon1024> No
+[14:04] <nabarun> Okay. Let's move ahead.
+[14:04] <snowmanstark> Nope
+[14:04] <nabarun> Today, I will start with input/output redirection in bash.
+[14:05] <nabarun> As you saw in the previous classes on Bash, all commands output to the display of your terminal emulator.
+[14:06] <nabarun> We can redirect the same output to files using redirections.
+[14:07] <nabarun> To output the results of `ls -l /` to a file, you can do `ls -l / > file.txt`
+[14:07] <nabarun> Can you all try this?
+[14:08] <nabarun> Running the above will put all the result to a file called file.txt in the same directory.
+[14:08] <nabarun> If the file doesn't exist, it will be created.
+[14:08] <nabarun> Please type done when finished.
+[14:08] <nabarun> Also, look at the contents of the file.
+[14:08] <nabarun> You know which command to use for that.
+[14:09] <snowmanstark> Done
+[14:09] <sahilister[m]> done.
+[14:09] <daemon1024> done
+[14:09] <peanutduck> Done
+[14:09] <nabarun> Does anyone have any doubts here?
+[14:10] <Anjika> Done
+[14:10] <sahilister[m]> no.
+[14:10] <nabarun> With `>`, we directed standard output to a file.
+[14:10] <snowmanstark> Nope
+[14:10] <darshna__> done
+[14:10] <nabarun> Now, can you all run the same command but changing the directory that you are listing.
+[14:10] <stalwartcoder> Done
+[14:10] <snowmanstark> Done
+[14:10] <nabarun> Keep the output file as same.
+[14:11] <nabarun> Do you notice anything there?
+[14:11] <snowmanstark> Yeah the file got overwritten
+[14:11] <daemon1024> It overwrites
+[14:11] <nabarun> Correct.
+[14:12] <nabarun> So, in order to append the output, use `>>` instead of `>`.
+[14:12] <nabarun> Please try it now.
+[14:12] <snowmanstark> Done
+[14:12] <daemon1024> done
+[14:12] <sahilister[m]> done.
+[14:13] <Anjika> done
+[14:13] <stalwartcoder> Done
+[14:13] <peanutduck> Done
+[14:14] <nabarun> Awesome! Now, let's see how we can redirect contents of a file to the standard input of a command.
+[14:14] <nabarun> `sort < file.txt`
+[14:15] <nabarun> `<` is used to redirect all contents of file.txt into the standard input of `sort` command.
+[14:15] <nabarun> Please try this out.
+[14:15] <darshna__> done
+[14:15] <daemon1024> !
+[14:15] <snowmanstark> Done
+[14:15] <nabarun> next
+[14:16] <daemon1024> ` sort file.txt ` results the same as ` sort < file.txt `
+[14:16] <daemon1024> Is it intentional?
+[14:17] <stalwartcoder> Done
+[14:17] <nabarun> daemon1024: Yes. sort has those semantics. You can either pipe contents to sort using `|` or redirect to standard input using `<` or specify the file as an argument.
+[14:17] <nabarun> daemon1024: You will notice this pattern with many unix commands.
+[14:18] <daemon1024> Got it
+[14:19] <nabarun> If there are no more questions, I will ask one. What should be the command if I want to take contents from file.txt sort it and then output the same to sorted_file.txt?
+[14:19] <nabarun> Use ! to queue your answers.
+[14:19] <daemon1024> !
+[14:20] <snowmanstark> `sort < file.txt >> sorted_file.txt`
+[14:20] <snowmanstark> !
+[14:20] <nabarun> Well, since snowmanstark has given the answer already,
+[14:20] <nabarun> next
+[14:20] <daemon1024> ` sort < file.txt > sorted_file.txt `
+[14:20] <nabarun> next
+[14:20] <nabarun> next
+[14:20] <sahilister[m]> !
+[14:20] <stalwartcoder> !
+[14:20] <nabarun> next
+[14:21] <sahilister[m]> `sort file.txt > sorted_file.txt && cat sorted_file.txt`
+[14:21] <nabarun> next
+[14:21] <stalwartcoder> sort < file.txt > sorted_file.txt
+[14:21] <nabarun> All of you are correct. Great!
+[14:22] <nabarun> Everyone please notice this thing that using different ways you can achieve the same functionality.
+[14:23] <nabarun> That was all for the shell redirections.
+[14:23] <nabarun> Please explore more and try to come up with innovative use cases/
+[14:24] <nabarun> Now, we will learn Vim.
+[14:24] <nabarun> Vim is a text editor.
+[14:25] <nabarun> It is highly configurable and you can do a lot of things in Vim.
+[14:25] <nabarun> To install Vim, you can do `apt install vim` for Ubuntu/Debian users.
+[14:25] <nabarun> For Fedora users, `dnf install vim`
+[14:26] <nabarun> Let me know when it is installed.
+[14:26] <darshna__> installed
+[14:26] <daemon1024> done
+[14:26] <Anjika> done
+[14:26] <sahilister[m]> Done.
+[14:27] <peanutduck> Done
+[14:28] <stalwartcoder> Done
+[14:28] <nabarun> Now, you can open vim by typing `vim` in your terminal.
+[14:28] <snowmanstark> done
+[14:29] <darshna__> done
+[14:29] <nabarun> It will open an empty window.
+[14:29] <nabarun> vim has primarily two modes - Normal and Insert.
+[14:29] <nabarun> When you start Vim, it opens in Normal mode.
+[14:29] <nabarun> Normal mode is used for operating on the text and manipulating it.
+[14:30] <nabarun> Insert mode is used for editing the text.
+[14:30] <nabarun> If you look at the bottom left corner, it will show you which mode you are in.
+[14:31] <nabarun> If there is nothing, you are in Normal mode.
+[14:31] <nabarun> To go into Insert mode, press `i`
+[14:31] <nabarun> The bottom left corner will now show `-- INSERT --`
+[14:31] <nabarun> which means you are in Insert mode.
+[14:31] <nabarun> Try writing something now.
+[14:32] <nabarun> Write a few sentences.
+[14:32] <snowmanstark> done
+[14:33] <darshna__> done
+[14:33] <stalwartcoder> Done
+[14:33] <sahilister[m]> Done.
+[14:33] <Anjika> done
+[14:33] <nabarun> Now, if you want go back to Normal mode, press `Escape`
+[14:33] <daemon1024> done
+[14:33] <nabarun> All this while, you might see `[No Name]` in the bottom left.
+[14:34] <nabarun> Let's try to save what your wrote.
+[14:34] <nabarun> s/your/you
+[14:34] <darshna__> !
+[14:34] <nabarun> next
+[14:34] <darshna__> Pressed escape but it's not coming back to normal mode
+[14:34] <nabarun> Is there an error being shown?
+[14:35] <darshna__> ^C is coming when I am pressing esc button
+[14:35] <darshna__> s/^C/^[
+[14:37] <nabarun> Ah! There seems to be some issue with your terminal configuration.
+[14:37] <nabarun> Try using, Ctrl+[
+[14:38] <nabarun> Coming back to saving the file, when in Normal mode, you can write `:w filename.txt` to save your file.
+[14:38] <nabarun> While typing the above, you would notice it being shown in the same bottom left corner.
+[14:39] <darshna__> !
+[14:39] <nabarun> next
+[14:40] <darshna__> It's stuck nothing is happening, how do I get back?
+[14:40] <darshna__> Neither the text is changing nor anything is happening
+[14:41] <nabarun> You can exit vim forcefully using Ctrl+Z.
+[14:41] <darshna__> yes, it stopped
+[14:41] <nabarun> now, you can start vim again.
+[14:42] <darshna__> yes
+[14:42] <nabarun> Now, can everyone notice that `[no name]` changed to reflect whatever filename you set?
+[14:43] <snowmanstark> yes
+[14:43] <Anjika> yes
+[14:43] <sahilister[m]> Yes.
+[14:43] <stalwartcoder> Yes
+[14:43] <nabarun> You can exit vim now using `:q` in the Normal mode.
+[14:44] <nabarun> After exiting, open the file we creating earlier today when learning redirection.
+[14:44] <daemon1024> done
+[14:44] <nabarun> `vim file.txt`
+[14:45] <nabarun> We learn some basic navigation methods in Vim.
+[14:45] <nabarun> s/learn/will learn/
+[14:46] <nabarun> Ensure that you are in Normal mode.
+[14:46] <nabarun> To move a character right, press `l`
+[14:46] <nabarun> To move a character down, press `j`
+[14:46] <nabarun> To move a character up, press `k`
+[14:47] <nabarun> To move a character left, press `h`
+[14:47] <nabarun> Vim tries to keep you in the `asdfghjkl` row on your keyboard as much as possible.
+[14:48] <nabarun> Was everyone able to navigate around that file list?
+[14:48] <Anjika> yes
+[14:48] <snowmanstark> yes
+[14:48] <darshna__> yes
+[14:48] <sahilister[m]> Yes.
+[14:48] <daemon1024> yes
+[14:48] <peanutduck> Yes
+[14:48] <stalwartcoder> Yes
+[14:48] <nabarun> We can also move word by word.
+[14:49] <nabarun> To move to the start of next word, press `w`
+[14:49] <nabarun> To move to the end of next word, press `e`
+[14:49] <nabarun> To move to the beginning of the word, press `b`
+[14:50] <nabarun> If you repeatedly press `b`, you would go back to the beginning of previous word.
+[14:50] <nabarun> Does anyone have any doubts?
+[14:51] <sahilister[m]> No.
+[14:51] <Anjika> No
+[14:51] <nabarun> We will get to learn a powerful method of navigation in Vim next.
+[14:52] <snowmanstark> no
+[14:52] <darshna__> no
+[14:52] <snowmanstark> sure
+[14:52] <nabarun> The commands we learnt above can be repeated multiple times.
+[14:52] <nabarun> To go `10` characters left, press `10l`
+[14:53] <nabarun> You can type any number before a navigation command.
+[14:53] <nabarun> The command will be repeated that many times.
+[14:53] <nabarun> For example, if we want to go to the beginning of 5th word from the current word, press `5w`
+[14:55] <nabarun> Does anyone have any doubts here?
+[14:55] <darshna__> no
+[14:56] <daemon1024> no
+[14:56] <sahilister[m]> No.
+[14:56] <Anjika> no
+[14:56] <snowmanstark> no
+[14:56] <stalwartcoder> No
+[14:58] <nabarun> We can also find the next or previous occurrence of a character from where the cursor is right now.
+[14:58] <nabarun> Press `f` and then the character you want to seach for.
+[14:58] <nabarun> This will take you to the next occurrence of that character.
+[14:59] <nabarun> Similarly, `F` and then the character can take you to the previous occurence.
+[14:59] <nabarun> With the knowledge we have till now, can anyone guess how do I go to the 5th next occurrence of a particular character?
+[15:00] <sahilister[m]> !
+[15:00] <darshna__> !
+[15:00] <nabarun> next
+[15:00] <sahilister[m]> `5f<char>`
+[15:01] <nabarun> next
+[15:01] <darshna__> 5f
+[15:01] <daemon1024> !
+[15:01] <nabarun> sahilister[m]: you are correct.
+[15:02] <nabarun> darshna__: you still would need to type the character you want to go to
+[15:02] <nabarun> next
+[15:02] <daemon1024> when i use `f` the results are restricted to the same line the cursor is in
+[15:03] <stalwartcoder> !
+[15:03] <snowmanstark> daemon1024: +1
+[15:04] <nabarun> daemon1024: yes. f only goes till the same line.
+[15:04] <nabarun> next
+[15:04] <stalwartcoder> 5f<character>
+[15:04] <nabarun> stalwartcoder: correct.
+[15:05] <nabarun> Now, to the last commands for today.
+[15:05] <nabarun> Pressing `gg` will take you to the start of the first line in the file.
+[15:05] <daemon1024> nabarun 5f<character> then becomes redundant if i dont have 5 or more of that character in the same line
+[15:05] <nabarun> Pressing `G` will take you to the start of the last line in the file.
+[15:05] <nabarun> daemon1024: We will look at how we search better in the next class.
+[15:06] <daemon1024> Sure.
+[15:07] <nabarun> Pressing `<number>G` will take you to the start of the `<number>`th line.
+[15:08] <nabarun> With that, does anyone have any doubts till now?
+[15:08] <sahilister> No.
+[15:08] <darshna__> nope
+[15:08] <daemon1024> nope
+[15:08] <snowmanstark> Nope
+[15:09] <Anjika> No
+[15:09] <stalwartcoder> No
+[15:09] <nabarun> Roll Call
+[15:09] <daemon1024> Barun Acharya
+[15:09] <sahilister[m]> Sahil Dhiman
+[15:09] <darshna__> Darshna Das
+[15:10] <peanutduck> Benedict Ramasamy
+[15:10] <Anjika> Anjika
+[15:10] <stalwartcoder> Abhishek Mishra
+[15:10] <nabarun> Thank you everyone for joining. We will continue with Vim in the next class. In the meanwhile, start practising using the Vim Tutor.
+[15:11] <nabarun> It can be accessed by typing `:Tutor` in normal mode and pressing Enter.
+----END CLASS----

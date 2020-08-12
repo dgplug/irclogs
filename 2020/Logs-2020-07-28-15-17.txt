@@ -1,0 +1,29 @@
+----BEGIN CLASS----
+[15:17] <nabarun> #startclass
+[15:17] <nabarun> Roll Call
+[15:21] <snowmanstark> Philemon Johnson
+[15:21] <nabarun> I was just going to write that we would have an empty class today.
+[15:23] <snowmanstark> nabarun:
+[15:23] <snowmanstark> Lucky me
+[15:23] <nabarun> snowmanstark: :)
+[15:24] <snowmanstark> What are we learning today?
+[15:24] <nabarun> Today, I wanted to demonstrate the importance of being active.
+[15:24] <snowmanstark> Sure
+[15:24] <nabarun> Which I think is very clear now.
+[15:25] <nabarun> I wanted to let the attendees know that we will be doing more surprise classes henceforth.
+[15:26] <stalwartcoder> Abhishek Mishra
+[15:26] <nabarun> On a different note, whoever is in the class right now, please watch https://www.youtube.com/watch?v=9vz06QO3UkQ before next Tuesday.
+[15:27] <stalwartcoder> :P
+[15:27] <stalwartcoder> Okay nabarun
+[15:27] <snowmanstark> nabarun: is there a way to know when the surprise classes gonna take place at least a few hours in advance, I get quit from IRC if I am inactive for 2 hours
+[15:27] <snowmanstark> It's counter intuuitive when the surprise class is pre announced xD
+[15:28] <snowmanstark> nabarun: sure!
+[15:28] <stalwartcoder> +1 snowmanstark
+[15:28] <nabarun> snowmanstark: You should have a look at this: https://vijaikumar.in/keeping-your-irccloud-client-always-connected-for-free-82db71b3cff3 since you are already on IRCCloud.
+[15:28] <nabarun> For now, that's all for the class.
+[15:29] <stalwartcoder> !
+[15:29] <nabarun> Roll Call
+[15:29] <stalwartcoder> Abhishek Mishra
+[15:29] <snowmanstark> I am currently using the same hack, just that my heroku dyno hours are exhausted
+[15:29] <snowmanstark> Philemon Johnson
+----END CLASS----

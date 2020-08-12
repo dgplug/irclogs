@@ -1,0 +1,223 @@
+----BEGIN CLASS----
+[14:04] <sayan> #startclass
+[14:04] <stalwartcoder> Hello sayan , how are you?
+[14:04] <sayan> Roll Call
+[14:04] <sahilister[m]> Sahil Dhiman
+[14:04] <stalwartcoder> Abhishek Mishra
+[14:04] <daemon1024> Barun Acharya
+[14:05] <Anjika> Anjika
+[14:06] <peanutduck> Benedict Ramasamy
+[14:06] <naveen_Neo> Naveen Kumar
+[14:07] <sayan> How many of folks are using linux on a daily basis and the linux commands that were taught tin the class?
+[14:07] <stalwartcoder> I am using (not all)
+[14:07] <Anjika> I'm using
+[14:07] <peanutduck> Started using
+[14:08] <daemon1024> I am.
+[14:08] <sayan> any questions?
+[14:09] <sahilister[m]> I
+[14:09] <sahilister[m]> I'm.
+[14:09] <Anjika> !
+[14:10] <sayan> next
+[14:10] <Anjika> Question is from boot sector
+[14:10] <sayan> Anjika: let's do that on the Friday class?
+[14:10] <Anjika> What is the significance of the first 3 bytes which is used for endless jump?
+[14:10] <Anjika> Okay
+[14:11] <sayan> Anjika: I'm not sure, that is something I need to find as well :)
+[14:11] <Anjika> Sayan: Okay:)
+[14:11] <sayan> https://til.yudocaa.in/posts/01082020#questions -- I've the same question
+[14:11] <darshna__> Yeah I also use
+[14:12] <sayan> Though I had read somewhere that the loop is to not interact with the other parts in the memory, possible of corruption
+[14:12] <sayan> But I could not find it later when I was mking my notes
+[14:12] <sayan> other folks
+[14:12] <sayan> Questions?
+[14:13] <sahilister> No doubt as of now.
+[14:13] <sayan> Okay great
+[14:14] <sayan> Did you cover pipes and redirection?
+[14:14] <snowmanstark> Philemon Johnson
+[14:14] <darshna__> Darshna Das
+[14:15] <stalwartcoder> Yes (from the same GitHub repo)
+[14:15] <sahilister> sayan: pipes and redirection were not covered in class.
+[14:15] <stalwartcoder> Not in depth. Very basic ones
+[14:15] <sahilister> Otherwise, i did read about them.
+[14:15] <stalwartcoder> sahilister[m]: +1
+[14:15] <daemon1024> +1
+[14:16] <sayan> Who can tell me what is a pipe in real world?
+[14:16] <snowmanstark> Pipe is chanelling something to a distance
+[14:17] <stalwartcoder> Water pipes
+[14:17] <daemon1024> !
+[14:17] <sahilister> !
+[14:17] <sayan> next
+[14:17] <sayan> next
+[14:17] <naveen_Neo> pipeline.. chain of things
+[14:17] <sahilister> What does real worl here implies, bash or the awk world?
+[14:17] <sahilister> s/awk/afk
+[14:17] <daemon1024> Pipe is to transmit something
+[14:18] <sahilister> s/worl/world
+[14:18] <sayan> sahilister: I mean the afk world
+[14:19] <sayan> right said by daemon1024 it is a medium to transfer/transmit something from one place to another
+[14:19] <sahilister[m]> sayan: thanks.
+[14:19] <sayan> similarly if you want to transfer the output of one command to another command we use pipe
+[14:20] <sayan> this is denoted by this symbol |
+[14:20] <sayan> now there are two types of pipe
+[14:21] <sayan> one is named pipe, another is unnamed pipe
+[14:21] <sayan> we will be talking here about the unamed pipe
+[14:21] <naveen_Neo> !
+[14:21] <sayan> The symbol that I showed is is used for unnamed pipe
+[14:21] <sayan> next
+[14:22] <sayan> commnd_1 | command_2 | command_ 3 ...
+[14:22] <naveen_Neo> what's the named pipe used for? just in brief
+[14:25] <sayan> Here the output, error of command 1 would be passed to command 2 as input. After take the command 2 takes as input would generate an error, or output which would be passed to command 3
+[14:26] <sayan> and the command 3 would then generate the output using the commands 2 output as input
+[14:27] <sayan> naveen_Neo: I'm not really sure, I've personally never used it but maybe tracking interprocess communication could be a reason for it
+[14:27] <sayan> naveen_Neo: I need to look into it.
+[14:27] <naveen_Neo> ok
+[14:27] <sayan> what the long sentence that I typed clear?
+[14:28] <stalwartcoder> Yes
+[14:28] <naveen_Neo> yes,
+[14:28] <snowmanstark> Yes
+[14:28] <darshna__> yes
+[14:28] <Anjika> Yes
+[14:28] <sahilister[m]> yes
+[14:28] <daemon1024> yes
+[14:29] <peanutduck> Yes
+[14:30] <sayan> assignment time
+[14:30] <sayan> tell me how would you see the contents of /
+[14:31] <sahilister[m]> ls
+[14:31] <darshna__> by using ls command
+[14:31] <daemon1024> ls /
+[14:31] <stalwartcoder> ls
+[14:31] <Anjika> ls
+[14:31] <stalwartcoder> s/ls/ls /
+[14:32] <sayan> Okay, your task now is to print the contents of / in reverse alphabetical order using the commands you want.
+[14:32] <sayan> But you need to use pipe (|)
+[14:33] <stalwartcoder> ls / rev
+[14:33] <naveen_Neo>  ls| sort -r
+[14:33] <daemon1024> ls / | sort -r
+[14:34] <stalwartcoder> s/ls rev/ls / | rev
+[14:34] <sayan> raise your hands to answer
+[14:34] <stalwartcoder> !
+[14:34] <raydeeam> !
+[14:34] <sahilister> !
+[14:34] <stalwartcoder> I read the question wrong. Sorry.
+[14:34] <sayan> next
+[14:34] <sayan> next
+[14:34] <sayan> next
+[14:34] <sahilister> ls | sort -r
+[14:35] <raydeeam> ls | sort -r
+[14:35] <daemon1024> !
+[14:35] <Anjika> !
+[14:35] <sayan> next
+[14:35] <sayan> next
+[14:35] <Anjika> ls | sort -r
+[14:36] <daemon1024> ls / | sort -r
+[14:36] <snowmanstark> !
+[14:36] <naveen_Neo> !
+[14:37] <sayan> next
+[14:37] <sayan> next
+[14:38] <snowmanstark> la / |sort -r
+[14:38] <daemon1024> "stalwartcoder" (https://matrix.to/#/@freenode_stalwartcoder:matrix.org) ls | rev would reverse each directory/file name , you can use "ls --rev" tho
+[14:38] <naveen_Neo> ls / | sort -r
+[14:38] <sayan> peanutduck: are you still trying?
+[14:38] <stalwartcoder> !
+[14:39] <sayan> next
+[14:39] <peanutduck> !
+[14:39] <sayan> next
+[14:39] <peanutduck> ls / | tac
+[14:39] <stalwartcoder> ls / | sort -r
+[14:39] <stalwartcoder> daemon1024: Okay. I got it.
+[14:39] <sayan> the correct answer is ls / | sort -r
+[14:39] <sayan> or ls / | tac
+[14:40] <sayan> peanutduck: would you like to explain the taac command to others?
+[14:40] <sayan> And can someone tell why `ls |sort -r` is wrong?
+[14:40] <sahilister> !
+[14:41] <sayan> next
+[14:41] <naveen_Neo> !
+[14:41] <darshna__> !
+[14:41] <sahilister> `ls | sort -r` assumes we're in the \ directory which might not be the case everytime.
+[14:41] <peanutduck> No sayan, found it on https://superuser.com/a/865551
+[14:41] <sayan> peanutduck: no problem :)
+[14:42] <sayan> sahilister: right, though it's / :)
+[14:42] <sayan> so you might in a different directory
+[14:42] <sayan> and you need to explicitly tell ls the path
+[14:42] <sayan> i.e /
+[14:43] <sayan> Now for tac, tac is the opposite of cat :)
+[14:43] <sahilister[m]> 😅 yes /
+[14:43] <sayan> so whatever the output cat would print, tac would do the opposite
+[14:44] <sayan> now if you note that that question was reverse alphabetical order
+[14:45] <sayan> by default ls / prints alphabetically, that is the reason tac would work
+[14:45] <sayan> if it did not print alphabetically then tac would be a wrong answer here, and the only write answer would be sort -r
+[14:45] <sayan> moving ahead
+[14:45] <sayan> if you need to know about a command, like sort, ls, tac, or rev
+[14:46] <sayan> what would you do?
+[14:46] <sayan> raise your hands
+[14:46] <naveen_Neo> !
+[14:46] <BhaveshSGupta> !
+[14:46] <snowmanstark> !
+[14:46] <stalwartcoder> !
+[14:46] <daemon1024> !
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:46] <naveen_Neo> man
+[14:46] <sayan> next
+[14:46] <darshna__> !
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:46] <sayan> next
+[14:47] <peanutduck> !
+[14:47] <stalwartcoder> We will look into man pages
+[14:47] <sahilister[m]> !
+[14:47] <daemon1024> man
+[14:47] <sayan> next
+[14:47] <sayan> next
+[14:47] <peanutduck> tldr
+[14:47] <sahilister[m]> man and tldr-pages
+[14:47] <stalwartcoder> Or --help would also work in most of the  commands
+[14:47] <snowmanstark> man
+[14:48] <sayan> I guess I've got my answer
+[14:48] <snowmanstark> `man <command>`
+[14:48] <sayan> man pages is the answer and not tldr
+[14:48] <sayan> tldr is a utilty and not shipped with standard linux
+[14:49] <sayan> you should always rely first on man
+[14:49] <sayan> the command is man <command>
+[14:49] <sayan> https://lym.readthedocs.io/en/latest/startingcommands.html#man-pages
+[14:50] <sayan> please give the link a read
+[14:52] <sahilister> done with the reading.
+[14:52] <daemon1024> Me too.
+[14:52] <sayan> If you are done reading
+[14:53] <stalwartcoder> Yes
+[14:53] <sayan> Try it out on a couple of commands and also try looking into the other numbered-pages
+[14:53] <darshna__> yes
+[14:54] <sahilister> !
+[14:54] <snowmanstark> Done
+[14:56] <sayan> next
+[14:56] <sahilister> numbered-pages here means man-pages in other sections (other than 1), right?
+[14:57] <sayan> sahilister: right
+[14:57] <sahilister> thanks!
+[14:59] <sayan> who all are still looking into it?
+[15:00] <peanutduck> !
+[15:00] <sahilister> me
+[15:00] <stalwartcoder> !
+[15:02] <sayan> next
+[15:02] <stalwartcoder> For me, most of the numbers with man are giving an error message as : "no entry for signal in section 7 of the manual"
+[15:02] <peanutduck> sayan I tried man fdisk and man 8 fdisk but I didn't notice any difference. Does this means man 8 is the default for fdisk?
+[15:05] <sayan> peanutduck: yes
+[15:05] <sayan> that is correct
+[15:05] <sayan> next
+[15:05] <stalwartcoder> For me, most of the numbers with man are giving an error message as : "no entry for signal in section 7 of the manual"
+[15:06] <sayan> stalwartcoder: that is possible, that section might not be there
+[15:06] <stalwartcoder> Okay
+[15:08] <sayan> for next class; the assignment is to read: https://opensource.com/article/18/8/introduction-pipes-linux
+[15:09] <sayan> and this one: https://opensource.com/article/19/3/getting-started-vim
+[15:10] <sayan> Roll Call
+[15:10] <stalwartcoder> Abhishek Mishra
+[15:10] <sahilister[m]> Sahil Dhiman
+[15:10] <daemon1024> Barun Acharya
+[15:10] <Anjika> Anjika
+[15:10] <nabarun> Nabarun Pal
+[15:10] <peanutduck> Benedict Ramasamy
+[15:10] <naveen_Neo> Naveen Kumar
+[15:11] <raydeeam> Rayan Das
+[15:11] <darshna__>  darshna das
+----END CLASS----
