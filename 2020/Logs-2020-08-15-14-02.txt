@@ -1,0 +1,295 @@
+----BEGIN CLASS----
+[14:02] <sayan> #startclass
+[14:02] <sayan> Roll Call
+[14:02] <sahilister[m]> Sahil Dhiman
+[14:02] <Anjika> Anjika
+[14:02] <darshna__> Darshna Das
+[14:02] <apsychogirl[m]> Megha
+[14:02] <BhaveshSGupta> Bhavesh Gupta
+[14:02] <peanutduck> Benedict Ramasamy
+[14:03] <sayan> Folks, questions from last class
+[14:04] <sayan> nabarun had completed bits of vim class right?
+[14:04] <sahilister[m]> sayan: Yes, nabarun took class on vim.
+[14:04] <sayan> questions?
+[14:05] <sahilister[m]> sayan: No question as of now.
+[14:05] <Anjika> No
+[14:05] <sayan> So, just to update I will halt the OS class for sometime. I'm not getting enough time to look into the bits myself due to the PyCon India event. Will resume it later
+[14:05] <darshna__> sayan: no questions
+[14:05] <sayan> Also, how many used vim?
+[14:05] <sahilister[m]> !
+[14:06] <sayan> or how many loved it, and how many hated it?
+[14:06] <sayan> next
+[14:06] <sahilister[m]> Using vim full time.
+[14:06] <darshna__> !
+[14:06] <sayan> next
+[14:06] <sahilister[m]> Not sure loved it or not yet.
+[14:07] <sayan> others
+[14:07] <darshna__> I used to get confused initially but after the last class atleast I know how to start using it a bit
+[14:07] <sayan> darshna__: glad to know
+[14:07] <Anjika> !
+[14:07] <sayan> next
+[14:07] <sayan> fire up you editors!
+[14:07] <Anjika> Can we store date in a variable?
+[14:08] <Anjika> As I tried it in vi editor, but failed
+[14:08] <sayan> Anjika: can you explain the context? which variable are you storing annd why?
+[14:09] <sayan> usually variables are used for languages and not editors
+[14:09] <Anjika> Just for try only, I first manipulated the date and tried to store that in a variable
+[14:10] <sayan> Anjika: what error were you getting?
+[14:10] <Anjika> I was not getting any error nor any output
+[14:11] <sayan> Anjika: can you tell the things you did, I'm not sure if I understannd
+[14:12] <sayan> vi is an editor, not a language.
+[14:12] <Anjika> First I printed the date by simple date command, after that I manipulated the month of the present date by reducing it by 3 months
+[14:13] <Anjika> And I tried to store the manipulated date in a variable so thatit  can be used in for loop
+[14:13] <Anjika> s/thatit/that it
+[14:15] <sayan> ^^ but this is not related to the editor, vim
+[14:16] <Anjika> yes, I have not tried this in vim
+[14:16] <sayan> no, this is not related to either vim, or vi
+[14:17] <sayan> let's discuss it after class
+[14:17] <sahilister[m]> *sahilister saw s/incorrect/correct in action, in vim
+[14:17] <Anjika> Okay
+[14:17] <sayan> for others please download this wall of text in a file, `plaintext` https://sayanchowdhury.fedorapeople.org/plaintext
+[14:18] <siddharthvipul> sorry I am late, I am interested in this session
+[14:18] <sayan> Today we will introduce you folks to visual mode
+[14:19] <snowmanstark> Philemon Johnson
+[14:20] <BhaveshSGupta> done
+[14:20] <sahilister[m]> Done.
+[14:20] <sayan> visual mode is used to select a chunk/or block of text.
+[14:20] <apsychogirl[m]> done
+[14:21] <sayan> Press `v` and then use your h,j,k,l keys
+[14:21] <sayan> what do you see?
+[14:21] <sahilister[m]> It's selecting/highlighting text.
+[14:21] <sayan> others?
+[14:21] <siddharthvipul> same here as sahilister[m]
+[14:22] <apsychogirl[m]> yes
+[14:22] <snowmanstark> Done
+[14:22] <BhaveshSGupta> same here
+[14:22] <BhaveshSGupta> it is selecting/ hightlightin
+[14:23] <peanutduck> Same
+[14:23] <BhaveshSGupta> it is selecting/highlighting
+[14:23] <sayan> now, while it is highlighted, you can yank it (which means copy)
+[14:23] <sayan> press `y` to yank
+[14:24] <sayan> to paste you can press `p` to paste
+[14:25] <sahilister[m]> Done.
+[14:25] <snowmanstark> done
+[14:25] <sayan> did it work as intended?
+[14:25] <snowmanstark> yes
+[14:25] <apsychogirl[m]> done
+[14:25] <sahilister[m]> Yes.
+[14:26] <sayan> now you would notice since we use `p` it pasted it after the cursor, if you want paste it before the cursor use `P` (which is capital P)
+[14:28] <sayan> next, to cut instead of copy, you use `d`
+[14:28] <sayan> and similarly, `p` would paste it
+[14:29] <sayan> raise your hands anytime if you have questions
+[14:29] <sayan> or if I should go slow
+[14:30] <peanutduck> !
+[14:31] <sayan> Next, if you want to select a line of text, you do `V`, and that should select the whole line
+[14:31] <sayan> nnext
+[14:31] <sayan> next
+[14:32] <peanutduck> How can I paste the paragraph with a space included? https://paste.centos.org/view/bde8aa1e
+[14:34] <sayan> I'm not sure you can do that
+[14:34] <peanutduck> Ok thanks sayan
+[14:34] <sayan> You can either, yank a space, or do `o` or `O`
+[14:35] <sayan> to enter a new line, but that actually adds a newline and goes into insert mode.
+[14:36] <sayan> I've seen people do, one thing that is have a keymap that would be combining `o|O` and `Esc`
+[14:36] <sayan> any other questions?
+[14:36] <sahilister[m]> No.
+[14:37] <sayan> Now to select a block of text you can use, Ctrl+v and use h,j,k,l
+[14:38] <sayan> You can do something like Ctrl+v4j8l
+[14:38] <sayan> raise your hands to tell what will, ggVG annd Vgg would do?
+[14:39] <siddharthvipul> !
+[14:40] <sayan> next
+[14:40] <siddharthvipul> more like answer to what sayan asked :)
+[14:40] <snowmanstark> !
+[14:40] <siddharthvipul> select whole file -> gg to go to top, V to select whole line, and G to go the end
+[14:40] <siddharthvipul> for ggVg
+[14:40] <sayan> next
+[14:41] <siddharthvipul> s/ggVg/ggVG
+[14:41] <BhaveshSGupta> Vgg
+[14:41] <snowmanstark> Vgg would select from where you are to the start of the file
+[14:42] <snowmanstark> including the line you are at
+[14:42] <sayan> apsychogirl[m]: Anjika: darshna__ peanutduck are you following?
+[14:42] <darshna__> yes
+[14:42] <Anjika> Yes
+[14:42] <apsychogirl[m]> yes
+[14:42] <peanutduck> Yes
+[14:43] <sayan> now, going on to bit of motion, you have `ip` and `ap`
+[14:43] <sayan> ip means inner paragraph
+[14:44] <sayan> ap means a paragrah
+[14:44] <sayan> the latter includes a space, the former does not
+[14:44] <sayan> tell me what happens with vap and vip
+[14:45] <sahilister[m]> !
+[14:45] <sayan> next
+[14:45] <sahilister[m]> `vap` selects the whole paragraph.
+[14:46] <sahilister[m]> `vip` is also doing the same, not sure i could grasp the difference.
+[14:46] <snowmanstark> !!
+[14:46] <apsychogirl[m]> vip unselects the last line.
+[14:46] <apsychogirl[m]> not sure
+[14:46] <BhaveshSGupta> !
+[14:47] <sayan> sahilister[m]: check if vip selects the space after the paragraph?
+[14:47] <sayan> with the output of vap
+[14:47] <snowmanstark> the cursor goes to the line after the paragraph with `vap`
+[14:47] <sayan> snowmanstark: yes
+[14:47] <sayan> next
+[14:48] <BhaveshSGupta> sayan, same as you said
+[14:48] <sahilister[m]> sayan: Got it, thanks.
+[14:49] <sayan> others?
+[14:49] <apsychogirl[m]> <snowmanstark "the cursor goes to the line afte"> similar
+[14:49] <sayan> Now, go to any place preferably middle of a line
+[14:50] <sayan> Press Ctrl+v
+[14:50] <sayan> press 5j to select couple of lines below it
+[14:50] <sayan> then press `I`
+[14:51] <sayan> type random text and press Esc
+[14:51] <sayan> What happens?
+[14:51] <peanutduck> Sorcery
+[14:51] <sayan> haha!
+[14:52] <snowmanstark> !
+[14:52] <sahilister[m]> Half of lines vanished.
+[14:52] <sayan> it should replicate the text, to all the selected column
+[14:52] <sayan> next
+[14:52] <darshna__> it selects the first alphabets
+[14:53] <snowmanstark> Inserts the text to the selected lines at the initial cursor position
+[14:54] <sayan> snowmanstark: yes
+[14:55] <sayan> it should be like adding the same text to multiple lines
+[14:56] <sayan> https://tmate.io/t/d5mXWNfSeuCCsVmLr73Smb5BT -- i created a tmate session to demo
+[14:57] <snowmanstark> sayan: the session is closed perhaps
+[14:57] <siddharthvipul> sayan: it says session closed
+[14:57] <nabarun> sayan: did you exit the tmate session by accident?
+[14:57] <sahilister[m]> sayan: `Session closed` is says
+[14:58] <sayan> join this one: https://tmate.io/t/ro-yhck7NFfkpEeKqpmYTuyLD7vP
+[14:59] <sahilister[m]> Yes, this is fine.
+[14:59] <sayan> who all did not see?
+[15:01] <sayan> everyone is in sync, or someone is still trying?
+[15:01] <sahilister[m]> Done with the above tasks.
+[15:01] <sayan> (would like to see some aye, or nay)
+[15:01] <peanutduck> me sayan, i missed the tmate session
+[15:02] <sayan> peanutduck: should I show again?
+[15:02] <nabarun> aye
+[15:02] <peanutduck> Yes please
+[15:02] <sayan> peanutduck: showing in 5 seconds
+[15:02] <peanutduck> Ol
+[15:02] <peanutduck> Got it
+[15:04] <sayan> If you replace `I` with `A` instead of adding the text after the cursor it does before
+[15:05] <sayan> also, you can replace in visual mode with `r<replace_with_item>`
+[15:06] <sayan> `ro` means replace selected item with `o`
+[15:07] <sayan> next is, incase, you want to join multiple lines, you select the lines to join and use `J`
+[15:09] <sayan> any questions?
+[15:10] <snowmanstark> nope
+[15:11] <sayan> A bunch of students have just vanished in thin air
+[15:11] <sayan> really worried.
+[15:11] <sahilister[m]> !
+[15:11] <sayan> next
+[15:11] <sahilister[m]> `r replace item` is not working
+[15:12] <sayan> sahilister[m]: are you giving a space?
+[15:12] <Anjika> !
+[15:12] <apsychogirl[m]> <sayan "any questions?"> no
+[15:12] <sayan> next
+[15:12] <darshna__> !
+[15:13] <snowmanstark> sahilister[m]: works for me
+[15:13] <Anjika> r<replace_item> is used for single character?
+[15:13] <sayan> *The Return of the Vanished Students*
+[15:13] <sayan> next
+[15:13] <sayan> Anjika: yes
+[15:13] <Anjika> As multiple character is not working
+[15:13] <darshna__> same problem as sahilister[m]
+[15:13] <Anjika> Thanks sayan
+[15:13] <BhaveshSGupta> sahilister,  select the the text and try ro
+[15:14] <sahilister[m]> sayan: Got it.
+[15:15] <sahilister[m]> BhaveshSGupta: Thanks, i was missing this part.
+[15:16] <sayan> movign ahead
+[15:16] <peanutduck> !
+[15:16] <sayan> next
+[15:16] <peanutduck> How can replace the selected word with just `o` instead of `oooooo`
+[15:17] <snowmanstark> peanutduck: good question! I was going to ask after few tries
+[15:18] <sayan> vco
+[15:18] <sayan> :)
+[15:19] <sayan> or Vco
+[15:19] <peanutduck> snowmanstark, I did `cw` but just wondering if in visual mode it can be done
+[15:19] <peanutduck> Oh, thanks sayan
+[15:19] <sayan> download this file next: https://sayanchowdhury.fedorapeople.org/dgplug.c
+[15:20] <sahilister[m]> Done.
+[15:20] <sayan> select a couple of lines
+[15:20] <sayan> and use '>' to ident.
+[15:21] <sayan> '5>' ident 5 times
+[15:21] <sayan> '<' unindent
+[15:21] <sayan> '5<' unindent 5 times
+[15:22] <sayan> select the whole file, and do `=` and let vim do the magic
+[15:22] <sayan> after that tell me what would `vip=` would do?
+[15:25] <peanutduck> !
+[15:25] <snowmanstark> peanutduck: yes it would work
+[15:25] <sayan> next
+[15:25] <snowmanstark> !
+[15:25] <sayan> next
+[15:25] <peanutduck> sayan `vip=` doesn't do anything for me
+[15:25] <sahilister[m]> peanutduck: +1
+[15:26] <sayan> peanutduck: what do you think it should do?
+[15:26] <snowmanstark> anything with `=` unintends
+[15:26] <snowmanstark> so `vip=` just unintends the paragraph
+[15:27] <sayan> = formats the selected part
+[15:27] <snowmanstark> `ggVG=` will unintend the file
+[15:27] <peanutduck> indents a paragraph
+[15:27] <sayan> basically idents your code
+[15:27] <sayan> if over indented then unident, or opposite
+[15:27] <sayan> check tmate sessionn
+[15:28] <sayan> will demo in 5 seconds
+[15:28] <sayan> peanutduck: snowmanstark ^^
+[15:28] <snowmanstark> sure
+[15:28] <peanutduck> there sayan
+[15:28] <snowmanstark> ready
+[15:29] <sayan> first V=, then vip=
+[15:29] <snowmanstark> That was awesome
+[15:30] <sayan> sorry first was ggVG=
+[15:30] <sayan> :)
+[15:30] <sayan> vip as we did last time
+[15:30] <sayan> select a paragraph
+[15:30] <peanutduck> Ah ok now, I did `ggVG=` first then `vip=`, hence nothing happened
+[15:30] <sayan> peanutduck: right
+[15:30] <sayan> vip/vap we did before
+[15:31] <sayan> vip/vap is to select the text, `=` formats
+[15:31] <sahilister[m]> !
+[15:31] <sayan> next
+[15:32] <sahilister[m]> Essentially `w`, `q`, `vip` are shortforms of write, quit etc. right?
+[15:32] <sahilister[m]> Everything in vim works like that way?
+[15:32] <sayan> sahilister[m]: yes, I will share a talk
+[15:32] <sayan> this is basically the vim language
+[15:33] <sayan> iw means inner word
+[15:33] <sayan> w means word
+[15:33] <sayan> p means paragrah
+[15:33] <sayan> ip means inner paragraph
+[15:33] <sayan> ciw is change in word
+[15:33] <sayan> cip is change in paragraph
+[15:33] <sayan> so if you know the vim alphabets, you can speak the vim language
+[15:34] <sahilister[m]> sayan: cool, thanks!
+[15:34] <darshna__> oh
+[15:34] <snowmanstark> sayan: that's interesting
+[15:34] <sayan> Aye or Nay to move forward
+[15:34] <snowmanstark> Aye
+[15:34] <darshna__> aye
+[15:34] <apsychogirl[m]> aye
+[15:34] <peanutduck> Aye
+[15:35] <Anjika> aye
+[15:35] <sahilister[m]> *sahilister heavy session 😅
+[15:35] <sayan> last part is changing case
+[15:35] <sayan> ~ inverts the case of selected part
+[15:35] <daemon1024> Aye ( Tho I'm late I mostly followed till now 😅 )
+[15:35] <sayan> u for smaller case, U for upper case
+[15:36] <sayan> Sadly for Title case, you need to have a search & replace pattern, which I will skip for now
+[15:37] <sayan> tell me when done, this is the last topic of the day.
+[15:37] <snowmanstark> done
+[15:37] <peanutduck> Done
+[15:37] <Anjika> done
+[15:37] <apsychogirl[m]> <sayan "tell me when done, this is the l"> done
+[15:38] <daemon1024> done
+[15:38] <sayan> Great!
+[15:38] <sahilister[m]> Done.
+[15:38] <darshna__> done
+[15:38] <sayan> We will have another class on vim
+[15:38] <sayan> Assigment for the day: https://www.youtube.com/watch?v=wlR5gYd6um0
+[15:39] <sayan> and using :help visual-mode in command mode should give more details
+[15:39] <sayan> Roll Call
+[15:39] <sahilister[m]> Sahil Dhiman
+[15:39] <daemon1024> Barun Acharya
+[15:39] <Anjika> Anjika
+[15:40] <apsychogirl[m]> megha
+[15:40] <peanutduck> Benedict Ramasamy
+[15:40] <darshna__> Darshna Das
+[15:40] <snowmanstark> Philemon Johnson
+----END CLASS----
