@@ -1,0 +1,110 @@
+----BEGIN CLASS----
+[13:33] <sayan> #startclass
+[13:34] <darshna__> Roll Call
+[13:34] <sayan> Sayan Chowdhury
+[13:34] <sahilister[m]> Sahil Dhiman
+[13:34] <raydeeam> Rayan Das
+[13:34] <apsychogirl[m]> Megha
+[13:34] <Anjika21> Anjika
+[13:34] <haripriya> Hari priya
+[13:34] <daemon1024> Barun Acharya
+[13:34] <aditi314> Aditi Singh
+[13:34] <peanutduck> Benedict Ramasamy
+[13:35] <darshna__> Okay, let's start then!
+[13:35] <priyankasaggu119> Priyanka Saggu
+[13:36] <darshna__> the first question which comes to the mind of any non-linux user is "what is linux?"
+[13:36] <apsychogirl[m]> terminal
+[13:36] <darshna__> apsychogirl[m]: umm, no
+[13:37] <darshna__> well it uses terminal but it isn't only terminal
+[13:37] <haripriya> Linux is best known and most used OS
+[13:37] <darshna__> haripriya: yes
+[13:37] <karma29[m]> Karma Dolkar
+[13:38] <darshna__> Just like Windows or Mac Os it is an open-source operating system
+[13:38] <darshna__> oh sorry
+[13:38] <darshna__> just like windows and Mac os it is just an operating system but it is open-source
+[13:39] <darshna__> whereas windows and mac os are not open-source
+[13:40] <darshna__> here comes the term Open-source which I connected with windows and mac mistakenly
+[13:41] <darshna__> The term open-source refers to something in which people can modify , share or design publicly
+[13:42] <darshna__> Open source software is software with source code that anyone can inspect, modify, and enhance.
+[13:43] <darshna__> Whereas Closed source software is not public. Only the person, team, or organization who created it—and maintains exclusive control over it—can modify. People call this kind of software "proprietary" or "closed source" software.
+[13:45] <darshna__> Linux is open - source software which was created by Linus Torvalds. A student in Helsinki, Finland, in 1991, when started a project: writing his own operating system kernel. He also collected together and/or developed the other essential ingredients required to construct an entire operating system with his kernel at the center. It wasn't long before this became known as the Linux kernel.
+[13:46] <haripriya> What is the meaning of kernel
+[13:46] <darshna__> In 1992, Linux was re-licensed using the General Public License (GPL) by GNU (a project of the Free Software Foundation or FSF, which promotes freely available software), which made it possible to build a worldwide community of developers.
+[13:48] <darshna__> haripriya: yes, I'll open open the floor for questions ask there
+[13:50] <darshna__> So, until now you all got the idea of Linux and who created it. Now to emphasize the importance on Linux I'll be sharing one of my blog where I've written how linux works
+[13:50] <darshna__> https://climoiselle.wordpress.com/2020/06/22/how-linux-works18th-post/
+[13:50] <darshna__> type "done" when you are done reading
+[13:50] <stalwartcoder> Abhishek Mishra
+[13:52] <sahilister[m]> Done.
+[13:52] <peanutduck> Done
+[13:52] <daemon1024> Done
+[13:53] <karma29[m]> Done
+[13:53] <Anjika21> Done
+[13:53] <apsychogirl[m]> done
+[13:53] <priyankasaggu119> done
+[13:53] <raydeeam> Done
+[13:53] <aditi314> Done
+[13:53] <stalwartcoder> Done
+[13:54] <darshna__> okay, so that's how linux works. Even our android phones which we use is run on Linux kernal.
+[13:55] <darshna__> Until now any questions?
+[13:56] <sahilister[m]> No.
+[13:56] <stalwartcoder> No
+[13:56] <darshna__> haripriya: A kernel is the central part of an operating system. It manages the operations of the computer and the hardware, most notably memory and CPU time.
+[13:58] <darshna__> okay, moving further. To know more about Linux's history ; the Linux distributions created in the mid-90s provided the basis for fully free (in the sense of freedom, not zero cost) computing and became a driving force in the open source software movement. In 1998, major companies like IBM and Oracle announced their support for the Linux platform and began major development efforts as well.
+[13:59] <darshna__> Today, Linux powers more than half of the servers on the internet, the majority of smartphones, and all of the world's most powerful computers.
+[14:00] <darshna__> Now let's know about it's philosophy.  Linux was inspired by UNIX, but it is not UNIX.
+[14:01] <darshna__> Linux borrows heavily from the well-established UNIX operating system. It was written to be a free and open source system to be used in place of UNIX, which at the time was designed for computers much more powerful than PCs and was quite expensive. Files are stored in a hierarchical filesystem, with the top node of the system being the root or simply "/". Whenever possible, Linux makes its components available via
+[14:01] <darshna__> files or objects that look like files.
+[14:03] <snowmanstark> Philemon Johnson
+[14:04] <snowmanstark> Sorry I'm late
+[14:04] <darshna__> So, the linux operating system consists of several different pieces, which we will talk about them in later classes. Meanwhile these are the pieces.  1.Boot loader 2. Kernal 3.Init systems 4.Daemons 5.Graphical Server 6.Desktop environment 7. Applications.
+[14:06] <darshna__> The vast variety of Linux distributions are designed to scatter to many different audiences and organizations, according to their specific needs and tastes. However, large organizations, such as companies and governmental institutions and other entities, tend to choose the major commercially-supported distributions from Red Hat, SUSE, and Canonical (Ubuntu).
+[14:08] <darshna__> CentOS is a popular free alternative to Red Hat Enterprise Linux (RHEL) and is often used by organizations that are comfortable operating without paid technical support. Ubuntu and Fedora are widely used by developers and are also popular in the educational realm. Scientific Linux is favored by the scientific research community for its compatibility with scientific and mathematical software packages. Both CentOS and
+[14:08] <darshna__> Scientific Linux are binary-compatible with RHEL; i.e. in most cases, binary software packages will install properly across the distributions.
+[14:09] <darshna__> Many commercial distributors, including Red Hat, Ubuntu, SUSE, and Oracle, provide long term fee-based support for their distributions, as well as hardware and software certification. All major distributors provide update services for keeping your system primed with the latest security and bug fixes, and performance enhancements, as well as provide online support resources.
+[14:10] <darshna__> Very popular distributions are : Debian/Ubuntu, Manjaro, Linux Mint, Fedora, OpenSuse etc.
+[14:11] <darshna__> Now, the question comes which distribution is right for you?
+[14:13] <darshna__> For that just ask these simple questions to yourself :
+[14:13] <darshna__>     1.How skilled of a computer user are you?
+[14:13] <darshna__>     2.Do you prefer a modern or a standard desktop interface?
+[14:14] <darshna__> If your computer skills are fairly basic, you’ll want to stick with a newbie-friendly distribution such as Linux Mint, Deibian/Ubuntu.
+[14:15] <darshna__> If your skill set extends into the above-average range, you could go with a distribution like Debian or Fedora. If, however, you’ve pretty much mastered the craft of computer and system administration, use a distribution like Gentoo.
+[14:16] <darshna__> Is this clear to all?
+[14:16] <stalwartcoder> Yes
+[14:17] <daemon1024> yes
+[14:17] <apsychogirl[m]> yes
+[14:17] <sahilister[m]> Yes.
+[14:17] <Anjika21> Yes
+[14:17] <haripriya> Yes
+[14:17] <snowmanstark> Yrs
+[14:17] <peanutduck> Yes
+[14:17] <snowmanstark> s/yrs/yes
+[14:18] <darshna__> Amazing, lets now understand how can you install Linux?
+[14:19] <darshna__> Linux offers one of the easiest installations of all operating systems. In fact, most versions of Linux offer what is called a Live distribution, which means you run the operating system from either a CD/DVD or USB flash drive without making any changes to your hard drive. You get the full functionality without having to commit to the installation. Once you’ve tried it out, and decided you wanted to use it, you
+[14:19] <darshna__> simply double-click the “Install” icon and walk through the simple installation wizard.
+[14:20] <darshna__> Typically, your installation wizard will walk you through the steps to install
+[14:22] <darshna__> 1. Preparation: Make sure your machine meets the requirements for installation. This also may ask you if you want to install third-party software (such as plugins for MP3 playback, video codecs, and more).
+[14:23] <darshna__> 2. Wireless setup (if necessary): If you are using a laptop (or machine with wireless), you’ll need to connect to the network, in order to download third-party software and updates.
+[14:23] <darshna__> 3. Hard drive allocation : This step allows you to select how you want the operating system to be installed. Are you going to install Linux alongside another operating system (called “dual booting”), use the entire hard drive, upgrade an existing Linux installation, or install over an existing version of Linux.
+[14:24] <darshna__> 4. Location: Select your location from the map.
+[14:24] <darshna__> 5. User setup: Set up your username and password.
+[14:25] <darshna__> And that's it how you get your Linux into your computer/laptop.
+[14:26] <darshna__> That's the end of the class here and I hope I was able to clear the basics of Linux and also convinced the new folks to install Linux into their systems
+[14:27] <darshna__> any questions?
+[14:27] <stalwartcoder> No
+[14:27] <snowmanstark> Nope
+[14:27] <Anjika21> No
+[14:27] <sahilister[m]> No.
+[14:28] <apsychogirl[m]> nope
+[14:28] <aditi314> Nope
+[14:29] <darshna__> Roll call
+[14:29] <Anjika21> Anjika
+[14:29] <aditi314> Aditi
+[14:29] <sahilister[m]> Sahil Dhiman
+[14:29] <haripriya> Hari priya
+[14:29] <apsychogirl[m]> megha
+[14:29] <peanutduck> Benedict Ramasamy
+[14:30] <karma29[m]> Karma Dolkar
+[14:30] <stalwartcoder> Abhishek Mishra
+[14:30] <raydeeam> Rayan Das
+----END CLASS----
