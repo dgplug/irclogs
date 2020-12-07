@@ -1,0 +1,218 @@
+----BEGIN CLASS----
+[13:38] <sayan> #startclass
+[13:38] <sayan> Roll Call
+[13:38] <snowmanstark> 6ish
+[13:38] <schubisu> Robin Schubert
+[13:39] <peanutduck> Benedict Ramasamy
+[13:39] <nabarun> Nabarun Pal
+[13:39] <deathstalkr_> Solomon Johnson
+[13:39] <snowmanstark> Philemon Johnson
+[13:39] <darshna__> Darshna Das
+[13:39] <sayan> So, folks today we will be learning Python
+[13:41] <sayan> I will consider the folks at a new level, both programming and language
+[13:42] <sayan> I hope everyone here is a Linux user
+[13:43] <sayan> we use programming language to ease our task, and automate day to day activities
+[13:43] <raydeeam> Rayan Das
+[13:43] <sayan> There are variety of languages that are built for various purposes
+[13:44] <sayan> Some are good at browsers, systems, artificial intelligence etc.
+[13:44] <sayan> We are picking Python because it is relatively easier to learn
+[13:44] <sayan> So, folks go to your Linux terminal and hit python
+[13:45] <sayan> This would invoke the Python interpreter
+[13:46] <sayan> When you open the shell
+[13:46] <sayan> You should see something like this
+[13:46] <sayan> >>>
+[13:46] <sayan> let me know if you are seeing it
+[13:46] <raydeeam> seeing it.
+[13:47] <peanutduck> seeing it
+[13:47] <snowmanstark> done
+[13:48] <deathstalkr_> Yep
+[13:48] <darshna__> done
+[13:49] <sayan> Now perform some of the basic arithmetic operations, like adding, subtracting, dividing numbers etc
+[13:49] <sayan> the symbol to use for multiplying is the asterisk -> *
+[13:49] <sayan> I guess the divide might be obvious, but still iterating
+[13:50] <sayan> it's `/`
+[13:51] <sayan> Now remember I said Python interpreter
+[13:51] <sayan> Now there are two types of languages
+[13:51] <sayan> compiled and interpreted
+[13:52] <sayan> If the language is compiled, you need to compile the program that you write and then run the file that is produced from compiling the program
+[13:52] <sayan> You don't need to compile the program in a interpreted language
+[13:53] <sayan> So, when you enter something in the shell you would directly get the output
+[13:53] <sayan> Python is also a dynamic language, which means you don't need to explicitly define variables.
+[13:53] <sayan> Now you might ask, What is a variable? Right?
+[13:54] <sayan> treat variable as a space in computer memory to store something
+[13:54] <sayan> so for example `a = 10`, here the variable is a, and you are storing the value 10 in it
+[13:57] <sayan> When a computer comes across a variable for the first time, it allocates a piece of memory sufficient size to hold the value of the variable and designates the space by the variable name. We can recall the values stored at that address by the variable name, which become addresses in the memory at which the variables are stored.
+[13:57] <sayan> any questions?
+[13:58] <darshna__> no
+[13:58] <snowmanstark> nope
+[13:58] <raydeeam> no
+[13:58] <peanutduck> !
+[13:58] <sayan> next
+[13:58] <deathstalkr_> Nah
+[13:59] <peanutduck> Can I exceed the  memory sufficient size when I set the variable?
+[14:00] <sayan> When I come to types, that will explain more. So, each variable can be either characterized into string, number, character etc
+[14:00] <sayan> for each of them there is a designated size
+[14:00] <sayan> some are small, others are big
+[14:01] <sayan> in languages like C, Java, you need to explicitly define what will be the type, so the memory is assigned accordingly
+[14:01] <sayan> Any mis-type will result in error
+[14:02] <sayan> In Python, you don't need to take care of that. Python is a dynamic language
+[14:02] <sayan> understood?
+[14:02] <peanutduck> yes
+[14:04] <sayan> Moving ahead, go ahead and do operations in the Python shell like
+[14:04] <sayan> a = 10
+[14:04] <sayan> b = "a string"
+[14:04] <sayan> c = 10.0
+[14:04] <sayan> and try to come up with different type of variables names
+[14:05] <sayan> the variable names can be combination of alphabets, numbers and symbols
+[14:05] <sayan> After you have done, try to repeat the arithmetic operations and store in a variable
+[14:06] <sayan> ping me if you face issues
+[14:07] <sayan> Also, you can use double star ** to compute "power/exponent"
+[14:08] <sayan> if x = 5, y = 10, z = 2.5
+[14:08] <sayan> compute result 1: x + 2y + 2
+[14:09] <sayan> result 2: 5x + 4(y + z) - z
+[14:09] <sayan> result 3: 2xy + 2^2 + y ^ 122
+[14:09] <sayan> tell me when done
+[14:11] <snowmanstark> !
+[14:12] <sayan> next
+[14:12] <snowmanstark> I have completed
+[14:12] <peanutduck> done
+[14:12] <sayan> others?
+[14:12] <deathstalkr_> Done
+[14:12] <raydeeam> done
+[14:13] <darshna__> done
+[14:13] <sayan> share the answers and compare?
+[14:14] <peanutduck> https://paste.gnome.org/pyhur7yt2
+[14:15] <sayan> others do you see the same output?
+[14:16] <snowmanstark> https://paste.gnome.org/peq2omyqh
+[14:16] <snowmanstark> yup
+[14:16] <sayan> Moving ahead
+[14:17] <sayan> You all know how to use an editor?
+[14:17] <snowmanstark> yes
+[14:17] <sayan> Can you paste the same code that you typed in the shell
+[14:17] <sayan> except do a couple of changes
+[14:17] <sayan> store the output of the results in a variable
+[14:18] <sayan> and then you can print using the print function
+[14:18] <sayan> Suppose I have to compute `x + y`
+[14:18] <sayan> I will then do result9 = x + y
+[14:18] <sayan> and then in next line `print(result9)`
+[14:18] <sayan> Understood
+[14:18] <sayan> ?
+[14:19] <sayan> Once done I will let you know how to run the program
+[14:20] <snowmanstark> done
+[14:20] <raydeeam> done
+[14:21] <peanutduck> done
+[14:21] <sayan> others?
+[14:22] <darshna__> done
+[14:23] <deathstalkr_> Done
+[14:26] <sayan> Now to run the program use `python <filename.py>`
+[14:28] <sayan> Tell me the permission bits set for the file?
+[14:29] <peanutduck> 664
+[14:30] <snowmanstark> 777
+[14:30] <sayan> snowmanstark: 777? How?
+[14:30] <raydeeam> 644
+[14:31] <darshna__> doing
+[14:31] <darshna__> doing
+[14:32] <snowmanstark> sorry it's 644
+[14:32] <snowmanstark> had a different file with the same name
+[14:32] <darshna__> I can't do it
+[14:33] <sayan> darshna__: what is the problem you are facing?
+[14:33] <darshna__> don't know how to check the permisssion bits for file
+[14:33] <sayan> darshna__: you can do `ls -l <filename.py>`
+[14:34] <darshna__> oh
+[14:34] <sayan> tell me what do you see in the first column
+[14:34] <darshna__> -rw-r--r--. 1 climoiselle climoiselle 126 Dec  7 19:55 1.py
+[14:35] <darshna__> I am seeing this ^^
+[14:36] <raydeeam> -rw- r-- r--
+[14:36] <raydeeam> -rw- is 6(r=4 w=2)
+[14:36] <raydeeam> r-- is 4(r=4)
+[14:36] <raydeeam> r-- is 4(r=4)
+[14:36] <sayan> you divide this into "d""owner read""owner write""owner execute""group read""group write""group execute""other read""other write""other execute"
+[14:37] <sayan> so there are 3 groups of read write and execute
+[14:37] <sayan> read = 4
+[14:37] <sayan> write = 2
+[14:37] <sayan> execute = 1
+[14:37] <darshna__> okay
+[14:37] <sayan> Now you calculate the value of each and get the three digit number
+[14:38] <sayan> darshna__: so what is yours?
+[14:39] <sayan> do let me know if I was not clear
+[14:40] <darshna__> I don't understand how do we calculate
+[14:40] <sayan> we add the value which you see
+[14:40] <sayan> your's is
+[14:41] <darshna__> we are adding 4,2,2 with?
+[14:41] <sayan> rw-r--r-- where the three groups are rw-, r--, r--
+[14:41] <sayan> for the first group it is 4+2+0, 4+0+0, 4+0+0
+[14:41] <sayan> which is 6, 4, 4
+[14:41] <sayan> in other words 644
+[14:42] <darshna__> oh
+[14:42] <raydeeam> the "d" in initial means it's a directory. if there is a "-" in first it means it's not a directory. then next 3 indexes are for owner next 3 are for group and the last 3 are for others
+[14:42] <darshna__> oh! yes, I get it now
+[14:42] <sayan> tell me what is 777
+[14:43] <sayan> darshna__: ^
+[14:44] <darshna__> sorry my laptop hanged
+[14:45] <sayan> darshna__: what is the value of 777?
+[14:45] <darshna__> telling
+[14:45] <darshna__> rwe
+[14:46] <sayan> darshna__: only rwx?
+[14:47] <darshna__> so owner group and others have read write execute permission
+[14:47] <sayan> others?
+[14:48] <peanutduck> rwx rwx rwx
+[14:48] <snowmanstark> -rwxrwxrwx
+[14:48] <raydeeam> -rwxrwxrwx
+[14:49] <sayan> darshna__: now you have to understand why is it rwxrwxrwx
+[14:49] <darshna__> okay
+[14:49] <sayan> raydeeam: snowmanstark it can be drwxrwxrwx also :)
+[14:49] <sayan> anyways moving ahead
+[14:49] <sayan> go ahead and do ls -l filename
+[14:49] <sayan> chmod +x filename
+[14:49] <raydeeam> if it's a directory then drwxrwxrwx
+[14:50] <sayan> ls -l filename
+[14:50] <sayan> and see what is the difference
+[14:50] <snowmanstark> raydeeam: +1
+[14:54] <darshna__> done
+[14:54] <sayan> What difference do you see?
+[14:55] <peanutduck> All the groups has execute permission
+[14:55] <darshna__> now it's  -rwxr-xr-x
+[14:55] <raydeeam> +x means we're giving permission to owner, group and other to execute the file. so it will be -rwxr-xr-x
+[15:00] <snowmanstark> done
+[15:12] <sayan> sorry, got office ping
+[15:13] <sayan> Now that you have added the execution bits
+[15:13] <sayan> try to do ./filename.py
+[15:14] <raydeeam> done
+[15:14] <sayan> does it give the proper output?
+[15:15] <peanutduck> I'm getting this error https://paste.gnome.org/pqcnaomsp
+[15:15] <sayan> others?
+[15:16] <raydeeam> same as peanutduck
+[15:18] <snowmanstark> same
+[15:19] <sayan> Can someone tell why?
+[15:19] <snowmanstark> since missing out on the shebang
+[15:19] <raydeeam> we have to add shebang
+[15:19] <nabarun> We didn't mention the interpreter.
+[15:19] <peanutduck> the file is being treated as a bash script
+[15:20] <sayan> Right, you need to explicitly mention it using the shebang line
+[15:20] <sayan> this is true for any language
+[15:20] <snowmanstark> the shell doesn't know where to execute these line
+[15:21] <sayan> Go ahead and put #!/usr/bin/env python
+[15:21] <sayan> in top of the script
+[15:23] <snowmanstark> done
+[15:23] <sayan> Does it work now?
+[15:24] <snowmanstark> yes
+[15:24] <raydeeam> yes
+[15:25] <peanutduck> yes
+[15:29] <sayan> others?
+[15:29] <sayan> darshna__:
+[15:30] <deathstalkr_> Yes
+[15:31] <darshna__> yes
+[15:31] <sayan> great!
+[15:31] <sayan> I guess now you all can run the program
+[15:32] <sayan> Complete the first five chapters: https://pymbook.readthedocs.io/en/latest/
+[15:32] <sayan> Next class on Thursday/Wednesday
+[15:32] <sayan> We will practice problems next day
+[15:32] <sayan> Roll Call
+[15:33] <snowmanstark> Philemon Johnson
+[15:33] <raydeeam> Rayan Das
+[15:33] <nabarun> Nabarun Pal
+[15:33] <darshna__> Darshna Das
+[15:33] <peanutduck> Benedict Ramasamy
+[15:34] <deathstalkr_> Solomon Johnson
+[15:35] <sayan> .endclass
+----END CLASS----
