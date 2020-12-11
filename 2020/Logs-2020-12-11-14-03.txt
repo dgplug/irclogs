@@ -1,0 +1,89 @@
+----BEGIN CLASS----
+[14:03] <sayan> #startclass
+[14:03] <sayan> Roll Call
+[14:04] <daemon1024> Barun Acharya
+[14:05] <snowmanstark> Philemon Johnson
+[14:05] <deathstalkr_> Solomon Johnson
+[14:06] <sayan> did you read the chapters?
+[14:06] <sayan> questions?
+[14:07] <peanutduck> Benedict Ramasamy
+[14:08] <snowmanstark> I don't recall any chapters? Did I miss something in the last class?
+[14:08] <darshna__> Darshna Das
+[14:08] <daemon1024> We are fine with using python in terminal right? There was a chapter regarding mu editor, I didn't try it out.
+[14:09] <daemon1024> snowmanstartk https://pymbook.readthedocs.io/en/latest/
+[14:11] <sayan> folks you know how to take input right?
+[14:12] <dpreacher> positively..
+[14:12] <darshna__> yes
+[14:12] <daemon1024> yes
+[14:12] <peanutduck> yes
+[14:13] <snowmanstark> Yes
+[14:13] <sayan> write a program to take two numbers and the operator and do the operation.
+[14:16] <sayan> do you need to learn any other concept to do this question?
+[14:22] <daemon1024> sayan done
+[14:22] <peanutduck> sayan done
+[14:22] <daemon1024> !
+[14:22] <sayan> next
+[14:23] <daemon1024> Is there no switch case statement in python?
+[14:23] <sayan> daemon1024: sadly no :)
+[14:23] <darshna__> done
+[14:27] <sayan> others?
+[14:28] <snowmanstark> Done
+[14:31] <sayan> write a program to build a employee database system
+[14:32] <sayan> where user gives the input of the details like name email, phonenumber, and salary
+[14:35] <snowmanstark> Do we need to use a rdbms package?
+[14:35] <sayan> no, simple dictionary
+[14:35] <snowmanstark> Okay
+[14:43] <snowmanstark> Done
+[14:43] <peanutduck> done
+[14:45] <daemon1024> done
+[14:46] <sayan> darshna__: ?
+[14:46] <darshna__> doing
+[14:47] <sayan> those who have completed, extend the program to take input of a max and min number and print all the salary in between them
+[14:49] <darshna__> done
+[14:50] <sayan> and then if you complete it extend the program return number of people who have @gmail.com email, @yahoo.com email, @rediff.com email and personal email (any thing other than the last three)
+[14:50] <sayan> and then extend the program to take a input of a part of phone number and return the list of people who own the particular number
+[14:51] <sayan> do you folks know about JSON?
+[14:51] <sayan> (anyone who does not know?)
+[14:52] <darshna__> have heard about it
+[14:52] <snowmanstark> Yes
+[14:53] <sayan> others?
+[14:53] <daemon1024> I know about it.
+[14:54] <peanutduck> Yes
+[15:00] <deathstalkr_> Yes
+[15:03] <sayan> folks internet is really flaky
+[15:04] <sayan> once you are done, you will return the results as JSON.
+[15:11] <sayan> daemon1024: snowmanstark darshna__ peanutduck how are things?
+[15:11] <peanutduck> Doing the mail count now sayan
+[15:12] <daemon1024> I am on mail count too
+[15:12] <sayan> how are you folks taking input?
+[15:13] <daemon1024> while loop offering choices till exit
+[15:13] <sayan> I mean are you folks typing dummy input everytime?
+[15:14] <daemon1024> Yess 😅
+[15:15] <snowmanstark> Yes
+[15:18] <darshna__> yeah
+[15:19] <sayan> you can actually generate a test case and then do something like this `python program.py < testinput.txt`
+[15:19] <peanutduck> done
+[15:19] <sayan> Then you can create once and use multiple times
+[15:20] <darshna__> I need sometime
+[15:20] <darshna__> atleast today
+[15:21] <sayan> no issues take your time darshna
+[15:40] <sayan> folks can you upload your code to pastbin and paste the link here for me to review?
+[15:40] <sayan> https://pad.riseup.net/p/dgplug-python-class
+[15:40] <sayan> darshna__: if you are still trying then no issues take your time
+[15:41] <darshna__> okay
+[15:45] <peanutduck> sayan, paste the link in the chat or https://pad.riseup.net/p/dgplug-python-class?
+[15:45] <sayan> peanutduck: into the pad
+[15:46] <peanutduck> Ok done sayan
+[15:51] <sayan> Thanks peanutduck
+[15:51] <peanutduck> You are welcome sayan
+[16:09] <darshna__> sayan: I did not understand this question ->"extend the program return number of people who have @gmail.com email, @yahoo.com email, @rediff.com email and personal email (any thing other than the last three)
+[16:09] <darshna__> and then extend the program to take a input of a part of phone number and return the list of people who own the particular number"
+[16:10] <sayan> You wrote a program to take the email id of the employees right?
+[16:10] <darshna__> yes
+[16:10] <sayan> You would need to extend the same program and do the filtering based of the email providers
+[16:10] <darshna__> oh
+[16:23] <sayan> darshna__: I would end the class, I will be around though
+[16:23] <sayan> Roll Call
+[16:23] <schubisu> Robin Schubert
+[16:24] <peanutduck> Benedict Ramasamy
+----END CLASS----
