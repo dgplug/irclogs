@@ -1,0 +1,90 @@
+----BEGIN CLASS----
+[13:30] <sayan> #startclass
+[13:30] <sayan> Roll Call
+[13:30] <daemon1024> Barun Acharya
+[13:31] <peanutduck> Benedict Ramasamy
+[13:31] <sap143> Md salman ansari
+[13:34] <darshna__> Darshna das
+[13:34] <sayan> Today we will do looping
+[13:35] <sayan> So, What do you mean by loops?
+[13:35] <sayan> (in general english?
+[13:35] <peanutduck> A circle
+[13:35] <daemon1024> closed line
+[13:36] <sayan> and along with that comes decision making
+[13:36] <darshna__> Loops are something which repeats any task
+[13:36] <BhaveshSGupta> Bhavesh Gupta
+[13:36] <sayan> What do you understand by decision making?
+[13:36] <daemon1024> decide between given choices or conditions
+[13:36] <BhaveshSGupta> To choose whether to go left or right for example
+[13:37] <darshna__> +1
+[13:37] <sayan> Exactly, whenever you are given choice, you have to decide what decision you have to make
+[13:38] <sayan> In programming, it either between two choices
+[13:38] <sayan> If the statement is True or False
+[13:38] <sayan> or in terms of numbers 0 is considered False
+[13:38] <sayan> and any non-zero number is True
+[13:41] <sayan> For all languages it translates to if (statement is true) then <do this> else (if the statement is false) <do this>
+[13:42] <sayan> https://www.irccloud.com/pastebin/BvIaFdJI/
+[13:42] <sayan> Okay did not want this ^^
+[13:42] <sayan> But okay
+[13:44] <sayan> not loops are the same, suppose you are at a roundabout and you keeping on going in circles
+[13:44] <sayan> then you are basically stuck
+[13:44] <sayan> in programming terms, you are stuck in a infinite loop
+[13:44] <sayan> to get out of the situation you need a condition to get out
+[13:45] <sayan> The syntax of while is:
+[13:45] <sayan> while condition:
+[13:45] <sayan>     statement1
+[13:45] <sayan>     statement2
+[13:45] <sayan> This is called a while loop
+[13:46] <sayan> as you see there is a condition, and there are two statements
+[13:46] <sayan> Now when you run this before entering the loop (because computer parses top to bottom), it would check if the condition is true
+[13:47] <sayan> If true, then it will enter the loop, else not enter the loop
+[13:47] <sayan> If it enters the loop it will execute the `statement1` and `statement2`
+[13:48] <sayan> after that, it will go to the condition again, and check if the condition is true
+[13:48] <sayan> and the cycle repeats
+[13:48] <sayan> The program will exit the while loop when the condition is False
+[13:48] <sayan> any questions?
+[13:48] <daemon1024> nope
+[13:48] <darshna__> no
+[13:49] <sayan> Okay moving ahead
+[13:49] <sayan> Q.1 Write A Program (WAP) to print the first 10 numbers using while loop.
+[13:50] <sayan> Q.2 WAP to print the first n numbers where the `n` is given by the user
+[13:50] <sayan> Q.3 WAP to find the sum of first n numbers where the `n` is given by the user. Also, print the average.
+[13:51] <sayan> Q.4 WAP to print the multiplication table from 1-10
+[13:53] <sayan> Q.5 WAP to print "power of 2" for 0-20 i.e 2 to the power (0-20) and negative power i.e. 2 to the power -ve(0-20)
+[13:54] <sayan> any questions?
+[13:55] <peanutduck> !
+[13:55] <sayan> next
+[13:55] <peanutduck> How should the output for Q.4 looks like?
+[13:58] <sayan> whichever you like: https://paste.gnome.org/phnn2ugyo
+[13:59] <peanutduck> Ok thanks sayan
+[14:00] <sayan> folks can every create a riseup pad with name dgplug-2020-<ircnick>
+[14:00] <sayan> and paste it here
+[14:14] <sayan> which problems are you folks doing?
+[14:15] <peanutduck> Q4
+[14:15] <daemon1024> Q4
+[14:21] <darshna__> Q4
+[14:21] <darshna__> went for some snacks
+[14:21] <sayan> No issues
+[14:26] <peanutduck> https://pad.riseup.net/p/dgplug-2020-peanutduck
+[14:27] <daemon1024> https://pad.riseup.net/p/dgplug-2020-daemon1024
+[14:40] <sayan> others?
+[14:41] <darshna__> doing
+[14:41] <darshna__> just creating the pad and last question
+[14:42] <BhaveshSGupta> last one in negative value
+[14:46] <darshna__> just give me a moment need to bring back my sister from her tution
+[14:47] <BhaveshSGupta> https://pad.riseup.net/p/dgplug-2020-bhaveshsgupta-tmp
+[14:49] <BhaveshSGupta> sayan, sorry my bad I made a mistake
+[14:59] <darshna__> https://pad.riseup.net/p/dgplug-2020-darshna__
+[15:05] <darshna__> I couldn't understand the last question. Can anyone elaborate a bit?
+[15:07] <sayan> darshna__: you have to compute the power of 2
+[15:07] <sayan> 2 ^ 1, 2^2, 2^3...
+[15:07] <BhaveshSGupta> You need to find power of 2, from 0 to 20 and -20 to 0
+[15:07] <darshna__> yes, but 0-2?
+[15:07] <sayan> and then negative
+[15:07] <darshna__> oh okay
+[15:09] <sayan> I'm ending the class here. Tomorrow I let's have another class with more questions
+[15:09] <sayan> Roll Call
+[15:10] <peanutduck> Benedict Ramasamy
+[15:10] <darshna__> Darshna Das
+[15:10] <BhaveshSGupta> Bhavesh Gupta
+----END CLASS----
