@@ -1,0 +1,249 @@
+----BEGIN CLASS----
+[13:30] <sayan> #startclass
+[13:30] <sayan> Roll Call
+[13:30] <schubisu> Robin Schubert
+[13:30] <sayan> Please type your full name
+[13:30] <sayan> Sayan Chowdhury
+[13:30] <sreelakshmi> Sreelakshmi Jayarajan
+[13:30] <raghavxk> Raghavendra Khare
+[13:30] <booom> P Sri Hari
+[13:30] <municomr> Muniyandi P
+[13:30] <vipulk> Vipul Kumar
+[13:31] <avikalp> Avikalp Kumar Gupta
+[13:31] <famubu> Julin S
+[13:31] <abi> Abirami
+[13:31] <dhanasekar> Dhanasekar
+[13:31] <sayan> We would wait for another 2 mins for people to join, and give their roll call
+[13:32] <N4G4R41> Nagarajan
+[13:32] <gutsytechster> Prashant Sharma
+[13:33] <avikalp> One my friends is just signing up for IRC and wants to attend. Might take some time. I hope that is fine.
+[13:33] <sayan> Yeah! that's totally fine!
+[13:34] <sayan> Welcome the 14th dgplug Summer Training!
+[13:35] <sayan> Today we would mostly be having a introductory class, have round of introduction, and then teach you how this training happens
+[13:35] <arunmathaisk> niceeee
+[13:35] <sayan> For introductions, please type your name, what do you do and how did you came to know about this training
+[13:36] <sayan> I'll start with mine
+[13:38] <sayan> hi folks! I'm Sayan Chowdhury. I'm from India, and work as a software developer at Microsoft. I did this summer training back in 2010 when I was in college, and have been on this channel since then. It's been a long time here. I've been part of lot of open source projects, namely Fedora, Python, Mozilla, and recently highly active in Flatcar Container Linux community. I will be one of the mentors of the training.
+[13:38] <sayan> go ahead folks! please introduce yourself :)
+[13:38] <arunmathaisk> Name - Arun Mathai
+[13:38] <arunmathaisk> Website - arunmathaisk.in
+[13:38] <arunmathaisk> About Me - 19 year old geek, here to learn and expand my knowledge about
+[13:38] <arunmathaisk> whatever is going on.
+[13:38] <arunmathaisk> I can code somewhat fine .(Being modest here).
+[13:38] <arunmathaisk> I love meeting new people and communities.
+[13:38] <arunmathaisk> I came to know abou this training though fsci.in(matrix group)
+[13:39] <avikalp> My name is Avikalp Kumar Gupta. I am from India. I am a software engineer in a gaming startup. I got to know about this training through a talk given by sayan in FOSS United.
+[13:39] <avikalp> I am an ex-Microsoft employee, sayan :) Nice to know that about you.
+[13:40] <N4G4R41> Hi everyone, im
+[13:40] <vipulk> Hi! I'm Vipul Kumar from India. I came to know about this training through fsci's matrix.
+[13:41] <raghavxk> Myself , Raghavendra Khare .I'm from India . I am in my sophomore class of B.Tech CSE . I came to know about DGPlug from quora. I have lately started with competitive coding and learning nodeJs. 
+[13:41] <sreelakshmi> Hi everyone, I'm Sreelakshmi Jayarajan, a first year undergraduate student from Kerala, India. I came to know about the training through the FOSS First Commit group.
+[13:42] <famubu> I'm Julin. Came to know about training from mailing list. :-)
+[13:42] <schubisu> I'm Robin Schubert, a physicist from Germany. I'm in this channel since 2017 when I took the summer training and was introduced to the beautiful FOSS community. Here I learned to contribute to the packages I like and use everyday.
+[13:43] <ritik> can anyone please tell me that how to join the session
+[13:43] <sayan> Others, who still not given their introductions are you still typing?
+[13:43] <humachine> Hi all, I am Ranjith Kumar, I am working as a system admin in a bangalore based company. I came to know about this from ILUGC mailing llist. 
+[13:43] <municomr> Hello Everyone i am muniyandi currently completed Engineering from Tamilnadu, India. and start to learn about Linux so that i joined. I interested to learn and contribute open source. But i am not familiar, Newbie. Hope this training helpful to me.  
+[13:43] <wisharya> My Name is Vishal Arya. I am from India.  I engage community at FOSS United and also non profit organization to enable them with tech to manage their day to day work. I get to know about this through FOSS United only. I have very basic knowledge of HTML, CSS and python. I am looking forward to learn more through this training. I joined this channel couple of days back.
+[13:43] <sayan> ritik: you are already in the session :)
+[13:43] <N4G4R41> I'm Nagarajan from India
+[13:43] <N4G4R41> Graduated B.E ECE
+[13:43] <N4G4R41> I'm interested in open hardware projects
+[13:43] <N4G4R41> I came to know about this training in FSCI matrix group
+[13:44] <saptaks> I am Saptak Sengupta. I write HTML and CSS and ramble about privacy, security and accessibility. I maintain and contribute to some open source projects.
+[13:45] <sayan> Welcome everyone!
+[13:45] <mohitsood> Hello Guys, I'm Mohit Sood from India. I am working as a Software engineer at GIS based startup. I got to know about this summer training from my colleague. I'm a newbie to FOSS
+[13:46] <sayan> The next question is what is your motivation behind joining this summer training?
+[13:47] <arunmathaisk> For me, i want to meet great people like you all and actually be a competent programmer. Get a feel of doing something over IRC.
+[13:47] <gutsytechster> Hi everyone! I am Prashant Sharma. I work as a Software Engineer at a GIS based Startup. I have attended this training in 2018 when I was in College. I am looking forward to get more involved in the FOSS community.
+[13:48] <N4G4R41> For me, to know about FOSS Community and to interact with u people.
+[13:48] <N4G4R41> Really excited in doing this in IRC.
+[13:48] <famubu> Meeting new people!
+[13:48] <arunmathaisk> N4G4R41 yeah  right!!
+[13:49] <shephali> Hello Everyone....  I am Shephali Tandon from India. I am working as a Software engineer  at Amdocs  in testing field.
+[13:49] <ritik> I wanted to be a part of open source community from a long time but I was not getting the proper path and then my senior Ashu bhaiya told me about this summer training so I joined it
+[13:49] <raghavxk> I want to get started with FOSS . I have lately started with web dev and I want to contribute to projects and meet new people.
+[13:49] <municomr> For me, need to improve my skill in open source and very excited to meet in irc. Also this type of irc is very new one for me. Thanks for DGPLUG
+[13:50] <pratik> Hi, I am Pratik Pathak. I make RPA bots for money and I am learning programming also. In free time, I philosophize over imponderables. Love FOSS principles but didn't know where to start. So came here
+[13:50] <wisharya> For me, foss is something empower us to learn from someone else's work and further you build something to teach others and in that process you create solutions to many problems out there
+[13:51] <vipulk> Meet new people and polish my programming skill.
+[13:51] <schubisu> to learn more and help others to learn more 
+[13:51] <N4G4R41> arunmathaisk: o/\o
+[13:52] <sayan> I joined the training to learn a programming language.
+[13:52] <humachine> I want to make my first contribution to open source and also enhance my skills and meet people :-)
+[13:52] <sayan> But as Brett Cannon from the Python Community says, "Came for the Language, stayed for community" :)
+[13:53] <daemon1024> Hey folks, I am Barun. I am a student developer. I attended the training last year and learnt a lot, looking forward to learning more and network with more folks.
+[13:53] <sayan> Before I move ahead I would like tell a bit about the history of the summer training. The summer training as you saw is the 14th edition.
+[13:53] <sayan> The summer training started back in 2008
+[13:54] <sc0rpi0n101> Hey folks, I'm Nikhil Maan. I'm a recent Computer Science graduate, and working as a Software Developer right now. I aplogize for joining late, but I'm a little confused right now. Can I know what we're talking about right now?
+[13:55] <sayan> And the Durgapur Linux Users' Group started back in 2005 to evagelize Linux, and free software by Kushal Das. Kushal was also behind starting this training.
+[13:55] <arunmathaisk> @sc0rpi0n101  Welcome!!! @sayan is telling us the history behind this training
+[13:56] <sayan> Open Source or Free Software is not just code, or a patch in a open source project. It is an idealogy, a discipline.
+[13:57] <sayan> Everything follows when you have the discipline and understand the idealogy. 
+[13:57] <sayan> Through this training we will try to teach you the idealogy, behind the open source, along with programming languages and techniques. 
+[13:59] <sayan> The training in the initial days, started with a handful of students and saw a steep rise in the number of students around mid-2010s but given this training does not give you "Drop your first commit in 10 days" most of the folks left after the initial days.
+[13:59] <sayan> And this usually happens with every training that we do. 
+[13:59] <sayan> There is a huge fire in the students in the beginning but it slowly dies of and you stopped joining the training.
+[14:00] <sayan> I want to make a comment here that, this is a life long journey. You might have seen there might be few people who did the training long back and still are in this channel
+[14:01] <sayan> We don't teach here how to make your first commit, rather guide you on the path to become an open source contributor.
+[14:01] <sayan> Being communicative is a very important thing.
+[14:02] <sayan> So ask questions! (not dumb, but smart question)
+[14:03] <sayan> How do you ask question you might ask? In a class, you usually raise your hands, so whenever you have a question raise your hands by typing exclamation mark
+[14:03] <sayan> !
+[14:04] <sayan> And the wait for you turn, because the mentor of the session would go through the raised hand in a FIFO manner (First In First Out)
+[14:04] <sayan> next
+[14:04] <sayan> ^^ see here chekov would ask you to ask your question.
+[14:04] <ritik> ok
+[14:05] <sayan> The next thing is to read properly, there is no reason to hurry here. Read properly what chekov says and follow chekov. 
+[14:05] <sayan> Any questions?
+[14:05] <ritik> is the whole summer training going to be conducted in this irc ??
+[14:05] <raghavxk> ! I have just started with html ,css and js . I am confused over what should i learn next ? nodejs or python for backend ? any suggestions ?
+[14:05] <pratik> !
+[14:05] <municomr> !
+[14:05] <sayan> next
+[14:06] <pratik> is privacy a lost battle? and when Microsoft says Microsoft loves Linux, is that just a marketing gimmick?
+[14:06] <sayan> pratik: this question is out of scope of this training.
+[14:06] <raghavxk> !
+[14:07] <pratik> ok thanks Sayan
+[14:07] <sayan> Ask question relevant questions, folks!
+[14:07] <sayan> next
+[14:08] <schubisu> pratik: feel free to stay in this channel after the training to discuss questions like that
+[14:08] <municomr> if any circumstance i miss session,  will get the session back? @sayan
+[14:08] <sayan> when chekov says to get ready with your question, start typing your question and be prepared with the question.
+[14:08] <booom> !
+[14:08] <sayan> municomr: the classes are recorded, but we are not obliged to upload the logs every day. 
+[14:08] <Guest35> I'm new here
+[14:08] <wisharya> What resources you would recommend for HTML, CSS and JavaScript for beginners?
+[14:09] <Guest35> how to view previous messages 
+[14:09] <pratik> thanks @schubisu
+[14:09] <municomr> okay thanks @sayan 
+[14:09] <sayan> municomr: in case you miss, you might want to ask some one else to pass you the logs. 
+[14:09] <N4G4R41> Guest35: join using IRC cloud or any other with backlog support
+[14:10] <municomr> from moderaters?
+[14:10] <sayan> example: in a class, if you missed a class, the closest help is your classmates :) Same here, ask your classmates :)
+[14:10] <sayan> next 
+[14:10] <municomr> okay thank :)
+[14:10] <Guest35> sayan I'm afraid that I'm alone
+[14:10] <sayan> next
+[14:10] <raghavxk> I have just started with html ,css and js . I am confused over what should i learn next ? nodejs or python for backend ? any suggestions ?
+[14:11] <philomath> Guest35, sayan meant your fellow classmates here on IRC.
+[14:11] <Guest35> there no classmates of mine here, also I'm a recent graduate
+[14:11] <schubisu> Guest35: the session is currently going on. Please type ! if you have a question and wait for chekov to call out your name
+[14:12] <de-sh> Guest35: we mean students also in the program :)
+[14:12] <sayan> raghavxk: the question is out of scope of today's class, but this is a group, the classes happen only 2-3 hours a week. The rest of the time it's a place where you all can discuss stuff. 
+[14:13] <sayan> raghavxk: so maybe it's a good conversation starter after the class-hours!
+[14:13] <raghavxk> thanks for the positive response.
+[14:14] <sayan> Folks! Remember the power of sharing! The motto of the group is to "learn and teach others". 
+[14:14] <ritik>  !
+[14:14] <Guest35> de-sh My mad, I'm in a class now, hello mates !!!
+[14:14] <sayan> So if you know something it is a very healthy habit to discuss and talk about those stuff in the off-class hours
+[14:15] <N4G4R41> ok sure
+[14:15] <schubisu> ritik: mind there's a space before your !, this will not work
+[14:15] <sayan> obviously following the etiquettes, and so, stay on this channel as much as you can and talk as much as you can
+[14:16] <ritik> !
+[14:17] <sayan> Share stuff you read, spark conversation. Why? Because this helps to grow professionally and also any open source project you contribute after a point of time, there are no easy bugs, but you become a seasoned developer, and it kind of becomes a software development cycle where you needs to discuss, question, and work on ideas with other folks.
+[14:18] <sayan> So learn it here :)
+[14:18] <sayan> next 
+[14:18] <sayan> next
+[14:18] <booom> Why are we using Python and not some other language? (If this will come up later then ignore.)
+[14:19] <Guest35> Python is beginner friendly and there is lot of stuff it can do and it is magical once you get started.
+[14:20] <sayan> booom: good question, Python is a easier language to teach over IRC and remember we have folks who are totally new to the realm of programming. We go at the speed of the slowest. If you know stuff, please be patient and walk with the slowest. If you try to be smart during the training, you will be kicked and later banned :)
+[14:21] <sayan> Also, it's possible we might do another language this year, but it depends on the students. As I told, we are not at all in a hurry.
+[14:21] <sayan> next
+[14:21] <ritik> what do we have to do as of now....is there any task or something?
+[14:21] <sayan> ritik: just read what is being typed, did I give any task?
+[14:22] <ritik> nope
+[14:22] <sayan> Then nope!
+[14:22] <sayan> Few other things, Write in proper English words. You will be warned, kicked, and banned if you type like this:
+[14:23] <sayan> "i m wrkng d qstn. plz hlp"
+[14:24] <Guest35> https://github.com/dwmkerr/hacker-laws    some good stuff
+[14:25] <de-sh> Guest35: please share links after class hours, thank you
+[14:25] <sayan> Guest35: it is best not not interfere when the mentor is taking a class. Feel free to share after the class.
+[14:25] <sayan> "i m wrkng d qstn. plz hlp" <- we have had folks in the past who typed in this type language, we don't understand this language here. So please we warned.
+[14:26] <sayan> The next thing is don't overuse exclamation marks and full stops! So no -> "help!!!!!!!!!!!!" or "please help..........."
+[14:26] <sayan> One is enough!
+[14:27] <sayan> any questions?
+[14:27] <sayan> I take that as a no.
+[14:28] <Guest35> Is there any videostream going on ? I'm bit confused
+[14:29] <sayan> thanks schubisu 
+[14:29] <sayan> Guest35 was warned a couple of times, and was kicked. 
+[14:29] <sayan> So, do remember this. 
+[14:30] <sayan> There is no fixed time for the classes, usually at this time but not fixed. We can schedule classes at other hours as well.
+[14:30] <sayan> But it would be told at the end of the class or added to the IRC topic.
+[14:31] <sayan> classes might have assignments, and it is very important to complete those.
+[14:31] <sayan> joining classes is also important on a regular basis, couple of miss is fine. 
+[14:32] <sayan> missing a bunch of classes and not doing assignments would lead us to ignore your questions during class.
+[14:32] <sayan> Any questions?
+[14:32] <sayan> schubisu: saptaks anything that I missed?
+[14:32] <schubisu> nope, maybe a hint to the faq, but it's in the topic anyway
+[14:33] <raghavxk> !
+[14:33] <sayan> schubisu: assignment that is :)
+[14:33] <sayan> next
+[14:33] <raghavxk> how can we make the most out of this training?  How should we approach this as a whole?
+[14:33] <saptaks> !
+[14:34] <sayan> raghavxk: I will tell what I did, schubisu can tell his journey, and then saptaks on how he as been associated.
+[14:35] <raghavxk> thank you . Thst is kind.
+[14:35] <raghavxk> that*
+[14:36] <sayan> I joined this training with zero knowledge, I had programming experience but not much. I used to do the classes, and the assignments. One thing I did not do was interact more but I still regret that so make most of the off class hours, we are open to guidance in the off-class hours.
+[14:36] <sayan> ask questions, read more, code more. 
+[14:37] <sayan> ^^ learning is a lifelong journey
+[14:37] <raghavxk> This is insightful and motivating . Thank You Sir. 
+[14:37] <sayan> raghavxk: thanks for reminding :)
+[14:39] <sayan> raghavxk: I'm yet to get my honour of knighthood from queen, till then you can call me just "sayan" :)
+[14:40] <sayan> and I'm sure no one here as that yet so no "Sir / Madam"
+[14:40] <sayan> schubisu: do you want to share yours?
+[14:40] <sayan> next
+[14:40] <schubisu> When I joined the training, I was already working as a software developer and data scientist. I know about the existence of FOSS, but I didn't know what it meant. I heard about communities, but I never participated in one. I was writing lots of emails, but I learned here how to communicate effectively and without causing frustration to my respondees. So now I'm not using FOSS for practical reasons,
+[14:40] <schubisu> but because I love what it stands for.
+[14:40] <raghavxk> Sorry if that made you uneasy . I am new to IRC . I am learning my way through.
+[14:41] <saptaks> sayan, was just curious if we are asking everyone to register their IRC nicks and use a proper IRC client. I am not sure if that will come later as part of a class
+[14:41] <de-sh[m]> IRC <=> Matrix
+[14:41] <daemon1024[m]> I believe so. I just opened the web liberachat and the matrix bridge is running 20 minutesafe :)
+[14:41] <daemon1024[m]> minutes late*
+[14:41] <de-sh[m]> <daemon1024[m] "I believe so. I just opened the "> * de-sh oh no!!!
+[14:41] <daemon1024[m]> I am not even sure it's delayed now. I think it's straight up not working. I would suggest to join in their from the web client.
+[14:41] <daemon1024[m]> web.libera.chat
+[14:41] <iamsdas[m]> yup got it working
+[14:42] <sayan> saptaks: yes, not this class
+[14:42] <sayan> but next class. we will change modes of the channel to not let people talk without registered nicks :)
+[14:43] <sayan> saptaks: do you want to add anything else?
+[14:43] <sayan> next
+[14:43] <sayan> no raised hands!
+[14:44] <saptaks> So maybe we should share links on how to register and use a proper client? I don't think it's part of the faq
+[14:44] <saptaks> Nothing else to aadd from my end as such
+[14:44] <sayan> saptaks: This class they will have couple of things to read, so skipping that for this class
+[14:44] <sayan> Assignments
+[14:44] <saptaks> okay
+[14:44] <sayan> Read: https://kushaldas.in/pages/hacker-ethic-and-free-software-movement.html
+[14:45] <sayan> Read: https://summertraining.readthedocs.io/en/latest/faq.html#faq
+[14:45] <sayan> Read: http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf
+[14:45] <sayan> Remember to complete the assignments
+[14:46] <N4G4R41> sure
+[14:46] <sayan> Next class will be same time, Thursday, July 1st 2021, 1900 IST
+[14:47] <sayan> any questions, last chance
+[14:47] <nabarun> !
+[14:47] <sayan> next
+[14:47] <nabarun> What else are we going to learn and share knowledge on apart from Python?
+[14:48] <mohitsood>  /part
+[14:48] <sayan> During the summer training class, few topics like bash, git, Python would be there, the others would be on how the flow of the class goes
+[14:49] <sayan> off class, feel free to study anything :)
+[14:49] <sayan> Roll Call
+[14:49] <sayan> Sayan Chowdhury
+[14:49] <gutsytechster> Prashant Sharma
+[14:49] <schubisu> Robin Schubert
+[14:49] <booom> P Sri Hari
+[14:49] <wisharya> Vishal Arya
+[14:49] <nabarun> Nabarun Pal
+[14:49] <mohitsood> Mohit Sood
+[14:49] <N4G4R41> Nagarajan
+[14:50] <pratik> Pratik Pathak
+[14:50] <sreelakshmi> Sreelakshmi Jayarajan
+[14:50] <daemon1024> Barun Acharya
+[14:50] <shrini> shrinivasan
+[14:50] <sc0rpi0n101> Nikhil Maan
+[14:50] <humachine> Ranjith kumar
+[14:50] <vipulk> Vipul Kumar
+[14:50] <mib_bab5jk> VK Susheel
+[14:51] <municomr> muniyandi
+[14:51] <raghavxk> Raghavendra Khare
+----END CLASS----
