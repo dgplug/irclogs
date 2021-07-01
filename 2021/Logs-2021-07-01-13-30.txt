@@ -1,0 +1,177 @@
+----BEGIN CLASS----
+[13:30] <sayan> #startclass
+[13:30] <sayan> Roll Call
+[13:31] <sayan> Sayan Chowdhury
+[13:31] <famubu> Julin S
+[13:31] <sreelakshmi> Sreelakshmi Jayarajan
+[13:31] <booom> Sri Hari
+[13:31] <vipulk> Vipul Kumar
+[13:31] <municomr> Muniyandi 
+[13:32] <schubisu> Robin Schubert
+[13:32] <mohitsood> Mohit Sood
+[13:32] <pratik> Pratik Pathak
+[13:32] <peanutduck> Benedict Ramasamy
+[13:33] <avikalp> Avikalp
+[13:33] <wisharya> Vishal Arya
+[13:34] <sayan> Folks, please be punctual and be on time in the class
+[13:34] <sayan> Folks what questions do you have from the last class. I won't be taking any questions for Kushal Das blogpost
+[13:35] <sayan> Raise your hands to ask questions
+[13:35] <sayan> Who all did not read the assignment give?
+[13:35] <sayan> s/give/given?
+[13:35] <shephali> shephali
+[13:36] <sayan> So, I'm guess that folks don't have any question, right?
+[13:38] <sayan> Can I get a yes, or a no? There is no point talking to a blank audience. I will be happy to end the class if folks don't. 
+[13:38] <iamsdas> No questions
+[13:39] <peanutduck> No
+[13:39] <municomr> NO
+[13:39] <vipulk> No questions.
+[13:40] <sreelakshmi> No questions
+[13:40] <sayan> municomr: What does writing everything in caps means?
+[13:41] <municomr> Sorry by mistake Caps on
+[13:41] <sayan> municomr: that's a question, please answer!
+[13:43] <N4G4R41> Nagarajan 
+[13:43] <N4G4R41> Sorry for being late
+[13:44] <booom> Shouting
+[13:45] <municomr> i think caps means shouting
+[13:45] <ishivamsoni> Sorry for being late.
+[13:45] <vasanth> https://www.irccloud.com/pastebin/DUNnJdOH
+[13:45] <sayan> vasanth: what this?
+[13:46] <sayan> vipulk: tell me what are the things to avoid while sending emails to mailing list?
+[13:47] <ishivamsoni> I don't have any questions.
+[13:47] <vipulk> sayan: Top posting, over quoting.
+[13:47] <vasanth> Hhh
+[13:47] <sayan> municomr: can you please explain over quoting? 
+[13:47] <vipulk> Also sending mail in HTML.
+[13:48] <sayan> mohitsood: explain what is top posting?
+[13:48] <sayan> N4G4R41: explain, if not HTML, what kind of email should you send to mailing list?
+[13:50] <humachine1> just now joined.. Sorry for being late
+[13:52] <sayan> Okay, folks tell me who are actually read through the assignment?
+[13:52] <iamsdas> me
+[13:52] <ishivamsoni> Me.
+[13:53] <sreelakshmi> me
+[13:53] <sayan> it's okay to not read, but it's not okay to say yes you have read and then not answer questions
+[13:53] <vipulk> me
+[13:53] <humachine1> me also
+[13:53] <N4G4R41> sayan: why i can't send messgaes, it says messages can't send
+[13:53] <booom> @municor has left. So I'll try to asnwer. Over quoting is ">>>>>>>"; referring a preivous response way too much. 
+[13:54] <N4G4R41> Plain texting 
+[13:54] <N4G4R41> Plain texting 
+[13:54] <N4G4R41> Plain texting 
+[13:54] <N4G4R41> Plain texting 
+[13:54] <N4G4R41> Plain texting 
+[13:54] <N4G4R41> plain text format
+[13:54] <mohitsood> Apologies! @sayan I haven't gone through the assignment yet. But definitely it won't happen again
+[13:54] <sayan> N4G4R41: Please stop spamming the channel
+[13:55] <famubu>   /whois N4G4R41 
+[13:55] <N4G4R41> sorry for more messages, some problem here, now its ok
+[13:55] <sayan> Those folks, who have not read the previous assignment, please read it now
+[13:56] <sayan> Those who have completed reading the assignment please read this now: http://www.catb.org/~esr/faqs/smart-questions.html
+[13:56] <N4G4R41> sayan: sorry I'm not intended to spam, at first it says messges couldn't be sent, try again many times, so it is coming as whole lot
+[13:57] <sayan> the folks reading "Ask Questions the Smart Way" - please drop your questions here. 
+[13:57] <sayan> Please read it now. 
+[13:59] <sayan> We follow the points noted in there quite seriously so next week when we start our sessions, you need to follow the things mentioned in there.
+[14:01] <sayan> This helps, the person taking the class, the other folks attending the class.
+[14:01] <sayan> Not only this remember these when interacting with open source communities
+[14:02] <sayan> This is training is free, but the time devoted by me and the other folks who would take the class is not.
+[14:03] <booom> Got it. 
+[14:03] <sayan> The training does not have any formal end, if the students of the session don't follow, or are interactive, we will stop the classes :)
+[14:04] <sayan> Similarly, the maintainers you interact with, asking for help. Their time is valuable, so respect is very important.
+[14:04] <sayan> asking smart questions is a way that helps.
+[14:05] <sayan> How many folks here are using Matrix?
+[14:05] <sayan> or platform like irccloud?
+[14:05] <sayan> please write "me"
+[14:05] <avikalp> me
+[14:05] <municomr> me
+[14:05] <iamsdas[m]> me
+[14:05] <raghavxk> me
+[14:05] <vipulk> me
+[14:05] <N4G4R41> me
+[14:07] <famubu> also using matrix.
+[14:08] <sayan> Okay, if there are too many disconnections, or the bridges are giving issues, we would say to join this training via IRC client
+[14:08] <sayan> this helps to bring sanity in the class
+[14:10] <booom> I've joined through libera web chat. I'll try irccloud for next class.
+[14:10] <sayan> for irccloud folks, please don't paste multi-line pastebin links
+[14:11] <N4G4R41> ok 
+[14:11] <raghavxk> I was late to class. Can anyone tell me what are we discussing today?
+[14:12] <municomr> ok
+[14:12] <famubu> !
+[14:12] <avikalp> raghavxk: we are going through any questions that readers had from previous assignments and we got a new reading link: http://www.catb.org/~esr/faqs/smart-questions.html
+[14:13] <sayan> if you join the class late, please discuss things in private, as a friend for logs
+[14:13] <raghavxk> Thank You! This was helpful.
+[14:13] <sayan> not during the class
+[14:13] <sayan> sorry not in here.
+[14:13] <sayan> ext
+[14:13] <sayan> next
+[14:13] <famubu> Doesn't the libera web chat also count as an irc client? 
+[14:15] <sayan> it does!
+[14:18] <avikalp> !
+[14:18] <sayan> next
+[14:18] <avikalp> How do we indicate here that we have read the smart questions article and have no questions regarding it?
+[14:18] <famubu> !
+[14:21] <sayan> avikalp: just type done reading, but you have already completed reading?
+[14:22] <sayan> ext
+[14:22] <sayan> next
+[14:22] <avikalp> Most of it was part of the assignment, I guess. I had read from the "#forum" section and on. I have completed reading uptil that now
+[14:22] <famubu> If we agree with a user's message in IRC, how do people usually 'upvote' that message? Is posting a "+1" okay? Or is such a practice considered bad?
+[14:24] <sayan> famubu: bad practice at least for this channel. different channels have different way to see it
+[14:24] <sayan> but in general people hate plain +1, Rather typing a line is much better
+[14:26] <sayan> avikalp: you mean you did not read before #forum?
+[14:26] <famubu> !
+[14:27] <avikalp> yes.
+[14:28] <avikalp> I had not read before the forum section before the class. I read it now.
+[14:28] <sayan> next
+[14:29] <famubu> Is it bad to post a message thanking the person who answered a question? Like here after getting a query answered after putting a "!"? And what if a participant has a question related to the answer that was just given? Should they put up another "!" or just reply?
+[14:31] <sayan> you can write thanks, any questions should be started with !
+[14:32] <sayan> or else people might just putting followup  questions
+[14:33] <raghavxk> !
+[14:33] <famubu> Okay, thanks. :-)
+[14:33] <avikalp> !
+[14:34] <sayan> next
+[14:34] <sayan> next
+[14:35] <avikalp> Who should subscribe to the dgplug mailing list? Everyone here, who is interested in contributing to open-source projects, or just the ones who would be interested in answering questions related to open-source?
+[14:35] <sayan> avikalp: everyone should subscribe to the dgplug mailing list. 
+[14:35] <avikalp> Thank you
+[14:35] <sayan> It's always good to read about the intro/agenda of the mailing list
+[14:36] <sayan> Instead of thank you if your question is answered type <eom> = end of message
+[14:36] <sayan> next
+[14:39] <raghavxk> !
+[14:39] <booom> Done reading. 
+[14:40] <sayan> next
+[14:40] <sayan> booom: great!
+[14:40] <raghavxk> Is it ethical to share small personal details over IRC  or to ask someone for the same?
+[14:42] <sayan> raghavxk: good question. it depends on a lot of things, you might not able to say if the person you are sharing with is the person you intended.
+[14:42] <sayan> there is no face to nick
+[14:42] <sayan> so better to avoid. :)
+[14:42] <sayan> also if you think it is okay and might not affect then you might.
+[14:43] <sayan> It depends a lot on the connections you make over time.
+[14:43] <sayan> There is no fixed answer
+[14:44] <raghavxk> <eom>
+[14:45] <sayan> I don't ask for personal details :)
+[14:46] <raghavxk> I get the idea.
+[14:48] <sayan> next
+[14:48] <sayan> what the status of reading folks?
+[14:48] <sayan> How far are you folks?
+[14:48] <iamsdas[m]> Done reading
+[14:48] <raghavxk> I am done reading.
+[14:48] <N4G4R41> completed halfway
+[14:52] <avikalp> !
+[14:58] <sayan> next
+[14:58] <avikalp> Sorry, I was able to resolve my own doubt through web search. <eom>>
+[14:59] <sayan> avikalp: great!
+[14:59] <sayan> putting the document to test! but you should have searched first
+[14:59] <avikalp> I agree. I realised after sending the "!"
+[14:59] <sayan> Let's end the class here. Next class we will start with Linux commands. Please read this again if you need to, and the previous assignment. 
+[14:59] <sayan> Roll Call
+[15:00] <avikalp> Avikalp Kumar Gupta
+[15:00] <N4G4R41> Nagarajan
+[15:00] <sreelakshmi> Sreelakshmi Jayarajan
+[15:00] <schubisu> Robin Schubert
+[15:00] <avikalp> sayan: Shouldn't chekov have said something when "Roll Call" was annouced?
+[15:00] <wisharya> Vishal Arya
+[15:00] <iamsdas[m]> Suryashankar Das
+[15:00] <peanutduck> Benedict Ramasamy
+[15:01] <VKSusheel> VK Susheel
+[15:01] <N4G4R41> avikalp: checkov respond only for #startclass,next,#endclass, i guess
+[15:02] <booom> Sri Hari
+[15:02] <ishivamsoni> Shivam Soni
+----END CLASS----
