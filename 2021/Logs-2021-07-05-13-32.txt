@@ -1,0 +1,164 @@
+----BEGIN CLASS----
+[13:32] <sayan> #startclass
+[13:32] <sayan> Roll Call
+[13:32] <philomath> Mohit Bansal
+[13:32] <darshna__> Darshna Das
+[13:32] <N4G4R41> Nagarajan
+[13:32] <saptaks> Saptak Sengupta
+[13:32] <sreelakshmi> Sreelakshmi Jayarajan
+[13:32] <VKSusheel> VK Susheel
+[13:32] <raydeeam> Rayan Das
+[13:33] <vipulk1> Vipul Kumar
+[13:33] <avikalp> Avikalp Gupta
+[13:33] <peanutduck> Benedict Ramasamy
+[13:33] <ishivamsoni> Shivam Soni
+[13:34] <saptaks> I am guessing most of the people are here. sayan should I start?
+[13:34] <sayan> saptaks: sure! go ahead!
+[13:35] <saptaks> Great! Today we are going to discuss about the ideologies behind free and open source software development and the community and some of the things you should keep in mind when you contribute to open source projects, attend open source conferences and participate in open source communities.
+[13:35] <saptaks> I won't be telling anything related to code today but more about the ideologies. Also through out the session, I will ask for questions, so you get a chance to ask questions at that time.
+[13:36] <saptaks> I appreciate if not interrupted otherwise.
+[13:36] <saptaks> Trigger Warning: I will talk about some movements created by some people who have later done some disrespectful stuff. I apologize if that triggers anyone.
+[13:37] <saptaks> This is not Free Software vs. Open Source session. I am not going to talk about how Free software and Open Source are different from one another, but more on how they have similar ideologies and principles with a community in the core of it.
+[13:38] <saptaks> One thing that is very important to start with and always to remember is: Free and Open Source Software is a socio-political movement. It's not just about writing code but also about how it impacts the society as a whole.
+[13:38] <saptaks> Free software movement was primarily born out of 4 main principles: a freedom to run a software, freedom to study the code of software and study how it works, freedom to copy and redistribute copies of the software,  freedom to improve and share the improvements publicly.
+[13:39] <saptaks> So as you can probably understand the term "Free" in free software essentially means freedom.
+[13:40] <saptaks> Open Source Movement is also a similar movement that came later out of the free software community which focused more on the Openness of the code.
+[13:40] <saptaks> Of course there are licenses and definitions for both defining the various aspects which are super important and hopefully we will have a future session describing more about that.
+[13:41] <saptaks> But as you can understand both freedom and openness are primarily a socio-political factor. Code and softwares are now tightly entangled in our life, and it affects every aspect of the society, whether it be as simple as playing a movie in your laptop, to booking a vaccination slot. Hence, now is more important to understand the reason why we should do and promote Free and Open Source software.
+[13:41] <saptaks> Any questions till this point?
+[13:42] <saptaks> Use ! if you have questions
+[13:42] <ishivamsoni> No
+[13:42] <avikalp> !
+[13:42] <saptaks> sayan next
+[13:43] <sayan> What about other folks? If you don't interact with the person taking the class we will take that as you are not attending the class.
+[13:43] <sayan> next
+[13:43] <avikalp> I understand how it is a social movement. The politic-bit is unclear. Can you give an example of how this is a political movement?
+[13:44] <raydeeam> I don't have any question. 
+[13:44] <darshna__> no questions till now
+[13:44] <VKSusheel> No question
+[13:44] <peanutduck> No question
+[13:45] <vipulk1> No questions till now.
+[13:45] <humachine> I am also attending.. No questions thus far
+[13:45] <saptaks> avikalp, the thing with politics is we often use it in a derogatory terms of people fighting for own selfish causes in a cunning way. When I say politics, I don't mean that. But at the same time, fighting against proprietary software for the freedom and openness of code so everyone can actually use it the way they want, that in itself is a political movement.
+[13:46] <saptaks> Also, before free software and open source software, inclusivity was almost negligible. There was never a community and codes were often written by only a particular set of similar looking group of people.
+[13:46] <avikalp> I see. So it is a political movement because it challenges the legislature associated with most software out there. Am I right?
+[13:46] <darshna__> !
+[13:46] <saptaks> Free and Open Source movement helps bring in diversity because now everyone has the freedom to contribute and improve a piece of code so that the code doesn't represent the ideologies of only a particular set of people.
+[13:47] <saptaks> And that itself is also a political aspect of it.
+[13:47] <saptaks> avikalp, does that answer your question?
+[13:48] <avikalp> Yes. 
+[13:48] <saptaks> avikalp, yes. It challenges a lot of things and hence it is political.
+[13:48] <saptaks> sayan next
+[13:48] <sayan> next
+[13:49] <darshna__> saptaks: what does it mean by "similar looking people"? 
+[13:49] <darshna__> sorry, "similar looking group of people"?
+[13:50] <saptaks> By similar looking people, I meant lack of diversity. Often a lot of software teams are male dominated, or sometimes dominated by fair skinned people. Hence the codes often represent their thoughts and ideologies.
+[13:50] <darshna__> oh, okay
+[13:50] <saptaks> For example, I will recommend a movie at the end of the session, which talks largely on this topic. The lack of diversity leads to biases in softwares.
+[13:51] <saptaks> And hence is accessible for everyone.
+[13:51] <saptaks> darshna__, does that answer your question?
+[13:52] <sayan> next
+[13:52] <saptaks> Ok. so I will proceed some more.
+[13:52] <saptaks> So like I was saying to darshna__ Free and Open Source software helps make softwares accessible to everyone. People can package and share it in the way they want for the society they want to cater to, instead of vendor locking and making it available to a particular group of people.
+[13:53] <saptaks> It allows diverse group of people irrespective of their skin color, location or religion to contribute which in turn makes the softwares and codes better.
+[13:54] <saptaks> It's definitely not perfect but that is what the movement is about, and that is what all of us here are trying to promote and hopefully you will be doing the same as well.
+[13:55] <saptaks> It also brings along with it transparency. Transparency is important for both inclusivity and for security of the code.
+[13:56] <saptaks> Let's say if in a proprietary software team, there are 10 people. Everything is checked and audited by this 10 people only.
+[13:56] <saptaks> But in a Free and Open Source code, anyone and everyone can check the code for bugs and issues, and in turn improve the security and overall usability of the code.
+[13:56] <saptaks> And hence, community is a super important part of the entire free and open source movement.
+[13:57] <saptaks> Open source is not always about a code project. For example, dgplug in itself is a community of people promoting and helping others get started on their free and open source journey
+[13:58] <saptaks> So the dgplug community is as much part of the Open Source ecosystem, as a coding project, for example firefox.
+[13:58] <saptaks> And often, you will see that there is a community associated with different Open Source organizations and Open Source projects as well.
+[13:58] <saptaks> Any questions till now?
+[13:59] <avikalp> !
+[13:59] <sayan> next
+[13:59] <raydeeam> no
+[13:59] <humachine> !
+[14:00] <sayan> next
+[14:00] <avikalp> Most of the popular open-source projects (at least the ones that I am aware of, like Linux, VSCode, Kubernetes etc.) seem to have a utility philosophy behind them. I am struggling to understand how representation of diverse people would benefit in building the right software. (I understand how other freedoms, and transparency, can help in iterative improvement because of the combined brain power of all the people who care about and 
+[14:00] <avikalp> have access to the code of these softwares.)
+[14:01] <humachine> can we take open source as having parallels with communism ?
+[14:01] <raydeeam> humachine: wait for your turn. 
+[14:02] <saptaks> avikalp so I will give you one example thought there are many use cases. Let's say the VSCode team has no person who has any form of disability or need for an assistive technology. Now they might not be aware of the difficulties that someone with disabilities and using assitive technologies will face while using VSCode.
+[14:02] <sayan> raydeeam: he was asked to ask the question
+[14:03] <saptaks> But since VSCode is open source, a person with disability, or someone who works with assistive technologies can report issues on how to improve the user experience for them
+[14:03] <saptaks> So that's just one example.
+[14:03] <avikalp> !
+[14:03] <sayan> apologies, not he, but humachine was asked to ask the question
+[14:04] <saptaks> Let's say there is a ML project in open source for face detection. And it is trained only on faces of fair skinned people. Then it might not be able to detect dark skinned people's faces. Hence diversity is important
+[14:04] <saptaks> there are many such usecases. And diversity always helps improve not degrade the quality
+[14:05] <N4G4R41> !
+[14:05] <saptaks> humachine, there can definitely be certain aspects of free and open source that you might find similar to communism. I will leave my answer till that.
+[14:06] <avikalp> I see, so inclusion of different subsections of the society might not directly lead to any special advantage for every project, but on a case basis, it can. But it will never lead to any disadvantage.
+[14:07] <saptaks> avikalp  you are supposed to wait for your turn till checkov tells you to ask a question.
+[14:07] <sayan> next
+[14:07] <avikalp> Sorry, I was just making sure that I understand the answer to my question correctly. I had submitted the "!" for a follow up which is now answered.
+[14:08] <sayan> next
+[14:08] <saptaks> avikalp, many things might not have direct impact on the first glance. But indirectly it always improves.
+[14:08] <N4G4R41> I'm still confused, how dgplug is open source community, i thought that it is both free and open source community. so how can i differentiate betweeen free and open source ?
+[14:09] <saptaks> N4G4R41, like I mentioned in the beginning of the class, today we are going to talk about the similarities in ideologies. So for today's class when I say Open Source or just Free software, I mean Free and Open Source
+[14:09] <N4G4R41> ok thanks <eom>
+[14:10] <sayan> next
+[14:10] <saptaks> Great!
+[14:10] <saptaks> So we were talking about how in Free and Open Source, community plays a very important role so that we can have more diversity and inclusivity in our softwares and projects.
+[14:11] <saptaks> Like all communities, there are obviously certain etiquette and code of conducts that you should always follow no matter which free and open source project you are a part of.
+[14:11] <saptaks> First and one of the most important point is: Be Respectful and nice to everyone. Do not use any inappropriate language and do not attack people. Always be polite.
+[14:12] <saptaks> Remember, a lot of the project and community maintainer are doing this outside of work in their free time. Also, there are timezone differences. So you need to be patient and polite and respectful.
+[14:12] <saptaks> Secondly, Do not assume pronouns of people. It's always better to use gender neutral terms. You can check out https://heyguys.cc/
+[14:13] <saptaks> Before creating an issue, make sure it is actually reproducible. First check through the buglist for the projects first, whether it is a documentation change or a code change.if there is some similar bug already filed.
+[14:14] <saptaks> When creating an issue, make sure you clearly mention how to reproduce the bug or issue you faced. Also, if you have a suggestion that might fix the issue, always a good idea to mention that in the issue as well.
+[14:14] <saptaks> When you ask for help with installation or some issue, first always search yourself. To have a privacy focused search, use DuckDuckGo. Once you have searched thoroughly and still not found any solution, then you can go to the project's communication channels and ask.
+[14:15] <saptaks> When asking for help or reporting an error, remember there is no magic mirror. Don't come and say "I have an error". Give more details on the error messages. Use a pastebin services like share.riseup.net to share a longer error message or traceback.
+[14:15] <saptaks> We also always recommend to ask in public channel because then there will be multiple people from different timezone who might be active and able to help you, than private messaging or direct message someone.
+[14:16] <saptaks> Any questions?
+[14:16] <darshna__> No
+[14:16] <sreelakshmi> No questions
+[14:16] <schubisu> add: saptaks
+[14:16] <raydeeam> no
+[14:16] <humachine> no
+[14:16] <avikalp> no
+[14:17] <peanutduck> no
+[14:17] <saptaks> Great! Few more things.
+[14:17] <saptaks> Before creating a PR, if someone is already assigned or someone else has already commented, do ask first politely. If there is already an ongoing fix, check if it already addresses all the fix. Else leave a comment, instad of creating a completely new fix.
+[14:18] <saptaks> Remember, Free and Open Source is not just a 3-month summer of code program. It's about sharing knowledge and making things accessible for everyone. It's important to be inclusive and encourage diversity in the community. So always be welcoming.
+[14:19] <saptaks> It's very important to understand the ideologies behind open source. There are obviously advantages like getting a better job if you have contributions in an open source project. But as part of dgplug, we would want you to continue contributing to Free and Open Source.
+[14:20] <saptaks> And when I say contributing to Free and Open Source, it's not just code contribution
+[14:21] <saptaks> All contributions like documentation, design, usability studies, testing, talking and writing blogs about various tools, translation of software, even helping organize open source conferences meetup, everything is a way of contributing
+[14:22] <saptaks> None of the above contribution are, in anyway more or less significant than the other.
+[14:22] <saptaks> So it's important to be welcoming and understanding as part of the community.
+[14:22] <saptaks> Any questions?
+[14:23] <avikalp> !
+[14:23] <saptaks> next
+[14:23] <avikalp> Why is it advisable to not work on a new fix if we can? It might waste some of our effort, in case it is not the intended fix according to the maintainers, but why is it against the free software or open-source etiquette? Is it considered rude? What if the original 'fixer' is not actively working on the fix anymore?
+[14:24] <saptaks> avikalp, if the original 'fixer' is not actively working, go and comment on the PR or the issue if they are still planning to complete the fix. If they don't reply, then definitely go and create a new fix.
+[14:24] <saptaks> Most of the time if they are busy, they will comment and ask you to go and create a new fix
+[14:25] <saptaks> If you want to actually value the contribution of the initial fixer, you can also do that, but that is for another session when we talk about git.
+[14:25] <avikalp> I see. And waiting how long is considered polite (in case there is no response)?
+[14:26] <saptaks> avikalp, there is no rule as such but I would say you should at least wait 1-2 weeks for someone to reply. You can also meanwhile take a look at other issues.
+[14:26] <avikalp> ok, thank you <eom>
+[14:26] <saptaks> Any other question?
+[14:27] <raydeeam> no
+[14:27] <VKSusheel> No
+[14:27] <sreelakshmi> No questions
+[14:28] <saptaks> A lot of what we talked today you should already know by now if you read through the hacker ethics post and communication etiquette. Still, always a good idea to read through: https://summertraining.readthedocs.io/en/latest/beforestart.html
+[14:28] <saptaks> As a task till your next session, take some time out and watch Declaration of Independence of Cyberspace (https://www.youtube.com/watch?v=3WS9DhSIWR0) and The Internet's Own Boy (https://www.youtube.com/watch?v=9vz06QO3UkQ)
+[14:29] <saptaks> Also, to understand how code impacts our lives and why diversity is so important, watch Coded Bias (https://www.codedbias.com/) in Netflix.
+[14:29] <saptaks> sayan, schubisu nabarun am I missing anything?
+[14:29] <sayan> saptaks: nope
+[14:30] <saptaks> Okay. Any more questions related to today's session? You can obviously watch the videos, and utilize the days in between the sessions to discuss things about it.
+[14:30] <avikalp> no more questions
+[14:31] <saptaks> A lot of Free and Open Source software development (at least the learning phase) is drive by self motivation. So be active in this channel, be respectful to another, and feel free to discuss doubts and ideas or anything related to FOSS.
+[14:32] <saptaks> Roll Call
+[14:33] <raydeeam> Rayan Das
+[14:33] <avikalp> Avikalp Gupta
+[14:33] <sreelakshmi> Sreelakshmi Jayarajan
+[14:33] <N4G4R41> Nagarajan
+[14:33] <VKSusheel> VK Susheel
+[14:33] <humachine> Ranjith Kumar
+[14:33] <vipulk1> Vipul Kumar
+[14:33] <schubisu> Robin Schubert
+[14:33] <peanutduck> Benedict Ramasamy
+[14:33] <ishivamsoni> Shivam soni
+[14:33] <saptaks> Saptak Sengupta
+[14:33] <darshna__> Darshna Das
+----END CLASS----
