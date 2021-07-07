@@ -1,0 +1,142 @@
+----BEGIN CLASS----
+[13:30] <nabarun> #startclass
+[13:30] <nabarun> Roll Call
+[13:30] <ishivamsoni> Shivam Soni
+[13:30] <sreelakshmi1> Sreelakshmi Jayarajan
+[13:31] <avikalp> Avikalp Kumar Gupta
+[13:31] <humachine1> Ranjith Kumar
+[13:31] <ritik> RITIK
+[13:31] <vipulk1> Vipul Kumar
+[13:31] <VKSusheel> VK Susheel
+[13:31] <vinay> Vinay Keshava
+[13:32] <raghavxk> Raghavendra Khare
+[13:32] <peanutduck> Benedict Ramasamy
+[13:32] <nabarun> Hello everyone, welcome to today's session!
+[13:32] <nabarun> Have you all gone through the homework from previous class?
+[13:32] <ravish0007> Ravish Shankar
+[13:33] <nabarun> Please say yes/no.
+[13:33] <ishivamsoni> Yes
+[13:33] <ravish0007> yes
+[13:33] <avikalp> Didn't watch the movies. Didn't get enough time for it. Watched the declaration of independence. 
+[13:33] <vinay> yes
+[13:33] <avikalp> Will watch the movies over the weekend.
+[13:33] <peanutduck> No
+[13:33] <vipulk1> No, didn't watch the movie, will watch over the weekend.
+[13:33] <humachine1> Not able to  watch all movies.
+[13:34] <ritik> 1
+[13:34] <ritik> One movie is left but surely I'll watch it tonight 
+[13:34] <raghavxk> I read the blogs. I will watch documentaries this weekend.
+[13:34] <nabarun> Okay. For those who have gone through the homework (even partially), do you have any doubts?
+[13:34] <nabarun> Please use !
+[13:36] <nabarun> Since no one has any doubts, does someone want to summarize what they learnt from the homework?
+[13:37] <ishivamsoni> After watching the movies I understood why inclusion is important in Technology.
+[13:37] <nabarun> ravish0007, vinay ?
+[13:37] <ravish0007> nabarun: a moment please
+[13:39] <ravish0007> I understood why diversity is so important and how bias can slide on it own and how it can impact vast amount of people in a bad way
+[13:39] <nabarun> Thanks for sharing your views ishivamsoni ravish0007 
+[13:39] <nabarun> let's continue towards today's session.
+[13:40] <nabarun> I will be talking about Linux and introduce you to some basic shell commands.
+[13:40] <nabarun> How many of you know about Linux and have used it?
+[13:40] <nabarun> Please respond with yes/no
+[13:40] <ravish0007> yes
+[13:41] <vipulk1> Yes.
+[13:41] <raghavxk> yes
+[13:41] <ishivamsoni> Yes
+[13:41] <sreelakshmi1> yes.
+[13:41] <vinay> yes
+[13:41] <peanutduck> Yes
+[13:41] <ritik> Yes.but not much 
+[13:41] <humachine1> yes
+[13:42] <nabarun> avikalp, vipulk1, VKSusheel, ravish0007 ?
+[13:42] <nabarun> Folks, you need to be interactive during the classes. Otherwise, you wouldn't get value out of the sessions.
+[13:43] <ravish0007> nabarun: I'm fluent in command line and basic system administration
+[13:43] <avikalp> yes
+[13:43] <nabarun> Awesome. Thanks everyone. I'm assuming others present didn't.
+[13:43] <nabarun> Linux is a family of open source operating systems.
+[13:43] <nabarun> It was introduced by Linus Torvalds around 28 years ago.
+[13:44] <ravish0007> !
+[13:44] <nabarun> Popular examples of Linux operating systems include Ubuntu, Fedora, Debian, Arch Linux and the list goes on.
+[13:44] <nabarun> Can you all read this article https://opensource.com/resources/linux ?
+[13:44] <nabarun> Please type done when finished. It shouldn't take much time.
+[13:44] <nabarun> next
+[13:45] <ravish0007> No offense, Shouldn't it be GNU/Linux instead of Linux
+[13:45] <nabarun> If you have any questions from the article, please feel free to raise your hand (!).
+[13:46] <schubisu> ravish0007: this will also be treated in the article
+[13:47] <nabarun> So, Linux is the kernel that powers the family of open systems.
+[13:47] <nabarun> The Linux kernel when built and distributed along with GNU software is referred to as GNU/Linux.
+[13:48] <nabarun> There has been lot of debate around it. And, I feel we should not focus on the debate as saptaks mentioned in the previous class.
+[13:48] <nabarun> We can talk about it off the class.
+[13:49] <ravish0007> schubisu: okay
+[13:49] <ravish0007> nabarun: understood
+[13:50] <ishivamsoni> Done
+[13:50] <raghavxk> done
+[13:50] <humachine1> done
+[13:50] <nabarun> let's give it 1 or 2 mins for folks to finish reading the article.
+[13:51] <ravish0007> done
+[13:52] <ritik> Done 
+[13:52] <nabarun> Okay. Let's move ahead.
+[13:52] <SANJAY> done
+[13:52] <nabarun> Back in the days, the primary mode of interaction with Linux was through the Command Line Interface, also popularly known as the CLI.
+[13:52] <nabarun> Over the years Graphical User Interfaces came into existence.
+[13:53] <nabarun> Think of the command line as a Chef's Kitchen.
+[13:53] <nabarun> There are a lot of tools in the kitchen.
+[13:53] <nabarun> The chef uses those tools to create delicious dishes.
+[13:53] <nabarun> Command line programs are also like the tools in the kitchen.
+[13:54] <nabarun> They help the programmers in crafting beautiful software.
+[13:54] <nabarun> Of the people who have used Linux, what commands have you used before?
+[13:54] <ravish0007> htop
+[13:54] <vinay> nmtui
+[13:54] <peanutduck> ls
+[13:55] <humachine1> free, top, ps
+[13:55] <ravish0007> pacman ;)
+[13:55] <nabarun> Amazing. I see a lot of variety.
+[13:55] <nabarun> Now, I want all of you to have a look at https://lym.readthedocs.io/en/latest/startingcommands.html and start trying the commands.
+[13:55] <raghavxk> basic navigation , htop, sensors .
+[13:56] <nabarun> For folks who are already familiar, they can also go through the other sections of https://lym.readthedocs.io. We will take doubts from this at the end of the class.
+[13:56] <nabarun> Please raise your hand to ask any doubts with the starting commands.
+[14:00] <ishivamsoni> ! 
+[14:01] <nabarun> next
+[14:01] <nabarun> next
+[14:01] <ishivamsoni> !
+[14:01] <nabarun> next
+[14:01] <ishivamsoni> How rm command removes in a recursive way?
+[14:02] <nabarun> ishivamsoni: did you read the section in that link? Or, do you want to know the mechanics behind it?
+[14:02] <ishivamsoni> with option -r
+[14:03] <ishivamsoni> I want to know the mechanics behind it and how it's different from the normal rm.
+[14:05] <nabarun> I am entirely sure about the mechanics of rm -r. But what I can guess is there can be two scenarios.
+[14:05] <nabarun> 1. It walks the directory that you specify and deletes all files and folders inside it.
+[14:06] <nabarun> 2. It deletes the reference to the folder on disk, so that it's not visible. We will understand more about filesystems in later classes.
+[14:06] <nabarun> ishivamsoni: that was a good question!
+[14:07] <nabarun> We should question the internals of programs that we use.
+[14:07] <ishivamsoni> okay, thanks.
+[14:08] <nabarun> How far are people with the starting commands?
+[14:10] <ritik> Starting commands done 
+[14:11] <humachine1> yeah they are familiar except id and tree 
+[14:12] <nabarun> What about others? Are you all still around?
+[14:12] <vinay> done with starting commands
+[14:13] <raghavxk> am done with starting commands
+[14:13] <ravish0007> done
+[14:14] <nabarun> No more doubts? That's nice.
+[14:15] <nabarun> We are at the end of this session.
+[14:15] <nabarun> The homework from this session would be to read and try the commands in:
+[14:15] <nabarun> 1. https://lym.readthedocs.io/en/latest/users.html
+[14:15] <nabarun> 2. https://lym.readthedocs.io/en/latest/files.html
+[14:15] <nabarun> 3. https://lym.readthedocs.io/en/latest/processes.html
+[14:15] <nabarun> 4. https://lym.readthedocs.io/en/latest/networking.html
+[14:15] <nabarun> 5. Chapter 3 of https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html#theRootFilesystem/
+[14:16] <nabarun> Since the next class would be on Friday, you don't need to complete all of these by then, but we will check in with you about the progress.
+[14:16] <nabarun> In the next weeks, we will have follow up sessions to resolve doubts from these and do more hands-on experiments.
+[14:16] <nabarun> Do keep in mind it's best to ask away your doubts as you face them any time in the channel when a class is not happening. Don't wait for the next class.
+[14:16] <nabarun> Roll Call
+[14:17] <schubisu> Robin Schubert
+[14:17] <ravish0007> Ravish shankar
+[14:17] <vinay> Vinay keshava
+[14:17] <humachine1> Ranjith Kumar
+[14:17] <sreelakshmi1> Sreelakshmi Jayarajan
+[14:17] <peanutduck> Benedict Ramasamy
+[14:17] <raghavxk> Raghavendra Khare
+[14:17] <VKSusheel> VK Susheel
+[14:18] <vipulk1> Vipul Kumar
+[14:18] <nabarun> Thank you all for joining today's class!
+[14:18] <ritik> Ritik
+----END CLASS----
