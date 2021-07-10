@@ -1,0 +1,207 @@
+----BEGIN CLASS----
+[13:32] <sayan> #startclass
+[13:32] <sayan> Roll Call
+[13:32] <ritik> Ritik 
+[13:32] <sud0ed> Sudip Banerjee
+[13:32] <VKSusheel> VK Susheel
+[13:33] <humachine> Ranjith kumar
+[13:33] <vipulk1> Vipul Kumar
+[13:33] <philomath> Mohit Bansal
+[13:33] <raghavxk> Raghavendra Khare
+[13:33] <vinay> vinay-keshava
+[13:33] <peanutduck> Benedict Ramasamy
+[13:35] <sayan> okay folks, any questions from previous class?
+[13:35] <sayan> did you folks read what was given?
+[13:35] <sud0ed> !
+[13:35] <sayan> next
+[13:36] <sud0ed> today is my 1st class
+[13:36] <sud0ed> going through the previous logs <eom>
+[13:36] <ishivamsoni> sorry for joining late.
+[13:37] <sayan> sud0ed: you are surely doing good for the first class and following all the ettiquites 
+[13:37] <sayan> sud0ed: you can follow along, take maybe the weekend to catch up if have not till now.
+[13:38] <sayan> no more questions?
+[13:38] <sayan> if not I'll move ahead.
+[13:38] <peanutduck> !
+[13:38] <sayan> A quick raise of hands, how many folks use editors, be it normal text or could be for code. Also, which editor do you use?
+[13:38] <sayan> next
+[13:39] <sud0ed> !
+[13:39] <sayan> next
+[13:39] <vinay> nano
+[13:39] <sud0ed> I use vim nano
+[13:39] <peanutduck> On signals, how should I know which is the best one to use?
+[13:39] <humachine> vi
+[13:39] <ishivamsoni> I use vs code and vim.
+[13:39] <raghavxk> vscode, sublime text and nano
+[13:39] <vipulk1> I use Vim.
+[13:40] <ritik> I use vs code and intellij
+[13:40] <sayan> peanutduck: do you mean man 7 signal?
+[13:41] <peanutduck> Yes sayan, I usually default to SIGKILL
+[13:41] <sud0ed> !
+[13:42] <sayan> peanutduck: signals are more diverse, SIGKILL is good. For rest you need to read the docs
+[13:42] <peanutduck> <eom>
+[13:42] <sayan> next
+[13:42] <sud0ed> I think each signal has different funtion, sigkill is one of them
+[13:43] <sayan> sud0ed: right!
+[13:43] <sud0ed> <eom>
+[13:43] <sayan> SIGKILL is one of them, there are different types of signals. 
+[13:44] <sayan> some could be, core, ign and some others. depending on the requirement you need to pick one.
+[13:44] <sayan> moving ahead
+[13:44] <sayan> so I can skip the intro on why is an editor needed
+[13:44] <N4G4R41> roll call: Nagarajan
+[13:44] <vinay> yea sure
+[13:44] <sayan> I see folks are already using an editor
+[13:45] <ritik> Yes
+[13:45] <sayan> In this course, we will focus on terminal based editor, i.e vim
+[13:45] <sayan> Can you folks tell me why do you want to learn vim?
+[13:46] <sud0ed>  !
+[13:46] <sayan> next
+[13:46] <sud0ed> because it's open surce, I am guessing though 
+[13:46] <vinay> its customizable
+[13:46] <sud0ed> *source
+[13:46] <raghavxk> its on every system
+[13:46] <sud0ed> <EOM>
+[13:47] <N4G4R41> it is comfortable to use with its key bindings and features <eom>
+[13:47] <peanutduck> Vim is light
+[13:48] <sayan> I would give a point to each on of you, vim is indeed customizable but so are others. 
+[13:48] <sayan> but few things that stand out is it's availability, and being light
+[13:48] <sayan> It present in almost all the major OS
+[13:49] <sayan> So, in case you setup a system, you can quickly open vi/vim as the editor and start working
+[13:51] <sayan> Can you all folks confirm you have vi on your system?
+[13:51] <ishivamsoni> yes I have it.
+[13:51] <N4G4R41> yes i've
+[13:51] <sud0ed> !
+[13:51] <vinay> yea i have it
+[13:51] <raghavxk> yes i have it
+[13:51] <avikalpg> yes
+[13:51] <sud0ed> yes I have it
+[13:51] <VKSusheel> yes
+[13:51] <sayan> next
+[13:51] <sayan> please go through this section: https://lym.readthedocs.io/en/latest/useful.html#vim-editor
+[13:52] <humachine> yes. I have
+[13:53] <shephali_> yes i have
+[13:54] <sayan> once done read through this: https://www.dgplug.org/irclogs/kushal_vi_1stclass.log
+[13:54] <sayan> and read through this: https://www.dgplug.org/irclogs/kushal_vi_2ndclass.log
+[13:54] <sayan> ask your questions here!
+[13:55] <sayan> (raise your hands before that)
+[14:00] <sayan> check if folks are reading!
+[14:01] <N4G4R41> reading logs!
+[14:01] <raghavxk> reading logs
+[14:01] <avikalpg> reading logs
+[14:01] <Muskan> reading logs
+[14:01] <booom> Hello folks. Missed the last session and late for this one too. Any students here I can message? Or just post here what happened in last class and now. :)
+[14:01] <peanutduck> reading logs
+[14:03] <humachine> I am also reading
+[14:07] <shephali_> reading logs
+[14:08] <sayan> no questions, I'm suprised :)
+[14:09] <sayan> you folks are doing hands-on, right?
+[14:09] <ishivamsoni> !
+[14:09] <sayan> next
+[14:09] <ishivamsoni> What is vim-enhanced?
+[14:11] <sayan> ishivamsoni: vim-enhanced includes a couple of the newer elements.
+[14:11] <sayan> I know the packages get installed in fedora, but not sure what are provided via them
+[14:13] <vinay> !
+[14:13] <sayan> next
+[14:14] <sud0ed> !
+[14:14] <vinay> to deletea character  we use :x but it is not working
+[14:15] <sud0ed> when I use line :2 its going to 3rd line which is fine but also I am getting an error like not in editor command
+[14:16] <sayan> vinay: when in command mode, we just go the character and press `x` and not `:x`
+[14:16] <sud0ed> <eom>
+[14:16] <sayan> `:x` would save and exit the file
+[14:17] <sayan> next
+[14:17] <sud0ed> when I use line :2 its going to 3rd line which is fine but also I am getting an error like not in editor command
+[14:17] <sud0ed> <eom>
+[14:18] <sayan> :2 should take you to 2nd line, and not 3rd line
+[14:18] <ravish0007> roll class: Ravish Shankar, I'm sorry
+[14:19] <sud0ed> but it is taking me to the line number 3
+[14:20] <vinay> :2 will take to the 2nd line :3 will take  to the third line 
+[14:20] <sayan> sud0ed: that must be your custom configuration file, that why you also get `not in-editor command`
+[14:21] <sayan> custom configurations are usually in ~/.vimrc, maybe move that file and try again.
+[14:21] <sayan> remember move and not delete.
+[14:22] <ravish0007> sud0ed:  try 1G, 2G ... NG in command mode for Nth line
+[14:22] <ravish0007> see if still you are getting anomoly
+[14:26] <sayan> next
+[14:26] <humachine> !
+[14:27] <sayan> next
+[14:27] <sud0ed> ohh now I got it vim is not recognizing line as a editor command
+[14:28] <humachine> I dont fully understand what e: does
+[14:28] <humachine> sorry :e
+[14:29] <humachine> I can get :e! but not :e
+[14:29] <ritik> e: to go to the end of the word
+[14:29] <sayan> :e <file> would open the file for you. That is how you use multiple files.
+[14:30] <sayan> and suppose do this open two terminal
+[14:31] <ravish0007> !
+[14:32] <sayan> sorry, the laptop discharged and turned off
+[14:33] <sayan> yes, so open two terminal, and open the same file in both of them, then on open edit a couple of lines, add/remove/delete and then save the file using :w
+[14:34] <sayan> now go to the next terminal and do :e and see what happens
+[14:34] <sayan> humachine: can you check and tell me?
+[14:34] <sayan> next
+[14:35] <ravish0007> sayan: Do you use Esc to switch to command mode or some other method ? 
+[14:35] <sayan> ravish0007: yes, I use Esc to switch between Command, Visual and Insert mode
+[14:36] <humachine> sayan: yeah e: with a file name opens a new file in the current terminal after it made sure the current file is saved
+[14:36] <ravish0007> sayan: okay
+[14:36] <sayan> humachine: the second case I was talking without the filename argument
+[14:37] <sayan> try it again humachine 
+[14:37] <humachine> without a file name it simply checks if any unwritten changes is there and if so it asks to use ! to override
+[14:38] <sayan> humachine: read the steps again, and try again.
+[14:39] <sayan> humachine: the steps I wrote.
+[14:43] <sayan> who all are done reading?
+[14:43] <N4G4R41> !
+[14:43] <humachine> sayan: you have written we can use e: to edit the current file if it has been changed from outside. I tried it but it is not working 
+[14:45] <humachine> I am yet to read the third link
+[14:45] <avikalpg> on the third link (2nd log). Tryingh humachine procedure. Not able to completely understand. Vim starts talking about the swap file.
+[14:46] <sayan> humachine: https://tmate.io/t/ro-NmvMbP2crnzkxmbFN6fN4eB33 -- please join this
+[14:47] <humachine> sayan: joined
+[14:47] <sayan> yes!
+[14:48] <sayan> no I have a file hello.txt with a Lorem Ipsum dummy text
+[14:48] <humachine> ok
+[14:48] <sayan> Now there is a possibility that some other process was running, or you have the same file open in some other terminal, which overwrites the file, basically changes the contents of the file 
+[14:48] <sayan> possible?
+[14:49] <sayan> I will replicate the same
+[14:49] <humachine> ok
+[14:49] <sayan> this is the other terminal https://tmate.io/t/ro-D9SEtLut39j7RfLF5KG4bJ8zt
+[14:49] <sayan> I will refer the terminal 1 as T1 and terminal 2 as T2
+[14:50] <sayan> I will add a few lines in T2 in the file hello.txt
+[14:50] <humachine> ok
+[14:51] <sayan> Now I have added a bio of mine and saved the file
+[14:51] <sayan> now go to T1
+[14:51] <sayan> Do you see the outdated context on T1?
+[14:51] <sayan> s/context/content/
+[14:51] <humachine> yes
+[14:52] <sayan> now see what happens when I do `:e` without any filename, just :e
+[14:52] <sayan> did you see?
+[14:52] <ritik> Once more
+[14:52] <humachine> cool.. it works
+[14:53] <sayan> okay doing :e once more in 5 seconds
+[14:54] <sayan> understood any question?
+[14:54] <humachine> Actually I tried to edit the file using nano and it did not get back those changes.  So it works only for files changed using vim ?
+[14:55] <sayan> nope, anywhere nano should work as well
+[14:55] <sayan> that's why it's said changed outside vim
+[14:55] <ritik> Yes. Got it
+[14:55] <sayan> though the other window is vim, it is another process and outside, so consider outside vim
+[14:56] <sayan> Folks, please read the whole things, and try reading and writing a bit with vim
+[14:57] <humachine> Ok sayan I will try to check once again. While this is useful, how we will know the file has been changed. Then only we can issue e: right 
+[14:57] <ishivamsoni> I just finished the 1st log file.
+[14:57] <sayan> ishivamsoni: you can continue and ask questions in next class
+[14:58] <N4G4R41> i already waiting with the question, i think you may've missed it, the command d$ deletes the character in the cursor and to the end of the line, but, d0 delete from cursor to beginning of the line and not the character in the cursor, why?
+[14:58] <sayan> next
+[14:58] <sayan> ah! sorry!
+[14:58] <N4G4R41> yeah ok
+[14:59] <N4G4R41> the command d$ deletes the character in the cursor and to the end of the line, but, d0 delete from cursor to beginning of the line and not the character in the cursor, why?
+[15:00] <sayan> N4G4R41: that how it works :)
+[15:01] <sayan> in vim you will find commands where it does after, and before things.
+[15:03] <N4G4R41> yeah ok
+[15:03] <humachine> Sayan: thank you very much :-) Today only I paid attention to the same modifiers for the commands c d y etc.  Your logs were crisp and to the point!
+[15:04] <sayan> Roll Call
+[15:04] <ravish0007> Ravish Shankar
+[15:04] <VKSusheel> VK Susheel
+[15:04] <quassel6> Vinay keshava
+[15:04] <N4G4R41> Nagarajan
+[15:04] <ritik> Ritik
+[15:04] <humachine> Ranjith Kumar
+[15:04] <booom> Sri Hari
+[15:04] <peanutduck> Benedict Ramasamy
+[15:04] <shephali_> Shephali Tandon
+[15:04] <raghavxk> Raghavendra Khare
+[15:04] <sud0ed> Sudip Banerjee
+[15:04] <vipulk1> Vipul Kumar
+----END CLASS----
