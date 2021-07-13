@@ -1,0 +1,248 @@
+----BEGIN CLASS----
+[13:33] <fhackdroid> #startclass
+[13:33] <fhackdroid> Roll Call
+[13:34] <schubisu> Robin Schubert
+[13:34] <fhackdroid> Farhaan Bukhsh
+[13:34] <N4G4R41> Nagarajan
+[13:34] <sreelakshmi> Sreelakshmi Jayarajan
+[13:34] <susheel> VK Susheel
+[13:34] <humachine> ranjith kumar
+[13:34] <vipulk1> Vipul Kumar
+[13:34] <peanutduck> Benedict Ramasamy
+[13:34] <raghavxk> Raghavendra Khare
+[13:34] <fhackdroid> alright, that was quick :)
+[13:35] <ravish0007> ravish shankar
+[13:36] <jasonbraganza> Jason Braganza
+[13:36] <ishivamsoni> Shivam Soni
+[13:36] <avikalp> Avikalp
+[13:37] <fhackdroid> Hello Folks, My name is Farhaan Bukhsh, nick: fhackdroid, I am a Software developer at OpenCraft. Mostly helping school and universities to run OpenEdx. I am a FOSS enthusiast and have contributed to few projects.
+[13:37] <fhackdroid> and I am really glad to meet you all :)
+[13:38] <fhackdroid> does anyone know the agenda for today's session?
+[13:39] <ravish0007> No
+[13:39] <sreelakshmi> No
+[13:39] <ravish0007> atleast for me
+[13:39] <peanutduck> No
+[13:39] <avikalp> no
+[13:39] <N4G4R41> no
+[13:39] <vipulk1> No.
+[13:39] <schubisu> fhackdroid: all I know is that we've had "introduction to Python" on the plan. Last session was an introduction to Vim
+[13:39] <fhackdroid> schubisu: yes :)
+[13:40] <fhackdroid> The agenda for today's session is "Introduction to Python".
+[13:42] <fhackdroid> This session will mostly revolve around Programing in general and we will dip our toes in python
+[13:43] <fhackdroid> this will be an interactive session so feel free to raise hands and ask questions :)
+[13:43] <fhackdroid> so any questions till now about anything?
+[13:43] <humachine> no
+[13:43] <ishivamsoni> No
+[13:43] <jasonbraganza> no
+[13:43] <raghavxk> no
+[13:43] <peanutduck> No
+[13:43] <sreelakshmi> No
+[13:43] <vipulk1> No
+[13:44] <avikalp> no
+[13:44] <fhackdroid> so no questions about "ANYTHING"? :P
+[13:44] <avikalp> Anything that you have mentioned :P
+[13:44] <fhackdroid> avikalp: good one :)
+[13:45] <fhackdroid> Alright since noone has any questions, let me bring a question on the floor, Why do you think languages exists and why so many of them?
+[13:46] <avikalp> !
+[13:46] <fhackdroid> next
+[13:46] <avikalp> Different languages have different properties. Based on the preferences of a programmer and the use case, different languages are suitable for different purposes, machines, architectures etc.
+[13:47] <N4G4R41> many languages exist depends on the usecase itself
+[13:47] <ravish0007> to talk to computers 
+[13:47] <raghavxk> I think programming languagess exist to help write code thats convenient to read by humans. 
+[13:47] <humachine> language exists so we can give instruction to computers.
+[13:47] <fhackdroid> avikalp: I am asking about "languages" and not "programing languages" :)
+[13:48] <ravish0007> to express 
+[13:48] <N4G4R41> to communciate with each other
+[13:48] <ravish0007> some sort of emotion + idea + feeling
+[13:48] <avikalp> Oh. Languages exist to encode concepts in a encoding that is agreed and understood by the transmitter and the receivers alike.
+[13:48] <avikalp> s/a encoding/an encoding
+[13:49] <raghavxk> languages are a mode to convey expressions and ideas.
+[13:49] <fhackdroid> anyone else?
+[13:49] <fhackdroid> I take that as No
+[13:50] <fhackdroid> so let's see what we have 1. Express, 2. Encode/Decode and 3. Communicate
+[13:51] <fhackdroid> Which brings me to a follow-up, what do we have more than 1 language, because for the above points just one language is enough, right?
+[13:51] <darshna___> I guess so
+[13:52] <avikalp> Yes. Natural Languages originated from different local groups of people. They were also slightly modified as they spread. 
+[13:53] <avikalp> But conceptually, if it is unequivocal and exhaustive in the set of concepts that it can represent, then one language is enough.
+[13:53] <raghavxk> because human sects  werent  always connected and this lead to origin of various languages
+[13:53] <peanutduck> Geographical location
+[13:53] <ravish0007> yeah
+[13:53] <humachine> languages evolved around separate groups of people that's why so many
+[13:53] <N4G4R41> diversity is becsuse of the people who are different from each other based on their culutre,etc. So every group have their own way of expressing thoughts.
+[13:54] <ravish0007> raghavxk: ideas are decentralized
+[13:54] <fhackdroid> Great answers folks :)
+[13:55] <fhackdroid> I will pick two ideas from here: 1. Different ways of expression and 2. Decentralized ideas
+[13:56] <fhackdroid> and that is what it boils down to
+[13:57] <fhackdroid> when different sets of people experssed ideas in a similar way, it developed into a language.
+[13:57] <fhackdroid> like a layman overall level of idea :)
+[13:58] <fhackdroid> Now keeping that in mind, what do you think how many different Programing Languages are there?
+[13:59] <fhackdroid> Raise your hands before answering?
+[13:59] <ravish0007> !
+[13:59] <fhackdroid> next
+[13:59] <ravish0007> more than thousand maybe and countless personal projects
+[14:00] <avikalp> !
+[14:00] <N4G4R41> !
+[14:00] <peanutduck> !
+[14:00] <fhackdroid> next
+[14:00] <avikalp> ~700.
+[14:00] <avikalp> A small list: https://esolangs.org/wiki/Language_list
+[14:01] <fhackdroid> next
+[14:01] <N4G4R41> definitely a hell lot, based on external factors like use cases, evolving technolgies, new problems etc.
+[14:02] <fhackdroid> next
+[14:02] <peanutduck> at least 3
+[14:02] <fhackdroid> next
+[14:02] <fhackdroid> peanutduck: very safe :P
+[14:03] <ravish0007> avikalp: try this '  curl  https://esolangs.org/wiki/Language_list | grep \<li\>  | wc -l '
+[14:03] <fhackdroid> avikalp: is right there are about ~700 known rather popular languages
+[14:03] <fhackdroid> and >9000 languages
+[14:04] <fhackdroid> Now let me round back to the same question, why is there a need for so many languages?
+[14:04] <fhackdroid> Now here I mean Programing languages
+[14:05] <fhackdroid> raise hands
+[14:05] <vipulk1> !
+[14:05] <fhackdroid> next
+[14:05] <vipulk1> To fulfil different purposes.
+[14:05] <N4G4R41> !
+[14:05] <avikalpg> !
+[14:05] <fhackdroid> vipulk1: care to elaborate
+[14:06] <fhackdroid> next
+[14:06] <N4G4R41> adding to vipulk1: and also to fulfill it predecessor's cons in the particular use case
+[14:07] <fhackdroid> alright
+[14:07] <fhackdroid> next
+[14:07] <avikalpg> Everyone can build programming languages. You just need to build a compiler to one of the handful machine understandable languages, and you have one new language. So these many languages exist just because there is no restriction to the number of languages.
+[14:08] <fhackdroid> next
+[14:08] <fhackdroid> Alright, so let me introduce you all to a quote
+[14:09] <fhackdroid> “Programs must be written for people to read, and only incidentally for machines to execute.”
+[14:09] <fhackdroid> ― Harold Abelson, Structure and Interpretation of Computer Programs 
+[14:10] <fhackdroid> While all the points you all put are correct with an error margin.
+[14:10] <fhackdroid> Programs at the end of the day are expression of ideas and different people like to express their ideas in their way.
+[14:11] <fhackdroid> Poets express them with words
+[14:11] <fhackdroid> Painters with paintings
+[14:11] <fhackdroid> Muscian with music.
+[14:12] <fhackdroid> So a logic that mathematician is able to express through equation will be a bit different from Physicist.
+[14:13] <fhackdroid> Does that make sense?
+[14:13] <avikalpg> !
+[14:13] <fhackdroid> next
+[14:14] <avikalpg> Everything else made sense. Just the last statement. And equation, to me, is quite unequivocal (as long as each variable is defined). I don't understand how a physcian will derive a different meaning than a mathematician
+[14:14] <avikalpg> s/And/An
+[14:14] <fhackdroid> avikalpg: not different meaning, expressing the same thing in a different way.
+[14:15] <N4G4R41> !
+[14:15] <fhackdroid> avikalpg: Two people can express same ideas in different ways :) if that is more accurate
+[14:16] <fhackdroid> avikalpg: let me know if you still have doubts
+[14:16] <fhackdroid> next
+[14:16] <avikalpg> fhackdroid: I get it now :) Thank you
+[14:16] <N4G4R41> adding to above, mathematician can see an equation in general, but a physcist can see that as some sort of phenomenon, so last sentence makes sense
+[14:18] <fhackdroid> alright, so these are the reasons languages like Haskel, Lisp and Closure exits because for one set of people it helps them to explain their ideas better.
+[14:18] <fhackdroid> But there are languages grouped as Esoteric Languages
+[14:19] <fhackdroid> https://en.wikipedia.org/wiki/Esoteric_programming_language
+[14:20] <fhackdroid> https://en.wikipedia.org/wiki/Esoteric_programming_language#LOLCODE
+[14:20] <fhackdroid> https://en.wikipedia.org/wiki/Esoteric_programming_language#Whitespace
+[14:20] <fhackdroid> few interesting ones
+[14:20] <fhackdroid> why do you think languages like these exists?
+[14:22] <ishivamsoni> !
+[14:22] <fhackdroid> next
+[14:22] <ishivamsoni> People might create this kind of languages for fun. 
+[14:23] <avikalpg> !
+[14:23] <fhackdroid> ishivamsoni: yes one of the reasons
+[14:23] <fhackdroid> next
+[14:23] <N4G4R41> !
+[14:24] <avikalpg> It says so in the Wikipedia article that you shared the link to: "An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language (particularly functional programming or procedural programming languages), or as a
+[14:24] <avikalpg> joke."
+[14:24] <fhackdroid> avikalpg: I know :)
+[14:24] <fhackdroid> next
+[14:24] <N4G4R41> as stated to test the exisitng language's competitveness
+[14:26] <fhackdroid> Esolang are sheer examples of "Doing things, just because you can", there need not be any purpose for it.
+[14:26] <fhackdroid> Is everything clear till now?
+[14:26] <fhackdroid> any more questions?
+[14:26] <fhackdroid> next
+[14:26] <darshna___> !
+[14:27] <fhackdroid> next\
+[14:27] <fhackdroid> next
+[14:27] <darshna___> 'test the boundaries of computer programming language" what does these boundaries refer to?
+[14:28] <fhackdroid> darshna___: Mostly answering the question, "Can we do this?" or "Can this be done?"
+[14:29] <darshna___> oh
+[14:29] <darshna___> okay
+[14:29] <fhackdroid> Any doubts?
+[14:29] <avikalpg> no
+[14:30] <raghavxk> no
+[14:31] <ishivamsoni> No doubts, but it's really interesting.
+[14:31] <peanutduck> no
+[14:31] <sreelakshmi> No
+[14:31] <fhackdroid> Okay now this brings me to the point, why do you want to learn Python or any other programing language?
+[14:32] <avikalpg> !
+[14:32] <fhackdroid> next
+[14:32] <peanutduck> !
+[14:33] <avikalpg> Learning every new language helps us leverage the specific advantages of that language. For example..
+[14:33] <ishivamsoni> !
+[14:33] <vipulk1> !
+[14:33] <avikalpg> for python, it can to write scripts, to build websites to apis, to use ML libraries which are already built in Python etc.
+[14:34] <fhackdroid> avikalpg: okay
+[14:34] <fhackdroid> next
+[14:34] <peanutduck> curiousty
+[14:34] <fhackdroid> next
+[14:35] <ishivamsoni> I want learn python because I will be able make my computer do tasks for me.
+[14:35] <fhackdroid> next
+[14:35] <vipulk1> To express our ideas so computer could understand it and perform some task. <eom>
+[14:36] <fhackdroid> next
+[14:36] <fhackdroid> okay, for me Programing has always been about expressing my ideas or at times thoughts too.
+[14:37] <fhackdroid> so the way we are going to approach this is, I want you all to pick an idea and it could be anything: 1. Ircbots 2. Utility scripts etc.
+[14:38] <fhackdroid> or what we can do is we can try making some innovative ircbots.
+[14:38] <fhackdroid> which one do you folks prefer?
+[14:39] <avikalpg> 1
+[14:39] <ishivamsoni> 2
+[14:39] <N4G4R41> 1
+[14:39] <humachine> 1
+[14:39] <sreelakshmi> 1
+[14:39] <vipulk1> 1
+[14:39] <peanutduck> 2
+[14:40] <raghavxk> 2
+[14:40] <fhackdroid> Okay so here is what we are going to do, I am going to create a wiki and I want you all to put one line idea of what you want to build using python.
+[14:40] <ravish0007> 2
+[14:40] <fhackdroid> So by the end of learning python you would have something that you would have worked on.
+[14:40] <fhackdroid> Does that make sense?
+[14:40] <ravish0007> yeah
+[14:41] <humachine> ok
+[14:41] <raghavxk> yes
+[14:41] <N4G4R41> yes sure
+[14:41] <avikalpg> yes
+[14:41] <sreelakshmi> yes
+[14:42] <ishivamsoni> Yes
+[14:42] <peanutduck> !
+[14:42] <fhackdroid> next
+[14:42] <peanutduck> if i have no idea?
+[14:42] <fhackdroid> peanutduck: think about one :)
+[14:43] <fhackdroid> peanutduck: we can help you with it
+[14:43] <peanutduck> ok sure, thanks
+[14:47] <fhackdroid> https://pad.riseup.net/p/ideas-keep
+[14:47] <fhackdroid> You can put your ideas here
+[14:48] <raghavxk> ok
+[14:48] <fhackdroid> we are running out of time, so your homework 1. Come up with an idea that you want to implemen and read first 6 chapters of Python for you and me, https://pymbook.readthedocs.io/en/latest/index.html
+[14:49] <fhackdroid> Is that clear?
+[14:49] <sreelakshmi> yes
+[14:49] <N4G4R41> yes clear
+[14:49] <peanutduck> yes
+[14:49] <ishivamsoni> Yes clear.
+[14:49] <ravish0007> yes
+[14:49] <raghavxk> yes
+[14:49] <humachine> yes
+[14:50] <fhackdroid> Lets have another class on 15 th July, 19:00 IST
+[14:50] <fhackdroid> Thanks a lot folks.
+[14:50] <fhackdroid> Roll Call
+[14:50] <fhackdroid> Farhaan Bukhsh
+[14:50] <N4G4R41> Nagarajan
+[14:50] <ishivamsoni> Shivam Soni
+[14:50] <schubisu> Robin Schubert
+[14:50] <susheel> VK Susheel
+[14:50] <sreelakshmi> Sreelakshmi Jayarajan
+[14:50] <quassel6> Vinay Keshava
+[14:50] <humachine> Ranjith kumar
+[14:50] <raghavxk> Raghavendra Khare
+[14:50] <avikalpg> Avikalp Gupta
+[14:50] <avikalpg> !
+[14:50] <vipulk1> Vipul Kumar
+[14:51] <peanutduck> Benedict Ramasamy
+[14:51] <ravish0007> ravish shankar
+[14:51] <humachine> thank you fhackdroid :-)
+[14:51] <jasonbraganza> Jason Braganza
+[14:51] <ravish0007> fhackdroid, great work
+[14:51] <nabarun> Nabarun Pal
+----END CLASS----
