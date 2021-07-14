@@ -1,0 +1,234 @@
+----BEGIN CLASS----
+[13:31] <schubisu> #startclass
+[13:31] <schubisu> Roll Call
+[13:31] <avikalpg> Avikalp Kumar Gupta
+[13:31] <schubisu> Robin Schubert
+[13:32] <susheel> VK Susheel
+[13:32] <humachine> ranjith kumar
+[13:32] <peanutduck> Benedict Ramasamy
+[13:33] <ishivamsoni> Shivam Soni
+[13:33] <raghavxk> Raghavendra Khare
+[13:34] <schubisu> okay, hi everyone
+[13:34] <schubisu> raghavxk: if possible make sure to join maybe 5 minutes ealier before classes ;)
+[13:35] <schubisu> if you have any questions related to PYM, please save them for fhackdroid in tomorrow's session
+[13:35] <raghavxk> I didnt know if there is a class today.
+[13:36] <schubisu> raghavxk: ah, sorry. It was announced on short notice in the topic this morning
+[13:36] <schubisu> I'm curious, how many of you are currently using/trying/experimenting with vim?
+[13:36] <schubisu> type me if you have
+[13:37] <ishivamsoni> I am trying.
+[13:37] <raghavxk> me
+[13:37] <peanutduck> me
+[13:38] <avikalpg> me
+[13:38] <schubisu> do you have any questions back from the vim session, or issues you have had while trying? Please raise your hand if you do
+[13:38] <avikalpg> !
+[13:38] <schubisu> next
+[13:39] <avikalpg> Navigation in edit mode is not that smooth in vim. I always esc and then navigate and edit again if I need to. Is there a better method?
+[13:40] <schubisu> avikalpg: yes, this is the intended workflow. You escape from edit mode if you want to navigate.
+[13:41] <schubisu> For some, the escape button is too far away to use it that frequently, many re-map the caps lock key to be ESC instead
+[13:41] <schubisu> but this is one of the concepts of the Vi, to have the control modes and edit mode separate
+[13:41] <avikalpg> schubisu: I see. Remapping can be a good idea. Thanks :) 
+[13:42] <schubisu> emacs follows a different approach, it provides keyboard mappings that allow you to navigate with you fingers on the keyboard while in writing mode, but that comes with other drawbacks such as extensive use of ctrl and meta keys
+[13:42] <humachine> remapping is a nice tip schubisu!
+[13:42] <schubisu> :)
+[13:43] <schubisu> the power of vim; it will let you do all your work without ever moving your hands away from your keyboard => it makes sense if you are using the keyboard correctly anyway
+[13:43] <schubisu> how many of you can touch type? Please type yes if you do or no if you don't
+[13:44] <ishivamsoni> Yes
+[13:44] <raghavxk> yes 
+[13:44] <humachine> yes
+[13:44] <avikalpg> yes
+[13:44] <peanutduck> no
+[13:45] <schubisu> as engenieers, the keyboard is your interface to your computer (unless you're the next Ironman and develop a smarter machine)
+[13:45] <schubisu> so typing is an essential core ability
+[13:46] <schubisu> but I'm impressed with so many who know touch typing
+[13:46] <schubisu> peanutduck: you may want to invest some time into learning that skill, there's software that can help you, like e.g. gtypist
+[13:47] <peanutduck> thank you schubisu 
+[13:47] <schubisu> practice daily if possible ;) it's a skill you will learn for life
+[13:48] <schubisu> so today I would like to talk with you about writing or blogging
+[13:48] <schubisu> who of you does have an own blog online? Please type yes or no accordingly
+[13:48] <raghavxk> no
+[13:49] <peanutduck> no
+[13:49] <humachine> no
+[13:49] <avikalpg> -
+[13:49] <avikalpg> kinda?
+[13:50] <schubisu> avikalpg: try using full english words please ;)
+[13:50] <avikalpg> s/kinda/kind of
+[13:50] <schubisu> :)
+[13:50] <ishivamsoni> I have one, but I don't maintain it.
+[13:50] <schubisu> okay
+[13:51] <schubisu> who has an idea why we ask people to blog? What could we consider good about it?
+[13:52] <ishivamsoni> !
+[13:52] <avikalpg> !
+[13:52] <nabarun> yes
+[13:52] <schubisu> next
+[13:53] <ishivamsoni> So that other people can see the blogger's progress. 
+[13:53] <schubisu> next
+[13:53] <avikalpg> Knowledge sharing. #dgplug is about "learn and teach others". So blogging a way to 'teach others'.
+[13:53] <avikalpg> s/blogging a/blogging is a
+[13:53] <darshna___> yes
+[13:54] <schubisu> so both answers are similar; to share the knowledge, so others can benefit from your progress
+[13:54] <schubisu> anything else?
+[13:54] <avikalpg> !
+[13:55] <schubisu> next
+[13:55] <avikalpg> Someone shared a video in the channel recently about the power of writing, where it was said that by writing, we trigger critical thinking. Maybe that can be a reason to blog.
+[13:55] <avikalpg> i.e. self-improvement
+[13:55] <humachine> blogging improves writing skills. Also good way to document things for future reference
+[13:56] <schubisu> yes, both very important
+[13:56] <schubisu> so we have reflection of your own work and writing as a skill
+[13:56] <schubisu> these are things where blogging is a benefit not only for the reader, but actually for the writer
+[13:57] <schubisu> you are engeneers, so documentation is a core skill
+[13:57] <schubisu> writing about, and documenting your own projects will massively train that skill
+[13:58] <schubisu> it will force you to reflect about what you did, dive deeper into the topic and get a better understanding
+[13:59] <schubisu> you could start or join a good open source project, but without any proper documentation this will never be great
+[14:01] <schubisu> sorry, was afk for a moment
+[14:02] <schubisu> a blog can also reflect what you did, what you are doing, what you care about and that you participate in Open Source for employers
+[14:02] <schubisu> if you're anticipating a scientific career, writing and documenting will be fundamental
+[14:03] <schubisu> so we have plenty of good reasons why we blog and why we want you to also start blogging about things that are of interest for you
+[14:04] <schubisu> so I would like to give you a homework that you should be able to do until Monday 19th
+[14:04] <schubisu> create your own blog that is available in the internet, and write a first post
+[14:05] <schubisu> avikalpg: I've seen your blog, I don't see any reason why that is not a fully valid blog already :) to change things here and there over time is completly normal
+[14:05] <schubisu> any questions so far?
+[14:06] <N4G4R41> sorry for being late 
+[14:06] <avikalpg> !
+[14:06] <N4G4R41> Roll call: Nagarajan
+[14:06] <schubisu> N4G4R41: thanks
+[14:06] <schubisu> next
+[14:07] <avikalpg> I don't really know if there is a proper way to tech-blog. Till now, I just started typing something that came to my mind after watching a movie which was part of the assignment. But I do a lot of tech work and I have never understood how to blog about that.
+[14:08] <avikalpg> I have written readme documents, and that is the end of it. Is there a way to think about it that I don't know?
+[14:08] <schubisu> avikalpg: I'm sure you can find inspiration by reading other people's blogs. But a blog doen't necessarily have to be technical
+[14:09] <schubisu> I have anything on mine that interests me
+[14:09] <schubisu> some things for later lookup
+[14:09] <schubisu> some technical
+[14:09] <schubisu> even some poems or completly different
+[14:09] <schubisu> you are free to organize that the way you want
+[14:10] <avikalpg> !
+[14:10] <schubisu> next
+[14:10] <avikalpg> Do you have any advice about organizing the blog? The way I have organized, if I start blogging regularly, it will be very hard to navigate it or find anything.
+[14:11] <schubisu> avikalpg: we can discuss things like that after class, this may be a bit out of scope here. Tagging is a common way to organize blog posts, but it strongly depends on the way you deploy the blog
+[14:12] <schubisu> noone else has any question? I assume that everyone knows what a blog is, right?
+[14:12] <humachine> schubisu: I have a doubt. Say we write about a subject today in our blog. Fast forward a year and now what if our opinion on the subject changes and the blog still holds our old opinion ?
+[14:12] <jasonbraganza> that is a big if, avikalpg. first make it hard to navigate by writing that much :)
+[14:13] <jasonbraganza> humachine, it’s a log. you write a new post with your new opinion :)
+[14:14] <schubisu> humachine: that's a good point. It's up to your preference how you would handle a situation like that. I would consider it best practice to write an update. It's very transparent if you append to the post that you have meanwhile changed your mind and would do things differently today
+[14:14] <schubisu> I want you all to read this article that jasonbraganza wrote for the summertraining docs: https://summertraining.readthedocs.io/en/latest/blogging.html
+[14:15] <schubisu> raise your hand if you have any questions, type done when finished
+[14:15] <humachine> thanks jasonbraganza and schubisu for your explanation
+[14:15] <jasonbraganza> i’d also suggest a slightly personal addendum to what schubisu shared. https://janusworx.com/blog/thoughts-on-setting-up-a-blog/
+[14:16] <schubisu> ah, thanks jasonbraganza :)
+[14:16] <humachine> !
+[14:17] <schubisu> next
+[14:17] <humachine> schubisu: can you give a suggestion for a good blog platform
+[14:17] <schubisu> humachine: you may find some good answers in the link that jasonbraganza just shared
+[14:18] <humachine> also, If we are writing personal blog, how much personal information can we divulge in the internet
+[14:18] <humachine> schubisu: sure will look into that
+[14:18] <jasonbraganza> as much or as little as you wish. err on the side of privacy
+[14:19] <humachine> :-) I dont know. I always want to write my heart out.. but these fears keep me !
+[14:19] <schubisu> humachine: that's also a good question. As always this is completely up to you. More important is to not mess with the privacy of others in your blog
+[14:20] <jasonbraganza> humachine, all that will evolve as you write. right now if fears keep you, keep private stuff private
+[14:21] <humachine> schubisu: :-) 
+[14:21] <humachine> jasonbraganza: thats a good suggestion
+[14:21] <humachine> <eom>
+[14:26] <schubisu> folks, how is the reading status?
+[14:26] <N4G4R41> going through second link
+[14:30] <avikalpg> !
+[14:30] <avikalpg> I didn
+[14:31] <schubisu> next
+[14:31] <avikalpg> I didn't understand the point "There’s reason daily soaps cut in the middle of a scene". I understand flow between paragraphs, but I don't know what cutting in the middle of a scene implies.
+[14:33] <schubisu> avikalpg: this is a technique to make your post a story. Let people digest what you have written and also wake their interest to read on
+[14:34] <ishivamsoni> I have read both the blogs. 
+[14:35] <schubisu> ishivamsoni: great! any questions?
+[14:35] <jasonbraganza> avikalpg, make them hungry / curious to know what happens next.
+[14:36] <avikalpg> jasonbraganza: It is revelant only for the flow within a single article in a blog, or even across blogs? (because blog topics can get too random)
+[14:36] <avikalpg> *is it
+[14:37] <jasonbraganza> avikalpg, within an article. a post is generally self contained. i click on something to read what you have said.
+[14:37] <jasonbraganza> multiple posts on the same topic are good and are a goal to reach for
+[14:37] <jasonbraganza> but that’s not what we begin with
+[14:37] <jasonbraganza> we begin by writing lots of posts. 
+[14:38] <jasonbraganza> remember those community taps or borewells?
+[14:38] <avikalpg> yes
+[14:38] <jasonbraganza> when water first flows out of them, it’s filthy.
+[14:38] <jasonbraganza> you get clean water only after a while
+[14:39] <jasonbraganza> similarly your posts will be good only after you have written a lot of what Anne Lamott calls shitty first drafts
+[14:39] <avikalpg> :D Yes, especially when the tap is not used for a long time! (Sometimes it also gets clogged) 
+[14:39] <jasonbraganza> you need quantity. not exquisite quality.
+[14:39] <ishivamsoni> beside speed does static sites have more advantages over dynamic sites ?
+[14:39] <avikalpg> jasonbraganza: awesome, that is very helpful. Thanks a lot for your advice :)
+[14:40] <jasonbraganza> ishivamsoni, that is a moot point. just use one, that helps you write.
+[14:40] <jasonbraganza> you can always move to the other kind of site later.
+[14:40] <schubisu> ishivamsoni: this is also something interesting to talk about after the session
+[14:41] <schubisu> is everyone done reading by now?
+[14:41] <ishivamsoni> schubisu, jasonbraganza: Okay.
+[14:44] <schubisu> avikalpg, humachine, N4G4R41, raghavxk, peanutduck, susheel ^^
+[14:44] <peanutduck> Done
+[14:44] <avikalpg> completed the first one. Mid way through the second. 
+[14:44] <N4G4R41> Done
+[14:44] <susheel> Just finished
+[14:45] <raghavxk> halfway through on second link
+[14:46] <humachine> me too halfway through the second
+[14:46] <schubisu> let's wait for another 2-3 minutes then.
+[14:47] <schubisu> maybe those who're done reading have some more questions?
+[14:49] <humachine> done
+[14:50] <schubisu> okay, let's return to the session here.
+[14:50] <schubisu> so like I have said before, we would like you to set up your own blog and start writing.
+[14:51] <schubisu> we will have a "planet" with your blogs
+[14:51] <schubisu> If you don't know what a planet is, please have a look at this one http://planet.dgplug.org/
+[14:52] <schubisu> it's a collection of blogs of many people that are active in the dgplug community. Through the planet you can always see the latest activity of all their blogs
+[14:52] <schubisu> who can explain in a short line what RSS and atom feeds are doing?
+[14:53] <schubisu> who does not know what RSS or atom feeds are, please type "me"
+[14:54] <peanutduck> me
+[14:54] <N4G4R41> publish short note about new posts on a blog, which user can get notified with a RSS reader
+[14:55] <avikalpg> me
+[14:55] <schubisu> N4G4R41: right, though it doesn't necessarily have to be a short note. It can as well contain the full content of a post
+[14:56] <humachine> me
+[14:56] <N4G4R41> schubisu: ok
+[14:57] <schubisu> RSS and atom feeds are a way to bring a post into an Xml format, that can easily be rendered by other applications. It only contains the post (or a summary) and some meta information like title, author, publish date etc
+[14:58] <schubisu> since a blog post usually has a reoccuring format, this is a handy way to check and subscribe to people's blogs
+[14:58] <schubisu> most blogging platforms usually generate a feed from the blogs they host
+[14:59] <schubisu> the planet will gather these feeds, so we can read your blogs there.
+[14:59] <schubisu> this way, your friends here will become your first readers
+[14:59] <schubisu> so you can receive feedback and talk about what you've written
+[15:00] <schubisu> okay folks, time is running. 
+[15:00] <schubisu> On Monday I will ask you for the feeds of your blogs so we can aggregate them into the planet
+[15:00] <N4G4R41> !
+[15:01] <schubisu> do you have any questions before we end the session here?
+[15:01] <schubisu> next
+[15:01] <N4G4R41> >most blogging platforms usually generate a feed from the blogs they host,
+[15:01] <N4G4R41> could you explain this point 
+[15:01] <schubisu> sure
+[15:02] <schubisu> like I've said, a feed does contain the information of a blog post in a structured format
+[15:02] <schubisu> to parse it correctly on a different platform, you may want to extract specific information, like author, title, dates etc
+[15:02] <avikalpg> !
+[15:03] <schubisu> it doesn't matter if you create a blog on write.as or wordpress or tumblr, they will always ask for for that structured information and you will have the option to provide your blog as a feed in RSS or atom format. So you don't have to manually generate thos Xml files
+[15:03] <schubisu> N4G4R41: does that answer the question?
+[15:04] <schubisu> next
+[15:04] <N4G4R41> yes 
+[15:04] <avikalpg> I have been using meta data in my blogs (which I am writing in plain HTML) to show them on the main blog page. Is that kind of an RSS feed in itself?
+[15:04] <avikalpg> !
+[15:04] <schubisu> next
+[15:04] <schubisu> it's still your turn avikalpg  ;)
+[15:05] <schubisu> avikalpg: would you mind to share the URL of your blog again?
+[15:05] <N4G4R41> !
+[15:05] <avikalpg> Also, since I am writing in plain HTML and just pushing to github.io, I am not sure of what to do to be able to fit inside the planet. Some keywords to search on the web would be useful.
+[15:06] <avikalpg> schubisu: avikalpg.github.io and then click on the "blog" tab. 
+[15:06] <avikalpg> Please don't mind the UI, I built it in 2nd year -- which was in 2013.
+[15:07] <schubisu> avikalpg: it is possible to generate that on github.io pages, but from pure HTML there will not be any feed parsed
+[15:07] <avikalpg> schubisu: Here is the source code as well: https://github.com/avikalpg/avikalpg.github.io
+[15:08] <jasonbraganza> avikalpg, in that case, you have a website. not a blog. best to get a blog by some means. on any platform.
+[15:08] <schubisu> we can talk about how you could do that after classes
+[15:08] <avikalpg> okay. :|
+[15:08] <jasonbraganza> s /on any platform. /on any platform you like.
+[15:08] <schubisu> next
+[15:09] <N4G4R41> No thanks i got my answers from the above conversations
+[15:09] <avikalpg> schubisu: can I assume that the answer to my first question was "No"?
+[15:10] <schubisu> remember, you can always ask questions, also when no session is going on. I dare say that the vast majority of the people in this room maintain a blog. And actually maintaining and changing and tweaking it can be a fun hobby ;)
+[15:10] <schubisu> avikalpg: no, not without further work
+[15:11] <schubisu> so I know that it's late, I would have loved to talk with you about Markdown before I dismiss the class
+[15:12] <schubisu> Markdown can make your life much easier when writing, so you can focus on the content and not on your formatting etc.
+[15:13] <schubisu> Please inform yourself about Markdown online. Share your links if you find good ones. Ask questions if you cannot find the answers
+[15:13] <schubisu> Roll Call
+[15:13] <avikalpg> Avikalp Kumar Gupta
+[15:13] <schubisu> Robin Schubert
+[15:13] <N4G4R41> Nagarajan
+[15:13] <peanutduck> Benedict Ramasamy
+[15:14] <susheel> VK Susheel
+[15:14] <humachine> ranjith kumar
+----END CLASS----
