@@ -1,0 +1,195 @@
+----BEGIN CLASS----
+[13:52] <schubisu> #startclass
+[13:52] <schubisu> Roll Call
+[13:52] <ishivamsoni> Shivam Soni
+[13:52] <N4G4R41> Nagarajan
+[13:52] <schubisu> Robin Schubert
+[13:53] <ravish0007> Ravish Shankar
+[13:53] <sreelakshmi> Sreelakshmi Jayarajan
+[13:53] <ishivamsoni> schubisu: thanks for the suprise class :)
+[13:54] <schubisu> ishivamsoni: ;)
+[13:54] <schubisu> let's wait for another 2 minutes, it's on short notice
+[13:56] <Muskan_> Muskan Paliwal
+[13:57] <schubisu> okay
+[13:57] <schubisu> last week I asked you to create your own blog and make it available in the internet
+[13:58] <schubisu> who were able to finish that assignment by now, type "yes" if you have, "no" if not
+[13:58] <ravish0007> no
+[13:58] <Muskan_> no
+[13:58] <N4G4R41> no
+[13:58] <sud0ed> yes but it's not online yet
+[13:59] <sreelakshmi> Can i say yes,if i had written a blog already?
+[14:00] <schubisu> sreelakshmi: can I find it online?
+[14:00] <sreelakshmi> yes
+[14:00] <sud0ed> Roll Call : Sudip Banerjee
+[14:00] <schubisu> then it's a yes
+[14:00] <sreelakshmi> okay
+[14:01] <schubisu> for those who answered no, what is the issue?
+[14:01] <ishivamsoni> no
+[14:01] <N4G4R41> halfway through it, will make it online tmrw
+[14:02] <schubisu> N4G4R41: what does tmrw mean?
+[14:02] <N4G4R41> sorry, tommorrow
+[14:02] <schubisu> ah, I was really wondering
+[14:03] <schubisu> so here's the opportunity to ask any questions, if you ran into issues while creating your blog
+[14:03] <sud0ed> !
+[14:03] <schubisu> next
+[14:04] <ravish0007> !
+[14:05] <sud0ed> the subject of my blog is to track my progress in dgplug, but I am having prolem with the look and feel and all other options in wordpress
+[14:05] <sud0ed> <eof>
+[14:05] <ishivamsoni> !
+[14:06] <schubisu> sud0ed: I don't know if there is a hidden question somewhere
+[14:06] <schubisu> but don't focus on the look and feel
+[14:06] <schubisu> focus on writing, first
+[14:06] <philomath> sud0ed, You will get acquainted with the platform with time. You can write on an editor locally and publish via wordpress.
+[14:06] <schubisu> sud0ed: you said your blog is not online yet, did you write something on wordpress.com but just not publish?
+[14:06] <philomath> sud0ed, It will help you keep the distraction to minimal
+[14:07] <schubisu> next
+[14:07] <sud0ed> thanks schubisu sorry if my question wasn't clear, but you just answered my question, thanks <eo>
+[14:07] <sud0ed> <eof>
+[14:08] <ravish0007> Not really an issue, I never really did any frontend on my own and thus taking more time than expected
+[14:08] <ravish0007> Is there a design guide that you would like to recommend ? (Specifically blogging)
+[14:09] <schubisu> ravish0007: this will be yours and only yours. So it's completly up to you how to design and how often you choose to do a complete make-over
+[14:09] <sud0ed> yes schubisu I have created one blog post, but I didn't publish the site.<eof>
+[14:09] <schubisu> sud0ed: okay
+[14:09] <schubisu> ravish0007: again, focus on writing first, don't get distracted by layouting, if possible
+[14:10] <schubisu> that's why many people choose a quite plain and distraction free environment
+[14:10] <schubisu> if you look at https://write.as you'll notice that it's very minimal. Black on white. 
+[14:10] <schubisu> It doesn't matter
+[14:11] <ravish0007> I did try out some getting started stuff from jekyll. 
+[14:11] <ravish0007> I'll keep that in mind and  I'll start writing them. 
+[14:11] <ravish0007> <eof>
+[14:11] <schubisu> ravish0007: okay
+[14:11] <schubisu> next
+[14:11] <ishivamsoni> I was using a wordpress site with a theme, but I was not satisfied with it.  
+[14:12] <schubisu> ishivamsoni: were you satisfied with what you wrote?
+[14:13] <ishivamsoni> yes
+[14:13] <schubisu> ishivamsoni: can I read it online somewhere?
+[14:15] <jasonbraganza> if i may interject schubisu?
+[14:15] <schubisu> jasonbraganza: sure, go ahead ;)
+[14:15] <jasonbraganza> to all you folk, worrying about look and feel.
+[14:15] <jasonbraganza> in school, you went to the stationary store and bought a 100 page notebook to do your homework, yea?
+[14:15] <ishivamsoni> No, I wrote my blog on paper and didn't even typed what I wrote on an editor.
+[14:16] <jasonbraganza> ishivamsoni, tell me about what i just asked 
+[14:16] <jasonbraganza> other folk too?
+[14:16] <jasonbraganza> did you do your homework in notebooks that you just purchased from the local store?
+[14:16] <sreelakshmi> yes
+[14:16] <N4G4R41> yes
+[14:17] <ishivamsoni> yes
+[14:17] <Muskan> yes
+[14:17] <sud0ed> yes
+[14:17] <jasonbraganza> so at the time were you worried about how the darned notebook looked or what its pages felt like? or did you just need pages to finish your notes?
+[14:18] <ravish0007> jasonbraganza: your blog inspired me to write a blog 
+[14:18] <sud0ed> <eof>got your point jasonbraganza
+[14:18] <jasonbraganza> ravish0007, nice, but let’s stick to what i am asking here
+[14:18] <N4G4R41> no jasonbraganza
+[14:19] <ravish0007> jasonbraganza: yeah, I needed pages to finish notes
+[14:19] <jasonbraganza> so there we have it. ignore look and feel. focus on the content. on what you learn. on what you have to communicate.
+[14:19] <jasonbraganza> the fancy pages and the amazing website can come later.
+[14:19] <jasonbraganza> thank you schubisu 
+[14:19] <schubisu> thanks jasonbraganza :)
+[14:20] <schubisu> I want to show you another thing
+[14:20] <N4G4R41> ok got it, thank you jasonbraganza:
+[14:20] <Muskan> Yeah, got it jasonbraganza  :)
+[14:20] <schubisu> please open this website and scroll down for some http://planet.dgplug.org/
+[14:20] <schubisu> and tell me what do you see?
+[14:20] <ishivamsoni> I got it jasonbraganza 
+[14:21] <schubisu> who can tell me what this planet does?
+[14:22] <ravish0007> schubisu: putting feeds from dgplug team at one place
+[14:22] <schubisu> ravish0007: correct
+[14:22] <schubisu> now, what about the layout of the individual blogs?
+[14:22] <ravish0007> Certainly different
+[14:22] <N4G4R41> just plain
+[14:24] <schubisu> when all the feeds are put together on this planet, the original layout of the individual blogs does not play any role
+[14:25] <schubisu> when you read a feed, you're reading content. 
+[14:25] <schubisu> An application that parses feeds is completly unaware of the look and feel of individual sources
+[14:25] <schubisu> the content counts, so the content is parsed
+[14:26] <schubisu> sure it's nice to have a nice looking website, for people who find your blog online
+[14:26] <schubisu> but for someone who actually reads the blog regularly, it's only the contents that counts
+[14:26] <schubisu> https://pad.riseup.net/p/dgplug-students-blogs
+[14:27] <schubisu> in this pad, you can put your feed URLs, so we can combine them in a students' planet (once available)
+[14:27] <schubisu> I was hoping to do that today
+[14:28] <N4G4R41> ok, will do it
+[14:29] <ravish0007> schubisu:  It will be cool, I'll build it sooner
+[14:30] <schubisu> ravish0007: sooner?
+[14:30] <Muskan> I have my end semester exams coming up, will write something on this upcoming weekend.
+[14:30] <ravish0007> s/it sooner/ my blog and feed sooner
+[14:31] <schubisu> Muskan: sure, exams come first
+[14:31] <schubisu> ravish0007: okay, I'm still not sure if I understand correctly ;)
+[14:31] <schubisu> anyway, ask your questions
+[14:32] <schubisu> if you don't have any: create your blogs
+[14:32] <Vinay> I built my blog using GitHub pages  but it's in developing stage https:// vinay-keshava.github.io
+[14:32] <Vinay> https://vinay-keshava.github.io
+[14:33] <Vinay> I haven't posted anything yet 
+[14:33] <schubisu> Vinay: I see. You have thought about a design, but did not write any content
+[14:33] <schubisu> Vinay: what are you using to build these pages?
+[14:34] <Vinay> schubisu: html and CSS 
+[14:34] <Vinay> I have to add content 
+[14:34] <Vinay> To it 
+[14:35] <schubisu> Vinay: do you know how you can generate a feed from your blog when writing in plain HTML?
+[14:36] <Vinay> I don't know 
+[14:36] <jasonbraganza> to all the folks hand coding here, you are welcome to build your site that way. but for the purposes of the summer training, we need blogs. and we need you to write.
+[14:37] <schubisu> Vinay: depending you your programming skills, it may become quite tedious to maintain a blog like that
+[14:37] <jasonbraganza> so if you are doing a website and stuff, that is all good, but then we need you to have another blog on wordpress or write.as or any simple solution, that lets you *write*
+[14:37] <schubisu> yes, just what jasonbraganza said. we do have tools available that would make your live much easier, so you can get started quickly
+[14:37] <jasonbraganza> so you either just have a blog for now. or your own website AND a blog. your choice.
+[14:38] <N4G4R41> ok sure
+[14:38] <N4G4R41> already have one write.as account
+[14:39] <jasonbraganza> good. *use* it
+[14:39] <Vinay> schubisu:  Yea little tedious task 
+[14:39] <N4G4R41> https://circuitlover.writeas.in
+[14:39] <N4G4R41> just with an introduction post
+[14:40] <schubisu> N4G4R41: I cannot upen that page, is the URL correct?
+[14:40] <N4G4R41> https://circuitlover.writeas.com sorry
+[14:40] <jasonbraganza> there we go!
+[14:41] <schubisu> Vinay: you will find that almost no website is created by writing plain HTML manually. That is because HTML can easily be generated by scripts and frameworks. That way, you can separate your layout from your content, which is definitely desireble
+[14:43] <ravish0007> Vinay:  Try this https://jekyllrb.com/docs, It is quite friendly and what I understood from it is building a pipeline and adding a markdown document and it'll generate HTMLs for you ( static site generators)
+[14:43] <schubisu> N4G4R41: this will get you started :)
+[14:44] <jasonbraganza> did any of you folks read my post / thoughts on setting up a blog?
+[14:44] <N4G4R41> thank you, schubisu:, nikola site is in finishing stage, will finish my post and make it online :)
+[14:44] <jasonbraganza> please do not spend more than 2-3 days trying this and that out
+[14:44] <N4G4R41> jasonbraganza: yes, read it
+[14:44] <jasonbraganza> we are not trying to learn how to implement / install blogs
+[14:44] <jasonbraganza> we need readymade stuff
+[14:45] <N4G4R41> ok sure
+[14:45] <jasonbraganza> if you cannot quit understand it now, you have plenty of time to go build/develop/hack on anything later
+[14:45] <jasonbraganza> just get the simplest thing that works. a write.as blog. a wordpress blog. a blogger/tumblr blog. whatever.
+[14:46] <jasonbraganza> you will be learning *so* many things in the coming weeks
+[14:46] <jasonbraganza> and the mentors here will expect you to keep writing about what you learn
+[14:46] <schubisu> true
+[14:46] <jasonbraganza> i don’t want you to be fighting the blog and the site and trying keep a handle on what you learnt as you struggle to compose a post
+[14:47] <jasonbraganza> it should be write. publish. done. that simple
+[14:47] <ravish0007> Makes sense
+[14:47] <jasonbraganza> somebody here liked my blog and posts
+[14:47] <jasonbraganza> i can write so much, because i started that way.
+[14:47] <jasonbraganza> and kept it that way
+[14:47] <jasonbraganza> the process has to be as simple as you can make it.
+[14:47] <jasonbraganza> sorry schubisu. i am done. <eom>
+[14:48] <schubisu> jasonbraganza: no appologies needed
+[14:48] <ravish0007> jasonbraganza: I love your book section, your blog is like bringing the best in oneself, thats what inspired me, thanks
+[14:49] <schubisu> One thing we couldn't cover last time as much as I would have loved to is Markdown.
+[14:49] <schubisu> It's been created to do exactly what jasonbraganza explained:
+[14:49] <schubisu> to write
+[14:49] <schubisu> without anything in your way
+[14:49] <schubisu> all you need is a text editor
+[14:50] <schubisu> no HTML skills, or anything
+[14:51] <schubisu> I have not tried Jekyll or Nikola, but I'm certain you write your posts in Markdown when you use it, do you?
+[14:51] <schubisu> You can be writing your posts in Markdown if you use wordpress or tumblr or write.as
+[14:51] <N4G4R41> yes, sure
+[14:52] <schubisu> so choosing the platform/framework and whatsoever for your blog now is not the end of the road anyway
+[14:52] <schubisu> you can take your Markdown posts and publish it anywhere without fiddling any HTML
+[14:53] <schubisu> now when I talk about Markdown, who is not sure what I'm talking about? Please raise your hand if you have any doubts on Markdown
+[14:55] <ravish0007> schubisu: Regarding to Nikola or Jekyll, Yes it were markdowns
+[14:56] <ravish0007> s/markdown/Markdowns
+[14:56] <schubisu> sreelakshmi: I see you've made an entry to the pad; this is not a valid feed url
+[14:56] <schubisu> sreelakshmi: can you find the feed in your blog?
+[14:57] <sreelakshmi> let me check
+[14:57] <sreelakshmi> yes
+[14:58] <schubisu> so everyone seems to be familiar with Markdown, please enter your feeds in the pad, as soon as they're available
+[14:59] <N4G4R41> ok sure
+[14:59] <schubisu> let's end the class here
+[14:59] <schubisu> Roll Call
+[14:59] <Vinay> Vinay keshava
+[14:59] <N4G4R41> Nagarajan
+[14:59] <schubisu> Robin Schubert
+[15:00] <peanutduck> Benedict Ramasamy
+[15:00] <sreelakshmi> Sreelakshmi Jayarajan
+----END CLASS----
