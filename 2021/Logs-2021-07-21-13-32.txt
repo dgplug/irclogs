@@ -1,0 +1,65 @@
+----BEGIN CLASS----
+[13:32] <nabarun> #startclass
+[13:32] <nabarun> Roll Call
+[13:32] <sud0ed> Sudip Banerjee
+[13:32] <AnmolLenka> Anmol Lenka
+[13:33] <peanutduck> Benedict Ramasamy
+[13:33] <Vinay> Vinay keshava
+[13:34] <avikalp> Avikalp Kumar Gupta
+[13:34] <Vipulk> Vipul Kumar
+[13:34] <sreelakshmi> Sreelakshmi Jayarajan
+[13:35] <nabarun> Hello everyone, welcome to today's session!
+[13:35] <sud0ed> hi nabarun
+[13:35] <nabarun> Did you go through the homework from the shell commands session?
+[13:36] <peanutduck> yes
+[13:36] <sud0ed> I may have missed that session, though I have gone through the lym and have some basic understanding of it <eof>
+[13:36] <nabarun> Shall I take other's silence as a no? :)
+[13:37] <Vinay> Yes
+[13:37] <nabarun> Okay. So, let'
+[13:37] <AnmolLenka> This is my first session and I have gone through the logs and learning.
+[13:37] <nabarun> ... s continue.
+[13:37] <Vipulk> Partially, only gone through basic shell commands.
+[13:38] <nabarun> Please raise your hand if you have doubts from the homework.
+[13:39] <nabarun> So no one has any doubts from the homework or shell commands.
+[13:39] <darshna___> I have missed the last session as I had my exams, but I can make it up until next class
+[13:40] <nabarun> darshna___: it's okay. For those who have missed those sessions, it's fine. You can even ask when a class isn't going.
+[13:41] <nabarun> Is everyone clear with how the Linux root filesystem hierarchy works?
+[13:41] <darshna___> nabarun: actually I was not able to keep track of classes, so I saw today is the class. I will take a look into logs and then ask my doubts
+[13:42] <sud0ed> !
+[13:42] <nabarun> next
+[13:43] <sud0ed> I have a doubt not related to linux file system, it's about the distro itself can I ask?
+[13:44] <nabarun> sud0ed: we can take that after the class if it's not related to file system hierarchy.
+[13:44] <sud0ed> sure nabarun <eof>
+[13:46] <nabarun> Cool. Moving ahead, since there are no doubts, there is nothing for me to answer as well.
+[13:46] <nabarun> Next step for you all would be to learn how you can compose the commands you have learnt.
+[13:47] <ravish0007> Roll  class: Ravish Shankar
+[13:47] <nabarun> By composing unix commands, you can create scripts which can do lot's of things for you.
+[13:47] <ravish0007> Sorry for being late
+[13:48] <nabarun> Shell scripting is a very important trait for engineers who write code.
+[13:48] <nabarun> There are lot's of materials on Internet to teach you the same.
+[13:48] <nabarun> First and foremost, you should read https://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html
+[13:49] <nabarun> There are very good exercises after each chapters.
+[13:50] <nabarun> Post reading that, you can also try out some interactive exercises on https://exercism.io/tracks/bash
+[13:51] <nabarun> Along with reading and practising, you should also solve problems with bash that you face in a day-to-day work.
+[13:51] <AnmolLenka> shall we do now?
+[13:52] <nabarun> For example, if you want to automate renaming photos imported from your camera, you can write a script to do so.
+[13:52] <nabarun> What I want you all to do is to write any idea that you come up here: https://pad.riseup.net/p/dgplug-shell-script-ideas-keep
+[13:53] <nabarun> And implement it youself with the learnings that you get out of the homework.
+[13:53] <nabarun> Is there any question till now?
+[13:53] <nabarun> AnmolLenka: During the sessions, we use ! to queue our questions just like you raise hand in a physical class and wait for your turn.
+[13:54] <nabarun> AnmolLenka: To answer your question, no. You don't need to do it in class, but do at your own pace.
+[13:54] <nabarun> We will do another follow up in the next week to check on the progress.
+[13:56] <AnmolLenka> okk
+[13:56] <nabarun> Since there are no questions, this is the end of class. I hope you all go through the homework.
+[13:56] <nabarun> Roll Call
+[13:57] <AnmolLenka> Anmol Lenka
+[13:57] <sud0ed> ]Sudip Banerjee
+[13:57] <darshna___> Darshna Das
+[13:57] <ravish0007> Ravish Shankar
+[13:57] <raghavxk> Raghavendra Khare
+[13:57] <peanutduck> Benedict Ramasamy
+[13:57] <Vipulk> Vipul Kumar
+[13:57] <sreelakshmi> Sreelakshmi Jayarajan
+[13:57] <Vinay> Vinay keshava
+[13:58] <nabarun> Thank you all for joining.
+----END CLASS----
