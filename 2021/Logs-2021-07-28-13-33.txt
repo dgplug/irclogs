@@ -1,0 +1,50 @@
+----BEGIN CLASS----
+[13:33] <sayan> #startclass
+[13:33] <sayan> Roll Call
+[13:34] <raghavxk> Raghavendra Khare
+[13:34] <N4G4R41> Nagarajan
+[13:34] <Muskan_> Muskan
+[13:34] <peanutduck> Benedict Ramasamy
+[13:34] <humachine> Ranjith kumar
+[13:34] <Vinay> Vinay keshava
+[13:35] <deathstalkr> Solomon
+[13:35] <sayan> Today's class will be light and mostly self-driven, fhackdroid will be taking a Python class tomorrow. 
+[13:36] <ishivamsoni> Shivam Soni
+[13:38] <sayan> So today I would like folks to go through https://pymbook.readthedocs.io/en/latest/
+[13:39] <sayan> and solve the problems. The questions would be asked here and answered by the participants
+[14:05] <sayan> what are you folks working on?
+[14:06] <sayan> any interesting question you are working on?
+[14:07] <raghavxk> i am fiddling around with  tuple unpacking and packing 
+[14:08] <sayan> raghavxk: would you like to explain after you have learnt?
+[14:10] <N4G4R41> me doing with varaiables and data types
+[14:10] <raghavxk> coming from c++ I was confused with how can swap work without an extra variable . Then learnt how we are doing so in python by using tuple to unpack and pack variables.
+[14:12] <sayan> raghavxk: good. you know this was something I asked in interviews.
+[14:12] <sayan> everyone in Python world knows swap. not all know that it is tuple unpacking happening.
+[14:13] <raghavxk> woah!
+[14:15] <sayan> what about others?
+[14:15] <Vinay> Variables and data types
+[14:15] <peanutduck> looping
+[14:18] <raghavxk> !
+[14:19] <ishivamsoni> looping
+[14:22] <ravish0007> rollcall:Ravish Shankar
+[14:22] <humachine> if-else
+[14:24] <ravish0007> I'm around Exceptions
+[14:32] <raghavxk> can anyone explain the use of {d:%A} in f-string concept ?
+[14:33] <raghavxk> >>> d = datetime.date(2004, 9, 8)
+[14:33] <raghavxk> >>> f"{d} was a {d:%A}, we started the mailing list back then."
+[14:33] <raghavxk> '2004-09-08 was a Wednesday, we started the mailing list back then.'
+[14:37] <ravish0007> generally, it used to be 
+[14:37] <ravish0007> "{0} was a {1}, we started the mailing list back then".format('2004-09-08', 'Wednesday')
+[14:37] <ravish0007> This made sense to replace variables in place
+[14:37] <ravish0007> f"{some_random_variable}  was a { some_random_variable: formatter}"
+[14:41] <raghavxk> is %A something related to strings or datetime module of python?
+[14:44] <ravish0007> datetime module
+[14:45] <raghavxk> ravish0007: thank you!
+[14:52] <sayan> I will leave, do I keep the class open. I really want folks to interact and learn. Remember the motto to learn and teach others.
+[14:53] <sayan> That is what we are doing
+[14:53] <sayan> Folks who cannot stay long, fhackdroid will take class tomorrow.
+[14:53] <sayan> I will keep the class open for next 2-3 hours.
+[14:53] <sayan> Ask questions, and try to understand together.
+[14:55] <ravish0007> jasonbraganza: I wish I had enough guts to do that.
+[15:05] <peanutduck> the string lstrip why the need for "cwsd." when "w." is enough?
+[15:12] <peanutduck> https://pymbook.readthedocs.io/en/latest/strings.html#strip-the-strings
