@@ -48,3 +48,23 @@
 [14:55] <ravish0007> jasonbraganza: I wish I had enough guts to do that.
 [15:05] <peanutduck> the string lstrip why the need for "cwsd." when "w." is enough?
 [15:12] <peanutduck> https://pymbook.readthedocs.io/en/latest/strings.html#strip-the-strings
+[15:19] <raghavxk> maybe it is there to make the idea clear that all substrings permutation will be removed .
+[15:26] <peanutduck> Thank you raghavxk 
+[15:30] <ravish0007> I was about to say that but just learnt "permutation" fits very well, thanks raghavxk.
+[15:51] <nabarun> what are the interesting things you folks are discovering while reading the book?
+[15:56] <ravish0007> I like the book follows KISS principle 
+[15:56] <ravish0007> s/the/how the
+[16:06] <raghavxk> i discovered many things . i discovered that variables in python are pointers pointing to values stored in memory , which explaines why if we initialise a variable by a variable in python , change in value of one variable reflects in both the variables.
+[16:07] <raghavxk> s/explaines/explains
+[18:04] <ravish0007> https://ravish0007.github.io, my blog ;)
+[18:05] <avikalp> Folks, I missed the class today. Can someone please share the logs?
+[18:08] <raghavxk> sure
+[03:02] <peanutduck> Morning all
+[03:18] <ravish0007> Morning, peanutduck
+[03:23] <peanutduck> Morning ravish0007 
+[03:28] <ravish0007> peanutduck: What are you working on ? 
+[03:29] <peanutduck> Was planning to finish up the pym book today ravish0007 
+[03:31] <ravish0007> Cool ! I'll do the same then.
+[04:30] <jasonbraganza> good morning folks! :)
+[04:37] <sayan> Nice! I thought I'll end the class at 10:30 but then I fell asleep!
+----END CLASS----

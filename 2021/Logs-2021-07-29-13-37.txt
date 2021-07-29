@@ -1,0 +1,127 @@
+----BEGIN CLASS----
+[13:37] <fhackdroid> #startclass
+[13:37] <fhackdroid> Roll Call
+[13:37] <fhackdroid> Farhaan Bukhsh
+[13:37] <sud0ed> Sudip Banerjee
+[13:37] <raghavxk> Raghavendra Khare
+[13:38] <ishivamsoni> Shivam Soni
+[13:38] <N4G4R41> Nagarajan
+[13:38] <peanutduck> Benedict Ramasamy
+[13:39] <humachine> Ranjith kumar
+[13:39] <fhackdroid> Awesome!
+[13:40] <fhackdroid> So first of all folks I am sorry for the huge gap between classes.
+[13:40] <fhackdroid> I have been going through some issues and if I wasted someone's time I am really sorry about it.
+[13:41] <fhackdroid> Having said that :) I saw the projec ideas
+[13:41] <fhackdroid> Pretty innovative.
+[13:42] <fhackdroid> So the goal now is to drive those ideas to completion
+[13:42] <ravish0007> Ravish Shankar
+[13:42] <fhackdroid> So did anyone start implementing those ideas?
+[13:42] <N4G4R41> no
+[13:42] <sud0ed> yes
+[13:43] <humachine> no
+[13:43] <shivam> no
+[13:43] <raghavxk> no
+[13:43] <ravish0007> I haven't put my idea in the pad but I tried few things today
+[13:43] <peanutduck> no
+[13:43] <sud0ed> doing some background checking, like the api support available already
+[13:45] <fhackdroid> ravish0007: https://pad.riseup.net/p/ideas-keep
+[13:45] <fhackdroid> in case you want to put your idea else no issues :)
+[13:46] <fhackdroid> So first thing first we need to be in implementing phase of our ideas from the begining 
+[13:48] <fhackdroid> Alright so how many of you did your homework
+[13:49] <shivam> i did it.
+[13:49] <sud0ed> I did
+[13:51] <fhackdroid> what about others?
+[13:51] <N4G4R41> i didn't, but will complete within next class
+[13:52] <ravish0007> homework meaning reading the pymbook ?
+[13:52] <fhackdroid> ravish0007: yes
+[13:52] <peanutduck> I did
+[13:52] <raghavxk> i did
+[13:53] <ravish0007> I'm around Exceptions, I'll complete by today for sure
+[13:53] <fhackdroid> okay so let's start with questions.
+[13:54] <fhackdroid> Any doubts till what you all have read?
+[13:54] <sud0ed> no not yet
+[13:54] <raghavxk> no
+[13:54] <N4G4R41> no
+[13:55] <peanutduck> no
+[13:55] <fhackdroid> Cool since no one has any questions for me
+[13:55] <fhackdroid> I have a lot of questions for you all :)
+[13:55] <ravish0007> Hehe
+[13:56] <fhackdroid> So how many of you have prior programing experience?
+[13:56] <ravish0007> Me
+[13:56] <raghavxk> me
+[13:56] <shivam> Me
+[13:56] <sud0ed> I have
+[13:57] <Vinay> Me
+[13:57] <ravish0007> But I always produce spaghetti 
+[13:57] <N4G4R41> me a little
+[13:57] <humachine> little bit scripting 
+[13:57] <sud0ed> !
+[13:57] <fhackdroid> next
+[13:57] <sud0ed> I have a doubt can I ask
+[13:57] <fhackdroid> sud0ed: yes
+[13:58] <sud0ed> in amny code I saw like "if __name_-==__main__: what dose it signifies
+[13:58] <sud0ed> <eof>
+[14:02] <sud0ed> am I offline? or noone is typing anything?
+[14:02] <fhackdroid> sud0ed: To explain this in a very normal terms since we have not develved in Python yet, if the line you saw is in a script the code written after that or in that block is executed
+[14:04] <fhackdroid> sud0ed: again there is a lot of details in this but to bluntly understand that it's a main function in C if you are familar with C
+[14:04] <sud0ed> ok understood
+[14:04] <raghavxk> !
+[14:04] <fhackdroid> sud0ed: again this is not a perfect explaination but a general structure
+[14:05] <fhackdroid> next
+[14:05] <raghavxk> >>> f"{d} was a {d:%A}, we started the mailing list back then."
+[14:05] <raghavxk> what is use of %A in this statement?
+[14:05] <raghavxk> https://pymbook.readthedocs.io/en/latest/variablesanddatatypes.html#formatting-strings this is from this page in bool
+[14:05] <raghavxk> s/bool/book
+[14:08] <fhackdroid> raghavxk: %A is a format string, now the datetime object has a lot of special format strings
+[14:08] <fhackdroid> so if you format a datetime object with %A it gives you the day of the week
+[14:09] <fhackdroid> raghavxk: is it clear?
+[14:09] <raghavxk> got it . thanks fhackdroid
+[14:10] <fhackdroid> alright any other questions
+[14:10] <sud0ed> !
+[14:11] <shivam> !
+[14:12] <fhackdroid> next
+[14:13] <sud0ed> where can anyone get that all format string list of an object
+[14:15] <fhackdroid> sud0ed: you can check the library/functions documentations 
+[14:16] <sud0ed> thanks fhackdroid
+[14:16] <fhackdroid> sud0ed: for example for dateobject https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+[14:17] <fhackdroid> sud0ed: is that clear? 
+[14:17] <fhackdroid> sud0ed: do you have any follow-ups for it?
+[14:18] <sud0ed> yes thanks fhackdroid, I was checking the link
+[14:18] <fhackdroid> next
+[14:19] <shivam> In evaluateequ.py 
+[14:19] <shivam> https://pymbook.readthedocs.io/en/latest/operatorsexpressions.html#evaluateequ-py
+[14:19] <shivam> why 2 is used in print("%2d %6.4f" % (i , sum)) ?.
+[14:20] <fhackdroid> shivam: did you see the output?
+[14:24] <shivam> yes
+[14:25] <fhackdroid> shivam: can you try extrapolating what might be happpening?
+[14:25] <fhackdroid> s/happening/happening
+[14:26] <shivam> the output was same when i replaced 2 with other numbers.
+[14:30] <ravish0007> shivam:  Are you clear with .4f  ?
+[14:31] <fhackdroid> shivam: what about d what do you think that is doing?
+[14:33] <shivam> yes i am clear with .4f,  it sets the number of decimal places.
+[14:35] <raghavxk> shivam: observe how numbering is aligned to right and spaces before them.
+[14:35] <ravish0007> d is width I believe, try '%1d' % (10000) all the way upto '%10d'
+[14:35] <shivam> i think d denotes the integer.  
+[14:36] <shivam> okay i got it thanks.  
+[14:37] <fhackdroid> shivam: try something like %80d
+[14:37] <fhackdroid> and tell me what do you see
+[14:39] <ravish0007> TIL: wikipedia.org/wiki/Print_format_string
+[14:39] <ravish0007> Especially syntax => %[parameter][flags][width][. precision][length]type
+[14:39] <ravish0007> [] are optional
+[14:41] <fhackdroid> shivam: let me know what you can see
+[14:41] <shivam> a lot spaces are printed before each line in the output.
+[14:42] <fhackdroid> shivam: so does the number makes sense now?
+[14:42] <shivam> yes it does, thanks fhackdroid & ravish0007. 
+[14:42] <fhackdroid> Okay folks I am running out of time now so here is a homework
+[14:44] <fhackdroid> Write a compute program to get a list of fruits from the user and just print the fruits which are starting with 'O'
+[14:44] <fhackdroid> is the question clear?
+[14:44] <fhackdroid> We will meet tomorrow again at 9 PM IST
+[14:44] <fhackdroid> next
+[14:45] <N4G4R41> yes clear, how to submit?
+[14:45] <fhackdroid> Roll Call
+[14:45] <fhackdroid> Farhaan Bukhsh
+[14:45] <sud0ed> Sudip Banerjee
+[14:45] <N4G4R41> Nagarajan
+[14:45] <raghavxk> Raghavendra Khare
+[14:45] <shivam> Shivam soni
+----END CLASS----
