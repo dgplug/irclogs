@@ -1,0 +1,122 @@
+----BEGIN CLASS----
+[13:30] <sayan> #startclass
+[13:30] <sayan> Roll Call
+[13:30] <raydeeam> Rayan Das
+[13:30] <sayan> .add raydeeam 
+[13:30] <vipulk1> Vipul Kumar
+[13:30] <sreelakshmi> Sreelakshmi Jayarajan
+[13:30] <peanutduck> Benedict Ramasamy
+[13:31] <raydeeam> Hey folks! My name is Rayan Das, I'm a Site Reliability Engineer at InfraCloud. In 2018 I've attended my first summer training but I joined dgplug around 2017 when I was in my final year. I've made so many friends here.
+[13:32] <raydeeam> And I am glad to talk to you all. 
+[13:32] <raydeeam> So who all does not know git here?
+[13:34] <raydeeam> are you all awake? :D
+[13:34] <peanutduck> yes raydeeam 
+[13:34] <vipulk1> Yes
+[13:34] <sreelakshmi> yes
+[13:35] <raydeeam> So I'll take that as everyone knows Git. 
+[13:37] <raydeeam> Alright, let's discuss Git basics today then. Maybe I will learn something new from you all. 
+[13:37] <raydeeam> so how frequently do you folks use git?
+[13:38] <peanutduck> not that frequent
+[13:39] <sreelakshmi> I have been using it for two months
+[13:40] <raydeeam> alright. 
+[13:40] <raydeeam> So git is an open-source distributed version control system (VCS). There are other VSC like git, svn, mercurial etc.
+[13:41] <raydeeam> Let's break it down into some smaller parts.
+[13:41] <raydeeam> Let's say you're working on building a website. After a while you decide that the website is ready to be deployed.
+[13:42] <raydeeam> Your deployed website is now available on your domain example.com, and anyone on the internet can visit it. 
+[13:43] <raydeeam> On your own computer you have a local version of that deployed website. After a while you want to make some updates to the website. You changed the background image, added a better subtitle to the landing page and changed fonts.
+[13:43] <raydeeam> It's not ready to be deployed yet though. it's just draft changes that still needs some other things before you actually want to deploy the updated version.
+[13:44] <raydeeam> Suddenly your friend texted you saying that he spotted a typo on your website. In the navigation bar the 'About' button is like 'Abbout'. two 'b's instead of one.
+[13:45] <raydeeam> you quickly want to change it to make sure that there are no typos on the deployed website. 
+[13:46] <raydeeam> but wait a second, you changed the background image, added a subtitle and changed fonts which you don't want to deploy yet.
+[13:47] <raydeeam> So you can't update the contents of the deployed website without overriding all the changes that you've just made locally.
+[13:48] <raydeeam> In that case git will help you out. i will tell you how but before that let's check if you folks have any questions.
+[13:48] <sreelakshmi> no questions
+[13:48] <peanutduck> no queastions
+[13:49] <raydeeam> alright. let's move forward. 
+[13:49] <vipulk1> no questions.
+[13:49] <avikalp> no questions
+[13:49] <raydeeam> Git is a content tracker, it stores all our code changes. It's also distributed. 
+[13:50] <raydeeam> A version control system basically means that we can go back in time and work with a different version of our codebase, since git stored it all and we can work with branches which we'll cover later.
+[13:51] <raydeeam> And distributed means that it has a remote repository which is stored in a server,  and a local repository which is stored on the computer of every developer working on a project.
+[13:52] <raydeeam> So every developer has access to the full copy of the codebase. 
+[13:52] <avikalp> !
+[13:52] <raydeeam> next
+[13:52] <raydeeam> sayan ^^
+[13:53] <raydeeam> shoot your question here avikalp 
+[13:53] <avikalp> I always thought git can be used to share repos without Github as well. Adding each other's IPs to the git remote. Is that not true? (I didn't try it, but assumed the Github just played the role of another computer for the distributed version control)
+[13:56] <raydeeam> honestly I didn't try it as well. But then if you want to use git to share repos without Github, gitlab then you'll need somekind authentication.
+[13:57] <raydeeam> I am not sure if it's possible. I will try it in my free time someday. :)
+[13:57] <avikalp> I see. I am excited to try it now. I will try to do it with two of my own computers and update on this channel whether/how am I able to do it. Thanks for your response. <eom>
+[13:58] <raydeeam> great. moving ahead. 
+[13:58] <raydeeam> So now we know that we can go back in time without loosing any new changes using git. When we've made changes we can save the current state of the website.
+[13:59] <raydeeam> this way you'll always have all your versions stored, which makes it super easy to get  every version of your website.
+[14:00] <raydeeam> using git you'll have access to your project's history. The changes you made, who made the changes, (if you're working on a project with multiple team members), and when it was made.
+[14:00] <raydeeam> now let's go back to your website. git can help us out to fix that about button bug for the deployed website.
+[14:01] <raydeeam> currently we have two versions of the website. one is deployed another one is on your local machine that contain your new changes.
+[14:02] <raydeeam> now with git you go back to the state of that website when you deployed, you fix the about button bug, push the changes and deploy the website.
+[14:02] <raydeeam> and you can do it without loosing your new changes. now switch back and keep on working on your new local changes.
+[14:02] <raydeeam> any questions till now?
+[14:03] <sreelakshmi> no 
+[14:04] <vipulk1> no
+[14:04] <raydeeam> alright. now let's talk about repository types. and then we can try out few thing on terminal. 
+[14:05] <raydeeam> git has two repository types. remote and local.
+[14:05] <raydeeam> the local repo is on your own machine, so you have direct access to it. 
+[14:06] <raydeeam> the remote repo is usually on a server, typically a machine situated at 1000 miles away.
+[14:07] <raydeeam> remote repository is very useful when you want to have a backup of your code in case your machine crashed, or when you're working with a team.
+[14:07] <raydeeam> team mates can initialize their own local repository, on their machine and simply pull the code from remote repository in order to start working on your project.
+[14:08] <raydeeam> when one of the team mates has made some changes, they can push those changes to the remote repository.
+[14:09] <raydeeam> in order to keep your local and remote repo in sync, you can then pull the changes from the remote repo into your local repo.
+[14:10] <raydeeam> any questions till now? 
+[14:10] <sreelakshmi> no
+[14:10] <peanutduck> no
+[14:10] <vipulk1> no
+[14:11] <raydeeam> Okay. let's talk about the local repository now. it consists of three stages.
+[14:12] <raydeeam> 1. the working are (all your active changes are here. right now git doesn't know what to do with them yet. it just knows that these files contains some updates.)
+[14:12] <raydeeam> 2. staging are (contains new changes, that will soon be commited)
+[14:12] <sayan> .add raydeeam 
+[14:13] <raydeeam> 3. local repository (which contains all your commited files.)
+[14:14] <raydeeam> do you all have your name and email setup on git?
+[14:15] <peanutduck> yes
+[14:15] <sreelakshmi> yes
+[14:15] <avikalp> yes
+[14:16] <sayan> add: raydeeam 
+[14:16] <sayan> next
+[14:16] <sayan> raydeeam: can you try too?
+[14:17] <raydeeam> next
+[14:17] <raydeeam> alright
+[14:18] <raydeeam> now open your terminals. 
+[14:19] <raydeeam> let's create a dir
+[14:19] <raydeeam> $ mkdir foobar
+[14:20] <raydeeam> and then go inside it.
+[14:20] <raydeeam> $ cd foobar
+[14:20] <raydeeam> then do git init # do this in the foobar directory
+[14:23] <raydeeam> alright it's generally for beginners. you folks already know the basics i believe. Lets talk about branches some other day. we can end today's class now. 
+[14:23] <raydeeam> any questions?
+[14:24] <vipulk_> No
+[14:24] <peanutduck> !
+[14:25] <raydeeam> next
+[14:25] <peanutduck> what would be the best method to set up multiple name and email on git?
+[14:27] <avikalp> !
+[14:27] <raydeeam> so there are few twesks that you have to do on your .git/config file. 
+[14:28] <raydeeam> you can use multiple ssh keys for each repositories, multiple identities and what not. 
+[14:28] <raydeeam> s/twesks/tweaks
+[14:30] <peanutduck> usually i will add a .gitconfig in the new repo but that requires me to add an extra file, was just wondering if there is a better method than that
+[14:30] <raydeeam> also while configuring you can remove the --global tag if you dont want to set it up for all your repos
+[14:31] <peanutduck> thanks raydeeam, i will try to test with removing the global tag
+[14:31] <raydeeam> you can use git config user.name "Name" in an individual repo to use a specific user / email address
+[14:31] <raydeeam> alright. then. 
+[14:31] <raydeeam> next
+[14:31] <avikalp> Nowadays, whenever I `git pull`, I prints a big message asking me what kind of pull I want to perform. A fast-forwarding one, a rebase one, and there is a third option that I don't clearly remember. What would be the difference between them?
+[14:33] <raydeeam> if you want to update your forked repo with upstream you should rebase always. that's the ideal way for devs/contributors.
+[14:34] <raydeeam> first fetch upstream then checkout master then rebase and push it to your own forked repo. 
+[14:36] <raydeeam> If you pull the upstream you have to merge it. and it will reflect on the logs which will not look good.
+[14:38] <raydeeam> hope that answers your question.
+[14:39] <raydeeam> next
+[14:39] <raydeeam> any other question? 
+[14:40] <sreelakshmi_> no
+[14:40] <raydeeam> I take that as no. 
+[14:40] <raydeeam> Roll Call
+[14:40] <peanutduck> Benedict Ramasamy
+[14:40] <sreelakshmi_> Sreelakshmi Jayarajan
+[14:41] <vipulk_> Vipul Kumar
+----END CLASS----
